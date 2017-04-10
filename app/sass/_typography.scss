@@ -1,0 +1,62 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: $text-color;
+  font-size: 14px;
+  font-family: $font-light;
+  line-height: 1.714;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-width: 320px;
+  padding-right: 0 !important;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+div, ul, li, button, input, textarea {
+  outline: none;
+}
+
+h1, h2 ,h3, h4, h5, h6 {
+  font-family: $font-bold;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p.subtitle {
+  font-family: $font-bold;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
