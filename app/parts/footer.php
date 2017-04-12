@@ -39,7 +39,34 @@
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12">
-
+                <div class="site-footer__right-block">
+                    <h4 class="site-footer__title">Наша комания</h4>
+                    <div class="site-footer__inform-block">
+                        <ul class="site-footer__tel-block">
+                            <li>
+                                <a href="tel:+38 (044) 390-40-90">+38 (044) <span class="bold-text">390-40-90</span></a>
+                            </li>
+                            <li>
+                                <a href="tel:+38 (044) 390-40-72">+38 (044) <span class="bold-text">390-40-72</span></a>
+                            </li>
+                        </ul>
+                        <div class="site-footer__address-block footer-text">
+                            <span>Адрес:</span>
+                            <address>Киевская область, Киево-Святошинский район, пгт. Коцюбинское, ул. Пономарева, 32
+                            </address>
+                        </div>
+                        <div class="site-footer__mail-block footer-text">
+                            <span>E-mail:</span><a href="mailto:info@promsiz.com.ua">info@promsiz.com.ua</a>
+                        </div>
+                    </div>
+                    <div class="site-footer__develop-block">
+                        <span class="footer-span">Разработано:</span>
+                        <i class="icon-sprite icon-dev-logo"></i>
+                    </div>
+                    <div class="site-footer__copyright-block">
+                        <span class="footer-span"> &copy; 1998-2017, ПромСИЗ. Все права защищены</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

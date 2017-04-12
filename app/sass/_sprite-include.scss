@@ -1,0 +1,9 @@
+@import "sprite";
+
+.icon-sprite {
+  display: inline-block;
+}
+
+.icon-dev-logo {
+  @include sprite($dev-logo);
+}
