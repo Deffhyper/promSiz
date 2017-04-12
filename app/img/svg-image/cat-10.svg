@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="74" viewBox="0 0 83 74">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-6 {
+        fill: #eff2f4;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke: #282832;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill-opacity: 0;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #ea6924;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 4 2;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-1" y="21" width="48" height="45" rx="5" ry="5"/>
+  <path class="cls-2" d="M7,21S4.178,0,24,0C42.593,0,40,21,40,21"/>
+  <path class="cls-3" d="M1,28H12V57H1"/>
+  <rect class="cls-4" x="1" y="29" width="10" height="27"/>
+  <path class="cls-3" d="M1,35H11"/>
+  <path id="Shape_110_copy" data-name="Shape 110 copy" class="cls-3" d="M1,42H11"/>
+  <path id="Shape_110_copy_2" data-name="Shape 110 copy 2" class="cls-3" d="M1,49H11"/>
+  <path id="Shape_108_copy" data-name="Shape 108 copy" class="cls-5" d="M11.094,21S8.972,4,23.876,4c13.979,0,12.03,17,12.03,17"/>
+  <path class="cls-6" d="M14,29V57"/>
+  <g>
+    <path class="cls-3" d="M44,29H24V45s1.508,13.8,8,19c6.351,5.084,12,9,12,9"/>
+    <path id="Shape_111_copy" data-name="Shape 111 copy" class="cls-3" d="M43.6,28H64V46.365s-0.613,12.114-7.559,17.429C49.646,68.992,43.6,73,43.6,73"/>
+    <path id="Shape_111_copy_3" data-name="Shape 111 copy 3" class="cls-3" d="M43.993,33H28.015V46.326s1.2,10.68,6.391,14.7c5.074,3.934,9.587,6.964,9.587,6.964"/>
+    <path id="Shape_111_copy_2" data-name="Shape 111 copy 2" class="cls-3" d="M43.582,32H60V47.463s-0.493,9.571-6.084,13.77C48.447,65.34,43.582,68.5,43.582,68.5"/>
+  </g>
+  <circle class="cls-7" cx="43.5" cy="47.5" r="7.5"/>
+  <path class="cls-6" d="M44,47h0Z"/>
+  <path class="cls-5" d="M68,70L42,47H57"/>
+  <path class="cls-6" d="M60,47H78"/>
+  <path class="cls-5" d="M69,63v7H62"/>
+  <path class="cls-3" d="M79,36H67"/>
+  <path class="cls-3" d="M67.646,35L72,38.147"/>
+  <path id="Shape_118_copy" data-name="Shape 118 copy" class="cls-3" d="M66.99,35.181L71.4,32.009"/>
+  <path id="Shape_117_copy" data-name="Shape 117 copy" class="cls-3" d="M75,24H63"/>
+  <path id="Shape_118_copy_2" data-name="Shape 118 copy 2" class="cls-3" d="M63.646,23L68,26.147"/>
+  <path id="Shape_118_copy_2-2" data-name="Shape 118 copy 2" class="cls-3" d="M62.99,23.181L67.4,20.009"/>
+  <path id="Shape_117_copy_2" data-name="Shape 117 copy 2" class="cls-3" d="M70,15H58"/>
+  <path id="Shape_118_copy_3" data-name="Shape 118 copy 3" class="cls-3" d="M58.646,14L63,17.148"/>
+  <path id="Shape_118_copy_3-2" data-name="Shape 118 copy 3" class="cls-3" d="M57.99,14.181L62.4,11.009"/>
+  <path class="cls-6" d="M73,14H84"/>
+</svg>

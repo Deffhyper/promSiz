@@ -117,7 +117,8 @@ button {
 h1, h2, h3, h4, h5, h6 {
   font-family: "GothamProBold", sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  line-height: 1; }
 
 h1 {
   font-size: 32px; }
@@ -189,6 +190,13 @@ ul, ol {
     -webkit-transform: rotateZ(225deg);
         -ms-transform: rotate(225deg);
             transform: rotateZ(225deg); }
+
+.text-center {
+  text-align: center; }
+
+.block-subtitle {
+  font-size: 14px;
+  color: #7b8287; }
 
 body:after {
   content: '';
@@ -675,3 +683,114 @@ body:after {
     .top-slider .slick-dots li.slick-active button {
       border-color: #ea6924;
       background-color: #ea6924; }
+
+.remedies {
+  margin-bottom: 60px; }
+  .remedies-list {
+    border-right: 1px solid #e5e5e7;
+    border-bottom: 1px solid #e5e5e7;
+    font-family: "GothamProMedium", sans-serif;
+    font-size: 15px; }
+  .remedies-item {
+    display: inline-block;
+    margin: 0 -2px;
+    width: 16.6666%;
+    text-align: center;
+    vertical-align: top;
+    height: 200px;
+    border-top: 1px solid #e5e5e7;
+    border-left: 1px solid #e5e5e7; }
+    .remedies-item span {
+      display: block;
+      line-height: 1.4; }
+    .remedies-item a {
+      display: block;
+      height: 100%;
+      -webkit-transition: .3s ease;
+      transition: .3s ease;
+      position: relative; }
+      .remedies-item a:after {
+        content: '';
+        display: block;
+        border: 1px solid transparent;
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        z-index: 1; }
+      .remedies-item a:hover {
+        color: #ea6924; }
+        .remedies-item a:hover:after {
+          border-color: #ea6924; }
+    .remedies-item__image {
+      height: 145px;
+      position: relative; }
+      .remedies-item__image object {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto; }
+
+@media (max-width: 1279px) {
+  .remedies-item {
+    width: 25%; } }
+
+@media (max-width: 991px) {
+  .remedies-item {
+    height: 170px;
+    font-size: 14px; }
+  .remedies-item__image {
+    height: 120px;
+    position: relative; } }
+
+@media (max-width: 767px) {
+  .remedies-item {
+    width: 50%;
+    height: 43vw;
+    font-size: 13px; }
+  .remedies-item__image {
+    height: 33vw;
+    position: relative; }
+  .remedies-item span {
+    line-height: 1; } }
+
+.block-with-back {
+  background-color: #eff2f4;
+  padding: 45px 0 60px; }
+  .block-with-back__title {
+    margin-bottom: 35px; }
+    .block-with-back__title .block-title {
+      margin-bottom: 10px; }
+
+.goods {
+  background-color: #fff; }
+
+.goods-prop {
+  text-align: center;
+  padding: 29px 40px; }
+  .goods-prop__name {
+    font-family: "GothamProBold", sans-serif;
+    font-size: 15px; }
+
+.goods-price {
+  font-family: "GothamProRegular", sans-serif; }
+  .goods-price__old {
+    color: #8a9298;
+    margin-right: 10px; }
+  .goods-price__current {
+    color: #ea6924; }
+
+.goods-show-more .btn {
+  display: block;
+  color: #404046;
+  border: 1px solid #d0d5d9;
+  padding: 16px 16px 15px; }
+
+.four-item-slider .goods {
+  display: inline-block;
+  margin: 0 -2px; }

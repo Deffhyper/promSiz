@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="72" viewBox="0 0 106 72">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #eff2f4;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-7 {
+        fill: none;
+        stroke: #282832;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #ea6924;
+      }
+
+      .cls-6 {
+        fill-opacity: 0;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 4 2;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0.262,43.872S0.58,27.348,5.851,20.535,17.218,1.342,40.317.933c22.835-.4,38.094,11.71,41.918,24.27s2.795,17.736,2.795,17.736L85,49,64,51H17L4.92,49.472l-2.795-.934Z"/>
+  <path class="cls-2" d="M85.961,42.938L85,50,64,52s-7.469-.776-29,0c-8.77.316-30.4-1.441-32.875-2.528S-1.393,34,3.056,25.2,15.475-.051,42.18,0,80.262,19.406,83.166,25.2,85.961,42.938,85.961,42.938Z"/>
+  <path class="cls-3" d="M26,53s-5.4,3.13-6,7-2.224,5.287-5,5S6,51,6,51"/>
+  <circle class="cls-4" cx="16" cy="60" r="2"/>
+  <path class="cls-5" d="M84,50s22.124-.088,22-2-21-3-21-3l-1,6V50Z"/>
+  <path class="cls-2" d="M14.235,9.334S28.978,2.056,44,5C63.819,8.883,71,20,71,20"/>
+  <path class="cls-6" d="M46,26v7l16-1.4-1.333-4.2Z"/>
+  <path id="Shape_138_copy" data-name="Shape 138 copy" class="cls-6" d="M45,33V26L29,27.4l1.333,4.2Z"/>
+  <path class="cls-7" d="M17.654,15.4S12.7,19.59,11.3,22.228a44.278,44.278,0,0,0-2.551,6.3"/>
+  <path id="Shape_136_copy" data-name="Shape 136 copy" class="cls-5" d="M20,51V45L9,44,8,50"/>
+  <path class="cls-5" d="M58,51V46H35v5"/>
+</svg>

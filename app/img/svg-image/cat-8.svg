@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="80" viewBox="0 0 73 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-6 {
+        fill: #eff2f4;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #282832;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 4 2;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #ea6924;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-1" y="51" width="47" height="26" rx="5" ry="5"/>
+  <path class="cls-2" d="M6,73H42"/>
+  <rect id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-3" x="5" y="56" width="37" height="6" rx="3" ry="3"/>
+  <rect class="cls-4" x="6" y="49" width="35" height="3"/>
+  <rect id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-3" x="1" y="43" width="45" height="7" rx="3.5" ry="3.5"/>
+  <path class="cls-5" d="M6,44v6"/>
+  <path id="Shape_100_copy" data-name="Shape 100 copy" class="cls-5" d="M9,44v6"/>
+  <path id="Shape_100_copy_2" data-name="Shape 100 copy 2" class="cls-5" d="M12,44v6"/>
+  <path id="Shape_100_copy_3" data-name="Shape 100 copy 3" class="cls-5" d="M15,44v6"/>
+  <path id="Shape_100_copy_4" data-name="Shape 100 copy 4" class="cls-5" d="M18,44v6"/>
+  <path id="Shape_100_copy_5" data-name="Shape 100 copy 5" class="cls-5" d="M21,44v6"/>
+  <path id="Shape_100_copy_6" data-name="Shape 100 copy 6" class="cls-5" d="M24,44v6"/>
+  <path id="Shape_100_copy_7" data-name="Shape 100 copy 7" class="cls-5" d="M27,44v6"/>
+  <path id="Shape_100_copy_7-2" data-name="Shape 100 copy 7" class="cls-5" d="M30,44v6"/>
+  <path id="Shape_100_copy_7-3" data-name="Shape 100 copy 7" class="cls-5" d="M33,44v6"/>
+  <path id="Shape_100_copy_7-4" data-name="Shape 100 copy 7" class="cls-5" d="M36,44v6"/>
+  <path id="Shape_100_copy_7-5" data-name="Shape 100 copy 7" class="cls-5" d="M39,44v6"/>
+  <path id="Shape_100_copy_7-6" data-name="Shape 100 copy 7" class="cls-5" d="M42,44v6"/>
+  <path class="cls-6" d="M38,4l6,64H65L71,4H38Z"/>
+  <path class="cls-2" d="M46,64H62"/>
+  <path class="cls-2" d="M43,8H67"/>
+  <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-6" d="M53,28h4a5,5,0,0,1,5,5l-2,9a5,5,0,0,1-5,5h0a5,5,0,0,1-5-5l-2-9A5,5,0,0,1,53,28Z"/>
+  <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-5" d="M53.857,31h2.286A3.178,3.178,0,0,1,59,34.421l-1.143,6.158A3.177,3.177,0,0,1,55,44h0a3.178,3.178,0,0,1-2.857-3.421L51,34.421A3.178,3.178,0,0,1,53.857,31Z"/>
+  <g>
+    <path class="cls-5" d="M38,5L37,0H73L71,5H38Z"/>
+    <path class="cls-6" d="M40,1l1,3"/>
+    <path id="Shape_97_copy" data-name="Shape 97 copy" class="cls-6" d="M43,1l1,3"/>
+    <path id="Shape_97_copy_2" data-name="Shape 97 copy 2" class="cls-6" d="M46,1l1,3"/>
+    <path id="Shape_97_copy_3" data-name="Shape 97 copy 3" class="cls-6" d="M49,1l1,3"/>
+    <path id="Shape_97_copy_4" data-name="Shape 97 copy 4" class="cls-2" d="M52,1l1,3"/>
+    <path id="Shape_97_copy_10" data-name="Shape 97 copy 10" class="cls-6" d="M55,1l1,3"/>
+    <path id="Shape_97_copy_5" data-name="Shape 97 copy 5" class="cls-6" d="M70.032,1L69,3.717"/>
+    <path id="Shape_97_copy_6" data-name="Shape 97 copy 6" class="cls-6" d="M67.032,1L66,3.717"/>
+    <path id="Shape_97_copy_7" data-name="Shape 97 copy 7" class="cls-6" d="M64.032,1L63,3.717"/>
+    <path id="Shape_97_copy_8" data-name="Shape 97 copy 8" class="cls-6" d="M61.032,1L60,3.717"/>
+    <path id="Shape_97_copy_9" data-name="Shape 97 copy 9" class="cls-6" d="M58.032,1L57,3.717"/>
+  </g>
+  <path class="cls-5" d="M43,71v6s0.158,2.04,4,2,12.791,0.1,16,0c2.478-.076,3-3,3-3V71H43Z"/>
+  <path class="cls-5" d="M47,72v6"/>
+  <path id="Shape_95_copy" data-name="Shape 95 copy" class="cls-5" d="M63,72v6"/>
+  <path id="Shape_95_copy_2" data-name="Shape 95 copy 2" class="cls-5" d="M61,72v6"/>
+  <path id="Shape_95_copy_3" data-name="Shape 95 copy 3" class="cls-5" d="M59,72v6"/>
+  <path id="Shape_95_copy_4" data-name="Shape 95 copy 4" class="cls-5" d="M57,72v6"/>
+  <path id="Shape_95_copy_5" data-name="Shape 95 copy 5" class="cls-5" d="M55,72v6"/>
+  <path id="Shape_95_copy_6" data-name="Shape 95 copy 6" class="cls-5" d="M53,72v6"/>
+  <path id="Shape_95_copy_7" data-name="Shape 95 copy 7" class="cls-5" d="M51,72v6"/>
+  <path id="Shape_95_copy_8" data-name="Shape 95 copy 8" class="cls-5" d="M49,72v6"/>
+  <path class="cls-6" d="M47,68v3"/>
+  <path id="Shape_94_copy" data-name="Shape 94 copy" class="cls-6" d="M64,68v3"/>
+</svg>
