@@ -26,6 +26,10 @@
 .btn--accent {
    color: #fff;
    background-color: $accent-color;
+  transition: .3s ease;
+  &:hover {
+    background-color: #fb7933;
+  }
 }
 
 .btn-md--white-border {
@@ -33,23 +37,36 @@
   padding: 15px 15px 13px;
 }
 
+
 .list-inline li{
   display: inline-block;
-  margin: -2px 0;
+  margin: 0 -2px;
 }
 
 .slick-arrow {
   z-index: 1;
   color: transparent;
   background: none;
-  border-top: 1px solid #363740;
-  border-right: 1px solid #363740;
-  border-bottom: 0;
-  border-left: 0;
-  &.slick-next {
+  //border-top: 1px solid #363740;
+  //border-right: 1px solid #363740;
+  //border-bottom: 0;
+  //border-left: 0;
+  border: none;
+  &:after {
+    content: "";
+    display: block;
+    border-top: 1px solid #363740;
+    border-right: 1px solid #363740;
+  }
+  &:hover {
+    &:after {
+      border-color: $accent-color;
+    }
+  }
+  &.slick-next:after {
     transform: rotateZ(45deg);
   }
-  &.slick-prev {
+  &.slick-prev:after {
     transform: rotateZ(225deg);
   }
 }
