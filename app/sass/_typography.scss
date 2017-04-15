@@ -72,3 +72,47 @@ ul, ol {
   margin: 0;
   padding: 0;
 }
+
+input, textarea {
+  padding: 0 10px;
+  @include placeholder {
+    font-size: 13px;
+    color: #63636d;
+    text-indent: 0;
+    transition: 0.3s ease;
+  }
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus:-moz-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus::-moz-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus:-ms-input-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+textarea:focus:-moz-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+textarea:focus:-ms-input-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}

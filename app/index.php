@@ -374,7 +374,7 @@
 <div class="block-no-back">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-4 col-sm-12">
                 <div class="main-connect-item left">
                     <h2 class="block-title">ПромСИЗ</h2>
 
@@ -394,17 +394,32 @@
                     <a href="#" class="main-news-item__prop--link">Читать подробнее</a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-8 col-sm-12">
                 <div class="main-connect-item right">
-                    <div class="main-connect-item__order">
+                    <div class="main-connect-item__order"
+                         style="background: url('img/jpeg_files/connect-1.jpg') no-repeat center / cover;">
                         <div class="left">
                             <p class="block-title">Заказать спецодежду</p>
+
                             <p>Заказать спецодежду, спецобувь, оборудование или получить консультацию по всем товарам,
                                 представленным в нашем каталоге, так же можно связаться с нашим отделом продаж</p>
                         </div>
                         <div class="right">
                             <a href="#" class="btn btn-md btn--accent">Заказать</a>
+                            <a href="tel:(044) 390-40-90" class="link-tel">(044) 390-40-90</a>
+                            <a href="mailto:info@promsiz.com.ua" class="link-mail">info@promsiz.com.ua</a>
                         </div>
+                    </div>
+                    <div class="main-connect-item__order-left" style="background: url('img/jpeg_files/connect-2.jpg') no-repeat center / cover;">
+                        <p class="block-title">Хотите стать нашим партнером?</p>
+                        <a href="#" class="btn btn--accent btn-md">Стать партнером</a>
+                    </div>
+                    <div class="main-connect-item__order-right" style="background: url('img/jpeg_files/connect-3.jpg') no-repeat center / cover;" >
+                        <p class="block-title">Подпишитесь на рассылку новостей и акций</p>
+                        <form action="#">
+                            <input type="email" placeholder="Ваш e-mail" class="main-connect-item__input">
+                            <button type="submit" class="btn btn--accent"><span class="icon icon-send"></span></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -412,7 +427,34 @@
     </div>
 </div>
 
+<div class="main-brands">
+    <div class="container">
+        <div class="main-brands__title">
+            <p class="block-title">Наши бренды:</p>
+        </div>
+
+        <ul class="main-brands__list list-inline">
+            <li><a href="#"><img src="img/jpeg_files/brand-1.png" alt="brand"></a></li>
+            <li><a href="#"><img src="img/jpeg_files/brand-2.png" alt="brand"></a></li>
+            <li><a href="#"><img src="img/jpeg_files/brand-3.png" alt="brand"></a></li>
+            <li><a href="#"><img src="img/jpeg_files/brand-4.png" alt="brand"></a></li>
+            <li><a href="#"><img src="img/jpeg_files/brand-5.png" alt="brand"></a></li>
+        </ul>
+
+        <div class="main-brands__link">
+            <a href="#" class="btn btn-md btn--gray"><span>Смотреть все</span></a>
+        </div>
+
+    </div>
+</div>
 
 <?php include_once "parts/footer.php" ?>
+<div class="hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <filter id="greyscale">
+            <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0  0.3333 0.3333 0.3333 0 0  0.3333 0.3333 0.3333 0 0  0  0  0  1 0"/>
+        </filter>
+    </svg>
+</div>
 </body>
 </html>

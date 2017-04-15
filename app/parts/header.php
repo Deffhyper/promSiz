@@ -76,8 +76,8 @@
                             <span></span>
                             <span></span>
                         </span>
-                        <span class="hidden-lg hidden-md visible-sm">Меню</span>
-                        <span class="hidden-xs hidden-sm visible-md visible-lg">Каталог товаров</span>
+                        <span class="for-tablet">Меню</span>
+                        <span class="for-desktop">Каталог товаров</span>
                     </a>
                     <div class="main-drop-mnu__item">
                         <ul>

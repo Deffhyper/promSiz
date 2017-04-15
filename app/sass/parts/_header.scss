@@ -58,6 +58,9 @@
   width: 20%;
   vertical-align: top;
   height: 60px;
+  .for-tablet {
+    display: none;
+  }
   a {
     height: 60px;
     display: block;
@@ -321,6 +324,26 @@
   .main-connect {
     padding: 10px 0 0;
     font-size: 18px;
+  }
+  .for-desktop {
+    display: none;
+  }
+  .main-drop-mnu .for-tablet {
+    display: inline;
+  }
+  .main-mnu {
+    display: none;
+  }
+  .main-drop-mnu {
+    width: 100%;
+    a {
+      background-color: $accent-color;
+      text-align: center;
+      padding-left: 0;
+      .burger-menu {
+        left: 0;
+      }
+    }
   }
 }
 

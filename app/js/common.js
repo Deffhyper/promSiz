@@ -51,36 +51,58 @@ $(function() {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1280,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
-                    dots: true
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    arrows: false
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
+
         ]
     });
 
+    ////////////////////////////////////////////// scroll top ////////////////////////////////
 
+    $('#scroller').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
 
+///////////////////////////////////////////  main-brand list mob slider ///////////////////
+
+    function slideListMob(windowWidth) {
+
+        var tabsControl = $('.our-services__list');
+
+        if (windowWidth < 768) {
+            if (!tabsControl.hasClass('slick-initialized')) {
+                tabsControl.slick({
+                    slidesToShow: 1,
+                    arrows: true
+                });
+            }
+        } else {
+            if (tabsControl.hasClass('slick-initialized')) {
+                tabsControl.slick('unslick');
+            }
+        }
+    }
+
+    $(window).ready(slideListMob(windowWidth)).resize(function () {
+        slideListMob($(window).width());
+    });
 
 
 
