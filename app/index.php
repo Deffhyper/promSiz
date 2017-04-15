@@ -7,13 +7,16 @@
             <p class="top-slider__item--title">Лучшие <span
                     class="bold-text">средства <br> индивидуальной защиты</span></p>
 
-            <p class="top-slider__item--text"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+            <p class="top-slider__item--text hidden-xs"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
                 производитель, одно из крупнейших
                 предприятий в Украине по комплексному обслуживанию клиентов различных отраслей промышленности.</p>
-            <a href="#" class="btn top-slider__item--link">Узнать подробнее</a>
+            <p class="top-slider__item--text hidden-lg hidden-md hidden-sm"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+                производитель СИЗ</p>
+            <a href="#" class="btn top-slider__item--link"><span class="hidden-xs">Узнать</span> подробнее</a>
 
             <div class="subImage">
-                <img src="img/jpeg_files/mans.png" alt="mans">
+                <img src="img/jpeg_files/mans.png" alt="mans" class="hidden-xs">
+                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
             </div>
         </div>
     </div>
@@ -22,13 +25,16 @@
             <p class="top-slider__item--title">Лучшие <span
                     class="bold-text">средства <br> индивидуальной защиты</span></p>
 
-            <p class="top-slider__item--text"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+            <p class="top-slider__item--text hidden-xs"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
                 производитель, одно из крупнейших
                 предприятий в Украине по комплексному обслуживанию клиентов различных отраслей промышленности.</p>
-            <a href="#" class="btn top-slider__item--link">Узнать подробнее</a>
+            <p class="top-slider__item--text hidden-lg hidden-md hidden-sm"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+                производитель СИЗ</p>
+            <a href="#" class="btn top-slider__item--link"><span class="hidden-xs">Узнать</span> подробнее</a>
 
             <div class="subImage">
-                <img src="img/jpeg_files/mans.png" alt="mans">
+                <img src="img/jpeg_files/mans.png" alt="mans" class="hidden-xs">
+                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
             </div>
         </div>
     </div>
@@ -37,13 +43,16 @@
             <p class="top-slider__item--title">Лучшие <span
                     class="bold-text">средства <br> индивидуальной защиты</span></p>
 
-            <p class="top-slider__item--text"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+            <p class="top-slider__item--text hidden-xs"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
                 производитель, одно из крупнейших
                 предприятий в Украине по комплексному обслуживанию клиентов различных отраслей промышленности.</p>
-            <a href="#" class="btn top-slider__item--link">Узнать подробнее</a>
+            <p class="top-slider__item--text hidden-lg hidden-md hidden-sm"><span class="bold-text">Компания «ПромСИЗ»</span> — национальный
+                производитель СИЗ</p>
+            <a href="#" class="btn top-slider__item--link"><span class="hidden-xs">Узнать</span> подробнее</a>
 
             <div class="subImage">
-                <img src="img/jpeg_files/mans.png" alt="mans">
+                <img src="img/jpeg_files/mans.png" alt="mans" >
+                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
             </div>
         </div>
     </div>

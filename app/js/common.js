@@ -90,7 +90,8 @@ $(function() {
             if (!tabsControl.hasClass('slick-initialized')) {
                 tabsControl.slick({
                     slidesToShow: 1,
-                    arrows: true
+                    arrows: true,
+                    dots: true
                 });
             }
         } else {

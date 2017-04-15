@@ -28,7 +28,8 @@
                         <a href="tel:+38 (044) 390-40-90" class="dropdown-toggle" id="dropdownMenu1"
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="true">
-                            +38 (044) <span class="bold-text">390-40-90</span>
+                            <span class="hidden-xs">+38 (044) <span class="bold-text">390-40-90</span></span>
+                            <span class="icon-font icon-smartphone hidden-lg hidden-md hidden-sm"></span>
 
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -42,7 +43,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="main-connect__callback">
+                    <div class="main-connect__callback hidden-xs">
                         <a href="#" class="btn btn-md btn--gray">Заказать звонок</a>
                     </div>
                 </div>
