@@ -62,6 +62,7 @@
                     </div>
                     <div class="main-nav-item main-nav-item__cart">
                         <a href="#">
+                            <span class="cart-goods-counter">3</span>
                             <span class="icon-font icon-cart"></span>
                         </a>
                     </div>
@@ -82,16 +83,18 @@
                     </a>
                     <div class="main-drop-mnu__item">
                         <ul>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">1</a></li>
+                            <li><a href="#">Спецодежда</a></li>
+                            <li><a href="#">Спецобувь</a></li>
+                            <li><a href="#">Рабочие перчатки</a></li>
+                            <li><a href="#">Средства защиты глаз и лица</a></li>
+                            <li><a href="#">Средства защиты глаз и лица</a></li>
+                            <li><a href="#">Средства защиты органов слуха</a></li>
+                            <li><a href="#">Средства защиты органов дыхания</a></li>
+                            <li><a href="#">ДСИЗ</a></li>
+                            <li><a href="#">Защита от электрического тока</a></li>
+                            <li><a href="#">Защитные системы блокировки LOTO</a></li>
+                            <li><a href="#">Средства защиты от падения с высоты</a></li>
+                            <li><a href="#">Другое</a></li>
                         </ul>
                     </div>
                 </div>

@@ -72,7 +72,7 @@
 }
   .slick-dots {
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 0 35px;
     li {
       display: inline-block;
       margin: 0 5px;
@@ -108,7 +108,7 @@
     width: 16.6666%;
     text-align: center;
     vertical-align: top;
-    height: 200px;
+    height: 210px;
     border-top: 1px solid #e5e5e7;
     border-left: 1px solid #e5e5e7;
     span {
@@ -192,7 +192,7 @@
 
   &__title {
     .block-title {
-      margin-bottom: 10px;
+      margin-bottom: 3px;
       font-size: 32px;
     }
     margin-bottom: 35px;
@@ -247,7 +247,7 @@
 
 .goods-prop {
   text-align: center;
-  padding: 5px 35px 30px;
+  padding: 20px 35px 30px;
   &__name {
     font-family: $font-bold;
     font-size: 15px;
@@ -257,7 +257,7 @@
 
 .goods-price {
   font-family: $font-regular;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   &__old {
     color: #8a9298;
     margin-right: 10px ;
@@ -272,7 +272,7 @@
     display: block;
     color: #404046;
     border: 1px solid #d0d5d9;
-    padding: 16px 16px 15px;
+    padding: 14px 16px 11px;
     transition:  .3s ease;
     &:hover {
       background-color: $accent-color;
@@ -378,11 +378,11 @@
     display: inline-block;
     background-color: $accent-color;
     width: 33.333333%;
-    height: 200px;
+    height: 210px;
     margin: 0 -2px;
     color: #fff;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 55px;
     
     &--title {
       font-size: 26px;
@@ -407,7 +407,7 @@
     li {
       display: inline-block;
       width: 33.333333%;
-      height: 200px;
+      height: 210px;
       margin: 0px -2px;
       overflow: hidden;
       vertical-align: top;
@@ -583,7 +583,7 @@
         transition: .4s ease;
       }
       &:before {
-        transform: rotate(-50deg) translate(50%, -108px);
+        transform: rotate(-50deg) translate(50%, -115px);
         bottom: 0;
         transition: .4s ease;
       }
@@ -1028,7 +1028,7 @@
     right: 0;
   }
   .site-header-menu {
-    padding-bottom: 135px;
+    padding-bottom: 150px;
   }
   .main-connect {
     width: 20%;

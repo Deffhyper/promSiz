@@ -129,7 +129,7 @@
   display: inline-block;
   width: 25%;
   margin:0 -2px;
-  padding: 10px 0;
+  padding: 19px 0;
   a {
     display: inline-block;
     height: 100%;
@@ -195,6 +195,7 @@
     display: inline-block;
     .btn {
       width: 200px;
+      letter-spacing: 1px;
     }
   }
 }
@@ -205,7 +206,7 @@
   &-item {
     display: inline-block;
     border-left: 1px solid #eaeaeb;
-    height: 80px;
+    height: 98px;
     vertical-align: middle;
     position: relative;
     margin:0 -3px;
@@ -235,7 +236,7 @@
       .search-label {
         font-size: 13px;
         color: #7d7e83;
-        line-height: 80px;
+        line-height: 98px;
         padding-left: 25px;
       }
 
@@ -266,6 +267,28 @@
         left: 50%;
         margin-top: -19px;
         margin-left: -18px;
+      }
+      .cart-goods-counter {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #eaeaeb;
+        display: inline-block;
+        padding: 2px 4px;
+        line-height: 1;
+        font-family: $font-bold;
+        font-size: 13px;
+        &:after {
+          content: "";
+          width: 0;
+          height: 0;
+          border-bottom: 5px solid #c7c7cd;
+          border-right: 5px solid transparent;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+
+        }
       }
     }
   }

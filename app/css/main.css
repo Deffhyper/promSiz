@@ -534,7 +534,7 @@ body:after {
   display: inline-block;
   width: 25%;
   margin: 0 -2px;
-  padding: 10px 0; }
+  padding: 19px 0; }
   .main-logo a {
     display: inline-block;
     height: 100%; }
@@ -594,7 +594,8 @@ body:after {
   .main-connect__callback {
     display: inline-block; }
     .main-connect__callback .btn {
-      width: 200px; }
+      width: 200px;
+      letter-spacing: 1px; }
 
 .main-nav {
   float: right;
@@ -602,7 +603,7 @@ body:after {
   .main-nav-item {
     display: inline-block;
     border-left: 1px solid #eaeaeb;
-    height: 80px;
+    height: 98px;
     vertical-align: middle;
     position: relative;
     margin: 0 -3px; }
@@ -623,7 +624,7 @@ body:after {
       .main-nav-item__search .search-label {
         font-size: 13px;
         color: #7d7e83;
-        line-height: 80px;
+        line-height: 98px;
         padding-left: 25px; }
       .main-nav-item__search .icon-search {
         font-size: 33px;
@@ -645,6 +646,25 @@ body:after {
       left: 50%;
       margin-top: -19px;
       margin-left: -18px; }
+    .main-nav-item__cart .cart-goods-counter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #eaeaeb;
+      display: inline-block;
+      padding: 2px 4px;
+      line-height: 1;
+      font-family: "GothamProBold", sans-serif;
+      font-size: 13px; }
+      .main-nav-item__cart .cart-goods-counter:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-bottom: 5px solid #c7c7cd;
+        border-right: 5px solid transparent;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
 
 .main-nav-item__sign,
 .main-nav-item__cart {
@@ -764,7 +784,7 @@ body:after {
 
 .top-slider .slick-dots {
   text-align: center;
-  padding: 15px 0; }
+  padding: 15px 0 35px; }
   .top-slider .slick-dots li {
     display: inline-block;
     margin: 0 5px; }
@@ -796,7 +816,7 @@ body:after {
     width: 16.6666%;
     text-align: center;
     vertical-align: top;
-    height: 200px;
+    height: 210px;
     border-top: 1px solid #e5e5e7;
     border-left: 1px solid #e5e5e7; }
     .remedies-item span {
@@ -865,7 +885,7 @@ body:after {
   .block-with-back__title {
     margin-bottom: 35px; }
     .block-with-back__title .block-title {
-      margin-bottom: 10px;
+      margin-bottom: 3px;
       font-size: 32px; }
   .block-with-back__link {
     padding: 40px 0 0; }
@@ -917,7 +937,7 @@ body:after {
 
 .goods-prop {
   text-align: center;
-  padding: 5px 35px 30px; }
+  padding: 20px 35px 30px; }
   .goods-prop__name {
     font-family: "GothamProBold", sans-serif;
     font-size: 15px;
@@ -925,7 +945,7 @@ body:after {
 
 .goods-price {
   font-family: "GothamProRegular", sans-serif;
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
   .goods-price__old {
     color: #8a9298;
     margin-right: 10px; }
@@ -936,7 +956,7 @@ body:after {
   display: block;
   color: #404046;
   border: 1px solid #d0d5d9;
-  padding: 16px 16px 15px;
+  padding: 14px 16px 11px;
   -webkit-transition: .3s ease;
   transition: .3s ease; }
   .goods-show-more .btn:hover {
@@ -1017,11 +1037,11 @@ body:after {
   display: inline-block;
   background-color: #ea6924;
   width: 33.333333%;
-  height: 200px;
+  height: 210px;
   margin: 0 -2px;
   color: #fff;
   text-align: center;
-  padding-top: 50px; }
+  padding-top: 55px; }
   .our-services__all--title {
     font-size: 26px;
     font-family: "GothamProBold", sans-serif;
@@ -1058,7 +1078,7 @@ body:after {
   .our-services__list li {
     display: inline-block;
     width: 33.333333%;
-    height: 200px;
+    height: 210px;
     margin: 0px -2px;
     overflow: hidden;
     vertical-align: top;
@@ -1212,9 +1232,9 @@ body:after {
     -webkit-transition: .4s ease;
     transition: .4s ease; }
   .our-services__list--itemBottom:before {
-    -webkit-transform: rotate(-50deg) translate(50%, -108px);
-        -ms-transform: rotate(-50deg) translate(50%, -108px);
-            transform: rotate(-50deg) translate(50%, -108px);
+    -webkit-transform: rotate(-50deg) translate(50%, -115px);
+        -ms-transform: rotate(-50deg) translate(50%, -115px);
+            transform: rotate(-50deg) translate(50%, -115px);
     bottom: 0;
     -webkit-transition: .4s ease;
     transition: .4s ease; }
@@ -1590,7 +1610,7 @@ body:after {
     left: 0;
     right: 0; }
   .site-header-menu {
-    padding-bottom: 135px; }
+    padding-bottom: 150px; }
   .main-connect {
     width: 20%;
     position: absolute;
