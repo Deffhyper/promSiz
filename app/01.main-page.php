@@ -1,5 +1,5 @@
 <?php include_once "parts/head.php" ?>
-<body xmlns="http://www.w3.org/1999/html">
+<body>
 <?php include_once "parts/header.php" ?>
 <div class="top-slider">
     <div style="background-image: url('img/jpeg_files/slider-bg.jpg')">

@@ -34,6 +34,12 @@ div, ul, li, button, input, textarea {
   outline: none;
 }
 
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 button {
   padding: 0;
   margin: 0;

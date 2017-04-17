@@ -42,7 +42,8 @@ gulp.task('scripts', function() {
 		'app/libs/jquery/dist/jquery.min.js', // jQuery
 		'app/libs/bootstrap/dist/js/bootstrap.min.js', // Bootstrap
 		'app/libs/slick-carousel/slick/slick.min.js', // Slick
-		'app/libs/stacktable/' // stacktable
+		'app/libs/stacktable/', // stacktable
+		'app/libs/masked-input/masked-input.js'// masked input
 
 
 		])
