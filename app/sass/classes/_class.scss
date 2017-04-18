@@ -76,3 +76,138 @@
   color: #7b8287;
 }
 
+.float-left-block {
+  width: 275px;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.margin-bottom-md {
+  margin-bottom: 15px;
+}
+
+.num-list {
+  list-style: decimal;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  &>li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: $accent-color;
+    font-family: $font-bold;
+    span, p, i {
+      color: $text-color;
+      font-family: $font-light;
+    }
+    i {
+      font-family: $font-light-italic;
+      font-size: 13px;
+    }
+  }
+}
+.not-num-list {
+  @extend .num-list;
+  list-style-type: square;
+  &>li {
+    font-size: 15px;
+    span, p, i {
+      font-size: 14px;
+    }
+    i {
+      font-size: 13px;
+    }
+  }
+}
+
+.blockquote {
+  position: relative;
+  background-color: #f2f4f7;
+  margin: 0;
+  min-height: 80px;
+  padding: 25px 50px 21px 90px;
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+  .icon-blockquote-label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  &-img {
+    position: relative;
+    float: left;
+    height: 110px;
+    width: 110px;
+    img {
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &-text {
+    margin-left: 135px;
+  }
+}
+
+.italic-text {
+  font-family: $font-light-italic;
+}
+
+.responsive-table {
+  width: 100%;
+  border-left: 1px solid #dddde0;
+  border-right: 1px solid #dddde0;
+  tbody {
+    tr:nth-child(odd){
+      background-color: #f2f4f7;
+    }
+    tr:first-child {
+      background-color: #282832;
+      color: #fff;
+      font-family: $font-bold;
+      font-size: 15px;
+      height: 57px;
+    }
+    tr {
+      height: 53px;
+      border-bottom: 1px solid #dddde0;
+      td:first-child {
+        text-align: center;
+        width: 6%;
+      }
+      td:last-child {
+        width: 18%;
+      }
+      td:nth-child(3) {
+        width: 18%;
+      }
+    }
+  }
+  &.small-only {
+    display: none;
+  }
+}
+@media ($mobile) {
+  .responsive-table.small-only {
+    display: table;
+  }
+  .responsive-table.large-only {
+    display: none;
+  }
+}
+

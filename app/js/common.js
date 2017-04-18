@@ -192,6 +192,13 @@ $(function() {
 
     $('.tel-input').mask("+38(999) 999-99-99");
 
+    ///////////////////////////////////////////// responsive table ///////////////////
+
+    $('.responsive-table').cardtable({
+        myClass:'resp-table',
+        headIndex: 2
+    });
+
 
 
 

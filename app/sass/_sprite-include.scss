@@ -8,3 +8,6 @@
 .icon-close {
   @include sprite($close);
 }
+.icon-blockquote-label {
+  @include sprite($blockquote-label);
+}

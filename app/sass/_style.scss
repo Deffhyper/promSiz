@@ -1,0 +1,47 @@
+section.text-page {
+  padding-bottom: 70px;
+}
+
+.resp-table {
+
+  border-top: 1px solid #dddde0;
+
+  .responsive-table {
+    position: relative;
+
+
+    &:first-child {
+      display: none;
+    }
+  }
+  .responsive-table tbody tr {
+    height: auto;
+    border-bottom: 0;
+  }
+  .responsive-table tbody tr td:first-child{
+   text-align: left;
+    padding-left: 25px;
+  }
+  .responsive-table tbody {
+    border-bottom: 1px solid #dddde0;
+  }
+  .responsive-table tbody tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  .responsive-table tbody tr:first-child{
+    background-color: transparent;
+    color: $text-color;
+    font-family: $font-light;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 9px;
+    font-size: 13px;
+  }
+  .responsive-table tbody tr:first-child td:first-child {
+   display: none;
+  }
+  .responsive-table tbody tr:first-child td:last-child {
+   display: block;
+  }
+}
