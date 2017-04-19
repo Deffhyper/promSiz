@@ -4,7 +4,7 @@
 
 <?php include_once "parts/breadcrumbs.php" ?>
 
-<section class="reviews-page">
+<section class="block-bottom-padding--md">
     <div class="container">
         <ul class="three-list list-inline">
             <li class="three-list__item">

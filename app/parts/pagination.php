@@ -1,12 +1,13 @@
 <div class="pagination">
     <span class="pagination-label">Страницы:</span>
+    <span class="pagination-label-for-mob">Стр.:</span>
     <ul class="pagination-list list-inline">
         <li class="pagination-item active"><a href="#">1</a></li>
         <li class="pagination-item"><a href="#">2</a></li>
         <li class="pagination-item"><a href="#">3</a></li>
-        <li class="pagination-item"><a href="#">4</a></li>
-        <li class="pagination-item"><a href="#">5</a></li>
-        <li class="pagination-item"><a href="#">6</a></li>
+<!--        <li class="pagination-item"><a href="#">4</a></li>-->
+<!--        <li class="pagination-item"><a href="#">5</a></li>-->
+<!--        <li class="pagination-item"><a href="#">6</a></li>-->
         <li class="pagination-item--devider">...</li>
         <li class="pagination-item"><a href="#">12</a></li>
     </ul>
