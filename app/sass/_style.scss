@@ -8,40 +8,195 @@ section.text-page {
 
   .responsive-table {
     position: relative;
-
-
     &:first-child {
       display: none;
     }
+    &:nth-child(odd){
+      background-color: #f2f4f7;
+    }
   }
-  .responsive-table tbody tr {
-    height: auto;
-    border-bottom: 0;
-  }
-  .responsive-table tbody tr td:first-child{
-   text-align: left;
-    padding-left: 25px;
-  }
-  .responsive-table tbody {
-    border-bottom: 1px solid #dddde0;
-  }
-  .responsive-table tbody tr:nth-child(odd) {
-    background-color: transparent;
-  }
-  .responsive-table tbody tr:first-child{
-    background-color: transparent;
-    color: $text-color;
-    font-family: $font-light;
+  .responsive-table {
     display: block;
+    width: auto;
+    tbody {
+      display: block;
+      width: auto;
+      border-bottom: 1px solid #dddde0;
+      padding: 20px 40px;
+
+      &>tr {
+        display: block;
+        width: auto;
+        height: auto;
+        border-bottom: 0;
+
+        &:nth-child(odd) {
+          background-color: transparent;
+        }
+
+        &:first-child {
+          background-color: transparent;
+          color: $text-color;
+          font-family: $font-light;
+          font-size: 13px;
+          display: block;
+          position: absolute;
+          top: 20px;
+          left: 15px;
+
+          &>td {
+            &:first-child {
+              display: none;
+            }
+          }
+        }
+
+        &:nth-child(2){
+          .st-key {
+            display: none;
+          }
+        }
+
+        &>td {
+          //display: block;
+          width: auto;
+          &:first-child {
+            text-align: left;
+            font-family: $font-bold;
+            padding-right: 5px;
+            &:after {
+              content: ':';
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.three-list {
+  border-top: 1px solid #e5e5e7;
+  border-left: 1px solid #e5e5e7;
+  //display: inline-block;
+  &__item {
+    border-bottom: 1px solid #e5e5e7;
+    border-right: 1px solid #e5e5e7;
+    position: relative;
+    width: 33.33333%;
+    vertical-align: top;
+    transition: .3s ease;
+    &:after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 1px;
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .3s ease;
+    }
+    &:before {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .3s ease;
+    }
+    &:hover {
+      border-color: $accent-color;
+      &:after {
+        background-color: $accent-color;
+      }
+      &:before {
+        background-color: $accent-color;
+      }
+    }
+  }
+
+}
+
+.reviews-list {
+
+  &__item {
+
+
+
+    &:hover {
+      .reviews-list__item--image:after {
+        opacity: .3;
+        border-color: $accent-color;
+      }
+      .icon {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+    }
+    &--image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      img {
+        height: auto;
+        width: auto;
+        max-height: 330px;
+        max-width: 350px;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0;
+        transition: .3s ease;
+      }
+    }
+
+    &--title {
+      padding: 0 10% 0;
+      font-family: $font-bold;
+      font-size: 15px;
+      display: block;
+      text-align: center;
+      height: 40px;
+      margin-bottom: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.3;
+    }
+  }
+
+  &__top--wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 30vw;
+    margin-bottom: 15px;
+
+  }
+  &__bottom--wrapper {
+    overflow: hidden;
+  }
+
+  .icon {
     position: absolute;
-    top: 0;
-    left: 9px;
-    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    opacity: 0;
+    transition: .3s ease-in-out;
+
   }
-  .responsive-table tbody tr:first-child td:first-child {
-   display: none;
-  }
-  .responsive-table tbody tr:first-child td:last-child {
-   display: block;
-  }
+
 }

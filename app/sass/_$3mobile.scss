@@ -1,3 +1,59 @@
 @media ($mobile) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  .float-left-block {
+    width: 290px;
+    float: none;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+  .blockquote {
+    min-height: 100%;
+    padding: 20px 15px;
+    float: none;
+    width: auto;
+  }
+  .blockquote-img {
+    position: relative;
+    float: none;
+    height: 110px;
+    width: 110px;
+    margin: 0 auto 20px;
+  }
+  .blockquote-text {
+    margin-left: 0;
+    text-align: center;
+    .bold-text {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
