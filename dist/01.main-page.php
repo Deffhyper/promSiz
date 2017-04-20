@@ -15,8 +15,7 @@
             <a href="#" class="btn top-slider__item--link"><span class="hidden-xs">Узнать</span> подробнее</a>
 
             <div class="subImage">
-                <img src="img/jpeg_files/mans.png" alt="mans" class="hidden-xs">
-                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
+                <img src="img/jpeg_files/mans.png" alt="mans">
             </div>
         </div>
     </div>
@@ -33,8 +32,7 @@
             <a href="#" class="btn top-slider__item--link"><span class="hidden-xs">Узнать</span> подробнее</a>
 
             <div class="subImage">
-                <img src="img/jpeg_files/mans.png" alt="mans" class="hidden-xs">
-                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
+                <img src="img/jpeg_files/mans.png" alt="mans">
             </div>
         </div>
     </div>
@@ -52,7 +50,6 @@
 
             <div class="subImage">
                 <img src="img/jpeg_files/mans.png" alt="mans" >
-                <img src="img/jpeg_files/man-mob.png" alt="mans" class="hidden-lg hidden-md hidden-sm">
             </div>
         </div>
     </div>
@@ -427,7 +424,7 @@
                         <p class="block-title">Подпишитесь на рассылку новостей и акций</p>
                         <form action="#">
                             <input type="email" placeholder="Ваш e-mail" class="main-connect-item__input">
-                            <button type="submit" class="btn btn--accent"><span class="icon icon-send"></span></button>
+                            <button type="submit" class="btn btn--accent"><span class="icon-font icon-send"></span></button>
                         </form>
                     </div>
                 </div>

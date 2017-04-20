@@ -55,7 +55,7 @@ $(function() {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    infinite: true,
+                    infinite: true
                 }
             },
             {
@@ -191,6 +191,13 @@ $(function() {
     //////////////////////////////////////////// masked tel input ////////////////
 
     $('.tel-input').mask("+38(999) 999-99-99");
+
+    ///////////////////////////////////////////// responsive table ///////////////////
+
+    $('.responsive-table').cardtable({
+        myClass:'resp-table',
+        headIndex: 2
+    });
 
 
 

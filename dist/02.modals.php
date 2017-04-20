@@ -2,6 +2,8 @@
 <body>
 <?php include_once "parts/header.php" ?>
 
+<?php include_once "parts/breadcrumbs.php" ?>
+
 <div class="container">
 
     <div class="col-sm-12 block-no-back">

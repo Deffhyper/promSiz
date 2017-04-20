@@ -1319,7 +1319,8 @@ body:after {
 .top-slider__item {
   height: 500px;
   padding-top: 80px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .top-slider__item .subImage {
     position: absolute;
     top: 0;
@@ -2277,6 +2278,9 @@ body:after {
     margin-bottom: 15px; }
   .top-slider__item--link {
     width: 140px; }
+  .top-slider__item .subImage {
+    right: inherit;
+    left: 49%; }
   .our-services__all {
     width: 100%; }
   .our-services__list {

@@ -8,6 +8,7 @@
     height: 500px;
     padding-top: 80px;
     position: relative;
+    overflow: hidden;
 
     .subImage {
       position: absolute;
@@ -1128,10 +1129,10 @@
   .top-slider__item--link {
     width: 140px;
   }
-
-
-
-
+  .top-slider__item .subImage {
+    right: inherit;
+    left: 49%;
+  }
 
   .our-services__all {
     width: 100%;
@@ -1201,9 +1202,6 @@
   .main-brands .container {
     padding: 15px 15px 25px;
   }
-
-
-
   .main-connect-item.right {
     margin-left: 0;
   }
