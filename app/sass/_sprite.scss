@@ -20,6 +20,17 @@ $blockquote-label-total-width: 131px;
 $blockquote-label-total-height: 83px;
 $blockquote-label-image: '../img/png_sprite/sprite.png';
 $blockquote-label: (0px, 23px, 0px, -23px, 42px, 60px, 131px, 83px, '../img/png_sprite/sprite.png', 'blockquote-label', );
+$check-name: 'check';
+$check-x: 60px;
+$check-y: 23px;
+$check-offset-x: -60px;
+$check-offset-y: -23px;
+$check-width: 14px;
+$check-height: 16px;
+$check-total-width: 131px;
+$check-total-height: 83px;
+$check-image: '../img/png_sprite/sprite.png';
+$check: (60px, 23px, -60px, -23px, 14px, 16px, 131px, 83px, '../img/png_sprite/sprite.png', 'check', );
 $close-name: 'close';
 $close-x: 42px;
 $close-y: 23px;
@@ -45,7 +56,7 @@ $dev-logo: (0px, 0px, 0px, 0px, 131px, 23px, 131px, 83px, '../img/png_sprite/spr
 $spritesheet-width: 131px;
 $spritesheet-height: 83px;
 $spritesheet-image: '../img/png_sprite/sprite.png';
-$spritesheet-sprites: ($blockquote-label, $close, $dev-logo, );
+$spritesheet-sprites: ($blockquote-label, $check, $close, $dev-logo, );
 $spritesheet: (131px, 83px, '../img/png_sprite/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables

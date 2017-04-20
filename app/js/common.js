@@ -199,9 +199,42 @@ $(function() {
         headIndex: 2
     });
 
+////////////////////////////////////range slider///////////////////////////////////////////
+    $("#slider-range").slider({
+        range: true,
+        min: 15,
+        max: 25890,
+        values: [5350, 20180],
+        slide: function (event, ui) {
+            $("#amount-max").val(ui.values[1]);
+            $("#amount-min").val(ui.values[0]);
+        }
+    });
+    $("#amount-max").val($("#slider-range").slider("values", 1));
 
+    $("#amount-min").val($("#slider-range").slider("values", 0));
 
+////////////////////////////////// filter mob script /////////////////////////////////
 
+    function bindJsOnMobileFilter(windowWidth) {
+
+        var filterItem = $('.sidebar__title');
+
+        if (windowWidth < 768) {
+            filterItem.unbind('click').click(function () {
+                $(this).next().slideToggle();
+                $(this).toggleClass('rotate');
+            })
+        } else {
+            filterItem.unbind('click');
+            filterItem.next().removeAttr('style');
+            filterItem.removeClass('rotate');
+        }
+    }
+
+    $(window).ready(bindJsOnMobileFilter(windowWidth)).resize(function () {
+        bindJsOnMobileFilter(window.innerWidth);
+    });
 
 
 

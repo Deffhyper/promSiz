@@ -43,7 +43,8 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap/dist/js/bootstrap.min.js', // Bootstrap
 		'app/libs/slick-carousel/slick/slick.min.js', // Slick
 		'app/libs/stacktable/stacktable.js', // stacktable
-		'app/libs/masked-input/masked-input.js'// masked input
+		'app/libs/masked-input/masked-input.js',// masked input
+		'app/libs/jquery-ui-1.11.4.custom/jquery-ui.min.js'// jquery ui range slider
 
 
 		])
