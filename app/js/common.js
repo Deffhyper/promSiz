@@ -235,6 +235,11 @@ $(function() {
     $(window).ready(bindJsOnMobileFilter(windowWidth)).resize(function () {
         bindJsOnMobileFilter(window.innerWidth);
     });
+//////////////////////////// custom select /////////////////////////////////////////
+    $('.selectpicker').selectpicker({
+        style: 'btn-info',
+        size: 6
+    });
 
 
 
