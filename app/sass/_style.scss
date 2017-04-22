@@ -430,20 +430,55 @@ section.text-page {
 
   &__title {
     margin-bottom: 25px;
+    padding: 0 25px;
+
   }
 }
-
+.catalog-title-mob {
+  background-color: #d2d9df;
+  padding: 18px 20px 16px;
+  position: relative;
+  margin-bottom: 11px;
+  display: none;
+  &.rotate {
+    margin-bottom: 0;
+    &:after {
+      transform: rotateZ(315deg);
+    }
+  }
+  &:after {
+    content: "";
+    display: block;
+    height: 7px;
+    width: 7px;
+    border-top: 1px solid $text-color;
+    border-right: 1px solid $text-color;
+    transform: rotateZ(135deg);
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -4px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+}
 .five-item-list {
   @extend .remedies-list;
-  margin-left: 2px;
+  margin-left: 1px;
   margin-bottom: 20px;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 1px solid #e5e5e7;
+  border-left: 1px solid #e5e5e7;
   li {
     @extend .remedies-item;
     position: relative;
     cursor: pointer;
     width: 20%;
-    border-left: 1px solid #e5e5e7;
-    border-top: 1px solid #e5e5e7;
+    border-right: 1px solid #e5e5e7;
+    border-bottom: 1px solid #e5e5e7;
+    border-top: 0;
+    border-left: 0;
     height: 190px;
     a {
       &:hover {
@@ -491,11 +526,15 @@ section.text-page {
   width: 100%;
   border: 1px solid #e5e5e7;
   border-bottom: 0;
-  padding: 13px;
+  border-left: 0;
+
 }
 
 .goods-sort__select {
   float: left;
+  position: relative;
+  top: 7px;
+  padding: 13px 25px;
   label {
     font-family:$font-normal;
     font-size: 14px;
@@ -542,6 +581,9 @@ section.text-page {
 
 .goods-sort__kind {
   float: right;
+  position: relative;
+  top: 5px;
+  padding: 13px 25px;
   & > a {
 
     span {
@@ -588,6 +630,49 @@ section.text-page {
       height: 5px;
       width: 5px;
       margin: 2px;
+    }
+  }
+}
+
+.catalog {
+  border-top: 1px solid #e5e5e7;
+  border-left: 3px solid #e5e5e7;
+  .goods {
+    border-bottom: 1px solid #e5e5e7;
+    border-right: 1px solid #e5e5e7;
+    &-image {
+      img {
+        transition: .3s ease;
+        transform: translate(-50%, -50%) scale(.9);
+      }
+
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: transparent;
+      z-index: 1;
+    }
+    &:hover {
+      border-color: $accent-color;
+      .goods-image img {
+        transform: translate(-50%, -50%) scale(1);
+      }
+      &:before {
+        background-color: $accent-color;
+      }
+    }
+  }
+  &-col {
+    &__item {
+      width: 33.4%;
     }
   }
 }

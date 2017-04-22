@@ -44,16 +44,28 @@
                         </ul>
                     </div>
                     <div class="main-connect__callback hidden-xs">
-                        <a href="#" class="btn btn-md btn--gray">Заказать звонок</a>
+                        <a href="#" class="btn btn-md btn--gray" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок</a>
                     </div>
                 </div>
 
                 <div class="main-nav">
                     <div class="main-nav-item main-nav-item__search">
-                        <a href="#">
+                        <a href="#" class="search-trigger">
                             <span class="search-label">Поиск по сайту</span>
                             <span class="icon-font icon-search"></span>
                         </a>
+                        <div class="site-search">
+                            <form action="">
+                                <fieldset>
+                                    <input type="text" class="site-search__input" autofocus>
+                                    <button type="reset" class="btn"><i class="icon-sprite icon-close"></i></button>
+                                </fieldset>
+                                <button type="submit" class="btn btn--gray site-search__submit">найти</button>
+                            </form>
+                            <div class="site-search__result">
+
+                            </div>
+                        </div>
                     </div>
                     <div class="main-nav-item main-nav-item__sign">
                         <a href="#">

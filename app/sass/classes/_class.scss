@@ -77,7 +77,16 @@
     transform: rotateZ(225deg);
   }
 }
-
+.subtitle, .bold-text {
+  font-family: $font-bold;
+}
+.normal-text {
+  font-family: $font-normal;
+}
+.subtitle {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
 .text-center {
   text-align: center;
 }
@@ -353,4 +362,12 @@ ul {
   font-size: 12px;
   font-family: $font-bold;
   transition: .3s ease;
+}
+
+.seo-text {
+  padding-top: 30px;
+  overflow: hidden;
+  &--title {
+    font-size: 18px;
+  }
 }

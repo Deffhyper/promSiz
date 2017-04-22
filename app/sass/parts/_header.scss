@@ -781,3 +781,55 @@
     right: -17px;
   }
 }
+.search-trigger {
+  z-index: 11;
+  &.open {
+    z-index: -1;
+  }
+}
+.site-search {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  bottom: 0;
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  transition: .3s ease;
+  &.open {
+    border-left: 1px solid #eaeaeb;
+    width: 788px;
+    padding: 27px;
+
+    form {
+      opacity: 1;
+      transition: opacity .1s ease !important;
+    }
+  }
+  &__input {
+    height: 42px;
+    width: 100%;
+
+  }
+  form {
+    transition: opacity .8s ease-in-out;
+    opacity: 0;
+  }
+  fieldset {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    .btn {
+      position: absolute;
+      top: 12px;
+      right: 9px;
+
+    }
+
+  }
+  &__submit {
+    width: 130px;
+    padding: 16px 0 13px;
+    float: right;
+  }
+}

@@ -59,15 +59,15 @@
                         <ul class="sidebar-checkboxes__list">
                             <li>
                                 <input type="checkbox" id="ch-1" class="custom-checkbox">
-                                <label for="ch-1" >Mechanix AV</label>
+                                <label for="ch-1">Mechanix AV</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-2" class="custom-checkbox">
-                                <label for="ch-2" >Starline</label>
+                                <label for="ch-2">Starline</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-3" class="custom-checkbox">
-                                <label for="ch-3" >Triarma</label>
+                                <label for="ch-3">Triarma</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-4" class="custom-checkbox">
@@ -87,15 +87,15 @@
                         <ul class="sidebar-checkboxes__list">
                             <li>
                                 <input type="checkbox" id="ch-6" class="custom-checkbox">
-                                <label for="ch-6" >от вибраций</label>
+                                <label for="ch-6">от вибраций</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-7" class="custom-checkbox">
-                                <label for="ch-7" >Starline</label>
+                                <label for="ch-7">Starline</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-8" class="custom-checkbox">
-                                <label for="ch-8" >Triarma</label>
+                                <label for="ch-8">Triarma</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-9" class="custom-checkbox">
@@ -120,6 +120,7 @@
 
         </div>
         <div class="right-block">
+            <a class="catalog-title-mob bold-text">Рабочие перчатки</a>
             <ul class="five-item-list">
                 <li>
                     <a href="#">
@@ -142,7 +143,8 @@
                         <span class="five-item-list--photo">
                             <img src="img/jpeg_files/cat-3.jpg" alt="category">
                         </span>
-                        <span class="five-item-list--title"><span>Защита от общих производственных загрязнений</span></span>
+                        <span
+                            class="five-item-list--title"><span>Защита от общих производственных загрязнений</span></span>
                     </a>
                 </li>
                 <li>
@@ -185,31 +187,14 @@
                         <span class="five-item-list--title"><span>Перчатки одноразовые</span></span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <span class="five-item-list--photo">
-
-                        </span>
-                        <span class="five-item-list--title">
-
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="five-item-list--photo">
-
-                        </span>
-                        <span class="five-item-list--title">
-
-                        </span>
-                    </a>
-                </li>
+                <li></li>
+                <li></li>
             </ul>
             <h2 class="right-block__title">Все товары “Рабочие перчатки”</h2>
+
             <div class="goods-sort-panel">
                 <div class="goods-sort__select">
-                    <label for="sel-1">Сортировать по:</label>
+                    <label for="sel-1">Сортировать:</label>
                     <select name="sort" id="sel-1" class="selectpicker">
                         <option value="1">по популярности</option>
                         <option value="2">по возрастанию</option>
@@ -228,8 +213,300 @@
                     </a>
                 </div>
             </div>
-            <div class="catalog catalog-col">
+            <div class="clearfix"></div>
+            <ul class="catalog catalog-col list-inline">
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-1.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-success">есть в наличии</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-5.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-order">под заказ</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-6.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-expected">ожидается</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-1.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-success">есть в наличии</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-5.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-order">под заказ</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-6.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-expected">ожидается</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-1.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-success">есть в наличии</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-5.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-order">под заказ</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="catalog-col__item">
+                    <div class="goods">
+                        <div class="goods-image">
+                            <a href="#" tabindex="0">
+                                <img src="img/jpeg_files/goods-6.jpg" alt="goods">
+                            </a>
+                        </div>
+                        <div class="goods-prop">
+                            <div class="goods-prop__name">
+                                <a href="#" tabindex="0">Перчатки антивибрационные Mechanix AV</a>
+                            </div>
+                            <div class="goods-price">
+                                <s class="goods-price__old">715 грн</s>
+                                <span class="goods-price__current">679 грн</span>
+                            </div>
+                            <div class="goods-prop__bottom">
+                                <div class="goods-manufacturer normal-text">
+                                    <span>Производитель:</span><a href="#"> Mechanix AV</a>
+                                </div>
+                                <div class="goods-order-state">
+                                    <span class="normal-text">Статус: </span>
+                                    <a href="#" class="status-expected">ожидается</a>
+                                </div>
+                            </div>
+                            <div class="goods-show-more">
+                                <a href="#" class="btn" tabindex="0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <?php include_once "parts/pagination.php" ?>
 
+            <div class="seo-text">
+
+                <h3 class="seo-text--title margin-bottom-sm">Рабочие перчатки</h3>
+
+                <p class="margin-bottom-md">
+                    Компания «ПромСИЗ» — национальный производитель, разработчик и поставщик средств индивидуальной
+                    защиты, одно из крупнейших предприятий в Украине по комплексному обслуживанию клиентов различных
+                    отраслей промышленности. Компания «ПромСИЗ» национальный производитель, разработчик и поставщик
+                    промышленных средств индивидуальной защиты, одно из крупнейших предприятий в Украине по комплексному
+                    обслуживанию клиентов различных отраслей промышленности.
+                </p>
+
+                <p class="margin-bottom-md">
+                    С 1998 года наша компания обеспечивает промышленные предприятия Украины и страны ближнего зарубежья
+                    средствами индивидуальной защиты, которые гарантируют безопасность рабочих при выполнении
+                    производственных задач и повышают производительность труда на предприятиях.Компания «ПромСИЗ» —
+                    национальный производитель, разработчик и поставщик средств индивидуальной защиты, одно из
+                    крупнейших предприятий в Украине.
+                </p>
             </div>
         </div>
     </div>

@@ -28,6 +28,27 @@
     padding: 8px 11px 6px;
   }
 
+  .five-item-list li {
+    width: 33.38%;
+    &.empty-item {
+      display: none;
+    }
+  }
+  .catalog-col__item {
+    width: 50.1%;
+  }
+  .catalog {
+    //border-right: 1px solid #e5e5e7;
+  }
+  .seo-text--title.margin-bottom-sm {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .seo-text {
+    .margin-bottom-md {
+      margin-bottom: 15px;
+    }
+  }
 
 
 

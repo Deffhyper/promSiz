@@ -218,7 +218,7 @@ $(function() {
 
     function bindJsOnMobileFilter(windowWidth) {
 
-        var filterItem = $('.sidebar__title');
+        var filterItem = $('.sidebar__title, .catalog-title-mob');
 
         if (windowWidth < 768) {
             filterItem.unbind('click').click(function () {
@@ -240,6 +240,38 @@ $(function() {
         style: 'btn-info',
         size: 6
     });
+
+
+    ////////////////////////////// delete catalog elem if is empty //////////////////////////
+
+    $('.five-item-list').find('li').each( function(){
+        if ($(this).is(':empty')) {
+            $(this).addClass('empty-item');
+        }
+    });
+
+    ////////////////////////////////// site search //////////////////////////////////////////////
+    $('.main-nav-item__search a').on('click', function(e){
+        e.preventDefault();
+        var $siteSearch = $('.site-search');
+        $('.search-trigger').addClass('open');
+        $siteSearch.addClass('open');
+        $siteSearch.find('input').focus();
+        if($siteSearch.hasClass('open')) {
+            setTimeout(function() {
+                $(document).bind('click', function (e) {
+                    if (!$(e.target).closest($siteSearch).length) {
+                        console.log('close');
+                        $('.search-trigger').removeClass('open');
+                        $siteSearch.removeClass('open');
+                        $(this).unbind('click');
+                    }
+                });
+            }, 100);
+        }
+
+    });
+
 
 
 
