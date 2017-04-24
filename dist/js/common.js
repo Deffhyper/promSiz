@@ -315,6 +315,39 @@ $(function() {
         }
     });
 
+    ///////////////////////////////////////////// product slider /////////////////////////////////
+
+
+    $('.product-slider-top').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: false,
+        fade: true,
+        dots: false,
+        asNavFor: '.product-slider-bottom'
+    });
+
+    $('.product-slider-bottom').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        asNavFor: '.product-slider-top',
+        arrows: true,
+        dots: false,
+        focusOnSelect: true,
+        centerPadding: "5px",
+        responsive: [
+            {
+                breakpoint: 743,
+                settings: {
+                    slidesToShow: 3
+
+                }
+            }
+        ]
+    });
+
 
 
 
