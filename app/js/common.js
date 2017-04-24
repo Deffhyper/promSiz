@@ -257,6 +257,12 @@ $(function() {
         $('.search-trigger').addClass('open');
         $siteSearch.addClass('open');
         $siteSearch.find('input').focus();
+        $('.site-header-menu__middle').addClass('search');
+        if (innerWidth <= 1268 && $siteSearch.hasClass('open')) {
+            $('body').append('<div class="menu-blur"></div>');
+        } else {
+            $(document).find('.menu-blur').remove();
+        }
         if($siteSearch.hasClass('open')) {
             setTimeout(function() {
                 $(document).bind('click', function (e) {
@@ -264,7 +270,11 @@ $(function() {
                         console.log('close');
                         $('.search-trigger').removeClass('open');
                         $siteSearch.removeClass('open');
-                        $(this).unbind('click');
+                        $(this).unbind('click').bind('click');
+                        $(document).find('.menu-blur').remove();
+                        $('.site-header-menu__middle').removeClass('search');
+                        $('.site-search__result').css('display', 'none');
+                        $siteSearch.find('input').val('');
                     }
                 });
             }, 100);
@@ -272,6 +282,38 @@ $(function() {
 
     });
 
+    $('.site-search__input').on('keyup', function(){
+       if($(this).val().length >= 3) {
+           $('.site-search__result').css('display', 'table');
+       } else {
+           $('.site-search__result').css('display', 'none');
+       }
+    });
+
+
+    /////////////////////////////////// goods count //////////////////////////////////////
+
+    var start = 1;
+    $('.goods-count-block').on('click', function(event){
+        var $target = $(event.target);
+
+        if($target.hasClass('dec') && start >= 2) {
+            start--;
+            $('.goods-amount-input').val(start+' шт.');
+        } else if ($target.hasClass('inc')) {
+            start++;
+            $('.goods-amount-input').val(start+' шт.');
+        }
+    });
+
+    ///////////////////////////////////// goods size, color ////////////////////////////////////////
+
+    $('.goods-size__list, .goods-color__list').on('click', 'li', function(e){
+        e.preventDefault();
+        if(!$(this).hasClass('active')) {
+            $(this).addClass('active').siblings().removeClass('active');
+        }
+    });
 
 
 

@@ -55,7 +55,7 @@ $(function() {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    infinite: true
+                    infinite: true,
                 }
             },
             {
@@ -199,9 +199,121 @@ $(function() {
         headIndex: 2
     });
 
+////////////////////////////////////range slider///////////////////////////////////////////
+    $("#slider-range").slider({
+        range: true,
+        min: 15,
+        max: 25890,
+        values: [5350, 20180],
+        slide: function (event, ui) {
+            $("#amount-max").val(ui.values[1]);
+            $("#amount-min").val(ui.values[0]);
+        }
+    });
+    $("#amount-max").val($("#slider-range").slider("values", 1));
+
+    $("#amount-min").val($("#slider-range").slider("values", 0));
+
+////////////////////////////////// filter mob script /////////////////////////////////
+
+    function bindJsOnMobileFilter(windowWidth) {
+
+        var filterItem = $('.sidebar__title, .catalog-title-mob');
+
+        if (windowWidth < 768) {
+            filterItem.unbind('click').click(function () {
+                $(this).next().slideToggle();
+                $(this).toggleClass('rotate');
+            })
+        } else {
+            filterItem.unbind('click');
+            filterItem.next().removeAttr('style');
+            filterItem.removeClass('rotate');
+        }
+    }
+
+    $(window).ready(bindJsOnMobileFilter(windowWidth)).resize(function () {
+        bindJsOnMobileFilter(window.innerWidth);
+    });
+//////////////////////////// custom select /////////////////////////////////////////
+    $('.selectpicker').selectpicker({
+        style: 'btn-info',
+        size: 6
+    });
 
 
+    ////////////////////////////// delete catalog elem if is empty //////////////////////////
 
+    $('.five-item-list').find('li').each( function(){
+        if ($(this).is(':empty')) {
+            $(this).addClass('empty-item');
+        }
+    });
+
+    ////////////////////////////////// site search //////////////////////////////////////////////
+    $('.main-nav-item__search a').on('click', function(e){
+        e.preventDefault();
+        var $siteSearch = $('.site-search');
+        $('.search-trigger').addClass('open');
+        $siteSearch.addClass('open');
+        $siteSearch.find('input').focus();
+        $('.site-header-menu__middle').addClass('search');
+        if (innerWidth <= 1268 && $siteSearch.hasClass('open')) {
+            $('body').append('<div class="menu-blur"></div>');
+        } else {
+            $(document).find('.menu-blur').remove();
+        }
+        if($siteSearch.hasClass('open')) {
+            setTimeout(function() {
+                $(document).bind('click', function (e) {
+                    if (!$(e.target).closest($siteSearch).length) {
+                        console.log('close');
+                        $('.search-trigger').removeClass('open');
+                        $siteSearch.removeClass('open');
+                        $(this).unbind('click').bind('click');
+                        $(document).find('.menu-blur').remove();
+                        $('.site-header-menu__middle').removeClass('search');
+                        $('.site-search__result').css('display', 'none');
+                        $siteSearch.find('input').val('');
+                    }
+                });
+            }, 100);
+        }
+
+    });
+
+    $('.site-search__input').on('keyup', function(){
+       if($(this).val().length >= 3) {
+           $('.site-search__result').css('display', 'table');
+       } else {
+           $('.site-search__result').css('display', 'none');
+       }
+    });
+
+
+    /////////////////////////////////// goods count //////////////////////////////////////
+
+    var start = 1;
+    $('.goods-count-block').on('click', function(event){
+        var $target = $(event.target);
+
+        if($target.hasClass('dec') && start >= 2) {
+            start--;
+            $('.goods-amount-input').val(start+' шт.');
+        } else if ($target.hasClass('inc')) {
+            start++;
+            $('.goods-amount-input').val(start+' шт.');
+        }
+    });
+
+    ///////////////////////////////////// goods size, color ////////////////////////////////////////
+
+    $('.goods-size__list, .goods-color__list').on('click', 'li', function(e){
+        e.preventDefault();
+        if(!$(this).hasClass('active')) {
+            $(this).addClass('active').siblings().removeClass('active');
+        }
+    });
 
 
 

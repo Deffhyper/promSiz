@@ -220,10 +220,9 @@
   transition: .3s ease;
   padding-top: 10px;
 
-  &:hover {
-    .goods-prop__name a {
-      text-decoration: underline;
-    }
+
+  .goods-prop__name a:hover {
+    text-decoration: underline;
   }
 
   &:after {

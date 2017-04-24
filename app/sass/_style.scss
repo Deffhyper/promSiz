@@ -252,7 +252,7 @@ section.text-page {
     padding: 17px 25px 16px;
   }
   &__list {
-    padding: 17px 0;
+    padding: 10px 0;
     background-color: #ebeff2;
     li{
       a {
@@ -286,9 +286,9 @@ section.text-page {
 }
 
 .sidebar-range {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   &__title {
-    padding: 10px 0 11px;
+    padding: 10px 0;
   }
   &__val {
 
@@ -534,7 +534,7 @@ section.text-page {
   float: left;
   position: relative;
   top: 7px;
-  padding: 13px 25px;
+  padding: 10px 25px;
   label {
     font-family:$font-normal;
     font-size: 14px;
@@ -583,7 +583,7 @@ section.text-page {
   float: right;
   position: relative;
   top: 5px;
-  padding: 13px 25px;
+  padding: 10px 25px;
   & > a {
 
     span {
@@ -677,9 +677,191 @@ section.text-page {
   }
 }
 
+.catalog.catalog-row {
+  border-left-width: 1px;
+}
 
+.catalog-row__item {
 
+  .goods {
+    padding-top: 0;
+    height: 320px;
+  }
 
+  .goods-image {
+    width: 31%;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .goods-count {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    border-left: 1px solid #e5e5e7;
+    padding-top: 19px;
+  }
+  .goods-prop {
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 0;
+    padding-top: 23px;
+    padding-right: 10px;
+    &__name {
+      padding: 0;
+      margin-bottom: 10px;
+      height: 45px;
+      font-size: 17px;
+      line-height: 1.3;
+    }
+  }
+
+  .goods-manufacturer {
+    max-height: 18px;
+    overflow: hidden;
+    margin-bottom: 3px;
+  }
+  .goods-price__old {
+    font-size: 17px;
+  }
+  .goods-price__current {
+    font-size: 24px;
+  }
+  .goods-show-more {
+    padding: 0 28px;
+  }
+  .goods-price {
+    margin-bottom: 10px;
+    padding: 0 28px;
+  }
+  .goods-count-block {
+    padding: 0 28px;
+    margin-bottom: 12px;
+  }
+  .goods-order-btn {
+    padding: 0 28px;
+    margin-bottom: 12px;
+  }
+
+}
+
+.goods-count-block {
+
+  &__label {
+    margin-bottom: 10px;
+  }
+
+  fieldset {
+    border: 1px solid #d6dbdf;
+    height: 40px;
+    
+    input {
+      border: none;
+      text-align: center;
+      width: 60%;
+      margin: 0 -3px;
+      height: 100%;
+      background-color: transparent;
+      vertical-align: top;
+    }
+
+    .btn {
+      font-family: $font-regular;
+      font-size: 20px;
+      width: 20.1%;
+      margin: 0 -1px;
+      text-align: center;
+      height: 100%;
+      transition: .3s ease;
+      &:active {
+        background-color: lightgrey;
+      }
+      &.inc{
+        border-left: 1px solid #d6dbdf;
+      }
+      &.dec{
+        border-right: 1px solid #d6dbdf;
+      }
+    }
+  }
+}
+
+.goods-size {
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__list {
+    margin-bottom: 5px;
+    li {
+      margin-right: 5px;
+      margin-left: 0;
+      margin-bottom: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.active {
+        a {
+          border-color: $accent-color;
+        }
+      }
+      a {
+        display: block;
+        height: 100%;
+        border: 1px solid #cfd6db;
+        padding: 5px 16px;
+        transition: .3s ease;
+        &:hover {
+          border-color: #F76924;
+        }
+      }
+    }
+  }
+}
+
+.goods-color {
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__list {
+    margin-bottom: 10px;
+    li {
+      margin-right: 5px;
+      margin-left: 0;
+      border: 1px solid #cfd6db;
+      padding: 4px;
+      cursor: pointer;
+      transition: .3s ease;
+      height: 35px;
+      width: 35px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+      &.active {
+        border-color: $accent-color;
+      }
+      &:hover {
+        border-color: #F76924;
+      }
+      a {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+
+}
+
+.goods-order-btn {
+  .btn {
+    width: 100%;
+  }
+}
 
 
 

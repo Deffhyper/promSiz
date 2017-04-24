@@ -91,19 +91,23 @@
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-7" class="custom-checkbox">
-                                <label for="ch-7">Starline</label>
+                                <label for="ch-7">от механических воздействий</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-8" class="custom-checkbox">
-                                <label for="ch-8">Triarma</label>
+                                <label for="ch-8">от повышенных температур</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-9" class="custom-checkbox">
-                                <label for="ch-9">Tegera</label>
+                                <label for="ch-9">от пониженных температур</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="ch-10" class="custom-checkbox">
-                                <label for="ch-10">Mechanix AV</label>
+                                <label for="ch-10">от порезов</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="ch-12" class="custom-checkbox">
+                                <label for="ch-12">от токсических веществ, кислот и щелочей</label>
                             </li>
                         </ul>
                     </fieldset>

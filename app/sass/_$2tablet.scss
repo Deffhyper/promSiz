@@ -63,4 +63,31 @@
   }
 
 
+  .catalog-row__item .goods-prop {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .catalog-row__item .goods-prop__name {
+    height: 35px;
+    font-size: 15px;
+  }
+  .catalog-row__item .goods-price__old {
+    font-size: 15px;
+  }
+  .catalog-row__item .goods-price__current {
+    font-size: 20px;
+  }
+  .catalog-row__item .goods-price {
+    margin-bottom: 0;
+    padding: 0 20px;
+  }
+  .catalog-row__item .goods-count-block {
+    padding: 0 40px 0 20px;
+    margin-bottom: 20px;
+  }
+  .catalog-row__item .goods-order-btn {
+    margin-top: 7px;
+  }
+
+
 }

@@ -44,16 +44,143 @@
                         </ul>
                     </div>
                     <div class="main-connect__callback hidden-xs">
-                        <a href="#" class="btn btn-md btn--gray">Заказать звонок</a>
+                        <a href="#" class="btn btn-md btn--gray" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок</a>
                     </div>
                 </div>
 
                 <div class="main-nav">
                     <div class="main-nav-item main-nav-item__search">
-                        <a href="#">
+                        <a href="#" class="search-trigger">
                             <span class="search-label">Поиск по сайту</span>
                             <span class="icon-font icon-search"></span>
                         </a>
+                        <div class="site-search">
+                            <form action="">
+                                <fieldset>
+                                    <input type="text" class="site-search__input" autofocus>
+                                    <button type="reset" class="btn site-search__btn-reset"><i class="icon-sprite icon-close"></i></button>
+                                    <button type="submit" class="btn site-search__btn-submit"><i class="icon-font icon-search"></i></button>
+                                </fieldset>
+                                <button type="submit" class="btn btn--gray site-search__submit">найти</button>
+                            </form>
+                            <table class="site-search__result">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
+                                        </td>
+                                        <td>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="goods-prop__name">
+                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <s class="goods-price__old">715 грн</s>
+                                                            <span class="goods-price__current">679 грн</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
+                                        </td>
+                                        <td>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="goods-prop__name">
+                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <s class="goods-price__old">715 грн</s>
+                                                            <span class="goods-price__current">679 грн</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/search-3.jpg" alt="icon"></a>
+                                        </td>
+                                        <td>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="goods-prop__name">
+                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <s class="goods-price__old">715 грн</s>
+                                                            <span class="goods-price__current">679 грн</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
+                                        </td>
+                                        <td>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="goods-prop__name">
+                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <s class="goods-price__old">715 грн</s>
+                                                            <span class="goods-price__current">679 грн</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
+                                        </td>
+                                        <td>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="goods-prop__name">
+                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <s class="goods-price__old">715 грн</s>
+                                                            <span class="goods-price__current">679 грн</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><a href="#" class="bold-text">Все результаты поиска</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="main-nav-item main-nav-item__sign">
                         <a href="#">
