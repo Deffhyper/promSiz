@@ -89,5 +89,60 @@
     margin-top: 7px;
   }
 
+  /////////////////////////////////////////////////////// product /////////////////////////
+  .product {
+    margin-top: -30px;
+    overflow: hidden;
+  }
+  .product-left-block {
+    padding: 0 25px 0 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .product-right-block {
+    padding: 0 0 0 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .product-underline-block {
+    float: left;
+  }
+  .product-underline-block:before {
+    left: 0;
+  }
+  .product-container-top {
+    margin-bottom: 25px;
+  }
+  .product-tabs__content {
+    margin-bottom: 20px;
+  }
+  .product .r-tabs .r-tabs-nav {
+    margin-bottom: 20px;
+  }
+  .block-no-back {
+    overflow: hidden;
+  }
+  .product-slider-block {
+    padding: 25px 0 25px 0;
+    max-width: 300px;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

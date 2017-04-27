@@ -348,6 +348,14 @@ $(function() {
         ]
     });
 
+    //////////////////////////////////////// responsive tabs //////////////////////////////////////
+
+    $('#responsive-tab').responsiveTabs({
+        active: 1,
+        startCollapsed: 'accordion'
+    });
+
+
 
 
 

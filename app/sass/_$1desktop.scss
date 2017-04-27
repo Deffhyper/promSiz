@@ -1,5 +1,15 @@
 @media ($desktop) {
 
+  /////////////////////////////////////////////// hide fixed menu //////////////////
+  .site-header.header-fixed {
+    position: relative;
+    top: 0;
+  }
+  body {
+    padding-top: 0 !important;
+  }
+  //////////////////////////////////////////////////////////////////////////////////
+
   .reviews-list__item--title {
     padding: 0 3% 0;
     font-size: 14px;
@@ -111,6 +121,35 @@
   }
   .catalog-row__item .goods-order-btn {
     margin-top: 24px;
+  }
+
+  /////////////////////////////////////////////////// product ////////////////////////
+
+  .product-slider-block:after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ebeff2;
+    width: 9999px;
+    z-index: -1;
+  }
+
+  .product-slider-block {
+    padding: 35px 0 35px 0;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .product-slider-bottom__item {
+    height: 140px;
+  }
+
+  .product-container-top {
+    margin-bottom: 30px;
   }
 
 
