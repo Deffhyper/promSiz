@@ -8,7 +8,7 @@
     <div class="container">
         <div class="sidebar">
 
-            <p class="sidebar__title bold-text">Катергории товаров</p>
+            <p class="sidebar__title bold-text">Категории товаров</p>
 
             <ul class="sidebar__list">
                 <li><a href="#">Спецодежда</a></li>

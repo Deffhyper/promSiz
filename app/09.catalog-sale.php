@@ -7,7 +7,7 @@
 <section class="block-bottom-padding--md">
     <div class="container">
         <div class="sidebar">
-            <p class="sidebar__title bold-text">Катергории товаров</p>
+            <p class="sidebar__title bold-text">Категории товаров</p>
             <ul class="sidebar__list">
                 <li><a href="#">Все товары на распродаже</a></li>
                 <li><a href="#">Спецобувь</a></li>

@@ -27,97 +27,97 @@
         <ul class="remedies-list">
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-1.svg"></object>
-                    </div>
+                    </span>
                     <span>Спецодежда</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-2.svg"></object>
-                    </div>
+                    </span>
                     <span>Спецобувь</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-3.svg"></object>
-                    </div>
+                    </span>
                     <span>Рабочие перчатки</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-4.svg"></object>
-                    </div>
+                    </span>
                     <span>Средства защиты <br> глаз и лица</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-5.svg"></object>
-                    </div>
+                    </span>
                     <span>Средства защиты <br> головы</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-6.svg"></object>
-                    </div>
+                    </span>
                     <span>Средства защиты <br> органов слуха</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-7.svg"></object>
-                    </div>
+                    </span>
                     <span>Средства защиты <br> органов дыхания</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-8.svg"></object>
-                    </div>
+                    </span>
                     <span>ДСИЗ</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-9.svg"></object>
-                    </div>
+                    </span>
                     <span>Защита от <br> электрического тока</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-10.svg"></object>
-                    </div>
+                    </span>
                     <span>Защитные системы <br> блокировки LOTO</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-11.svg"></object>
-                    </div>
+                    </span>
                     <span>Средства защиты <br> от падения с высоты</span>
                 </a>
             </li>
             <li class="remedies-item">
                 <a href="#">
-                    <div class="remedies-item__image">
+                    <span class="remedies-item__image">
                         <object type="image/svg+xml" data="img/svg-image/cat-12.svg"></object>
-                    </div>
+                    </span>
                     <span>Другое</span>
                 </a>
             </li>
