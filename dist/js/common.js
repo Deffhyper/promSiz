@@ -123,16 +123,18 @@ $(function() {
         }
     });
 
-
-
-    //$(document).on('click',function(event){
-    //    if($('body').hasClass('main-menu-open')){
-    //        if(!$(event.target).closest('.main-drop-mnu__item--list').length){
-    //            $('body').removeClass('main-menu-open');
-    //            $('.main-drop-mnu__item').removeClass('active');
-    //            $(event.target).removeClass('active');
-    //        }
-    //    }
+    //
+    //$(document).on('click', function (event) {
+    //
+    //        setTimeout(function () {
+    //            if ($('body').hasClass('main-menu-open')) {
+    //                if (!$(event.target).is('.main-drop-mnu__item--list li')) {
+    //                    $('body').removeClass('main-menu-open');
+    //                    $('.main-drop-mnu__item').removeClass('active');
+    //                    $(event.target).removeClass('active');
+    //                }
+    //            }
+    //        } , 5000);
     //});
 
 //////////////////////////////////// tablet menu /////////////////////////

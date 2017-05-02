@@ -118,8 +118,8 @@
                 <form action="#">
                     <div class="modal-input-block">
                         <fieldset>
-                            <input type="tel" id="m-3" class="modal-input tel-input" placeholder="+38 (___) ___-__-__">
-                            <label for="m-3" class="modal-input-label">Номер телефона</label>
+                            <input type="tel" id="m-3" class="modal-input tel-input error-input" placeholder="+38 (___) ___-__-__">
+                            <label for="m-3" class="modal-input-label error-label">Номер телефона</label>
                         </fieldset>
                     </div>
 

@@ -364,6 +364,12 @@
     z-index: 100;
   }
 
+  &.no-arrows {
+    .slick-arrow {
+      display: none !important;
+    }
+  }
+
   .slick-slider .slick-track {
     //margin-right: -1px;
   }
