@@ -199,78 +199,82 @@
                 <li class="product-tabs__list--title"><a href="#tab-4">Стандарты</a></li>
                 <li class="product-tabs__list--title"><a href="#tab-5">Упаковка</a></li>
             </ul>
-
-            <div id="tab-1">
-                <div class="product-tabs__content">
-                    <div class="product-tabs__content--title">
-                        <span>Назначение</span>
+            <div class="tabs-content-wrapper">
+                <div class="col-md-6 col-sm-12 no-padding left">
+                    <div id="tab-1">
+                        <div class="product-tabs__content">
+                            <div class="product-tabs__content--title">
+                                <span>Назначение</span>
+                            </div>
+                            <div class="product-tabs__content--text">
+                                <p>Универсальные рабочие перчатки на полу подкладке. Спилковая воловья кожа, хлопок, усиление
+                                    указательного пальца, усиление кончиков пальцев и большого пальца, для тяжелых работ.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-tabs__content--text">
-                        <p>Универсальные рабочие перчатки на полу подкладке. Спилковая воловья кожа, хлопок, усиление
-                            указательного пальца, усиление кончиков пальцев и большого пальца, для тяжелых работ.</p>
+                    <div id="tab-2">
+                        <div class="product-tabs__content">
+                            <div class="product-tabs__content--title">
+                                <span>Техническое описание</span>
+                            </div>
+                            <div class="product-tabs__content--text">
+                                <p class="margin-bottom-sm"><span class="bold-text">Размер: </span>10 (XL)</p>
+                                <p class="margin-bottom-sm"><span class="bold-text"> Основная защита:</span> Защита от истирания, от волдырей, от легких
+                                    травм, от царапин и рваных ран, от общепроизводственных загрязнений.</p>
+                                <p class="margin-bottom-sm"><span class="bold-text">Состав:</span>  хлопок, покрытие - нитрил</p>
+                                <p>Обладает маслобензостойкими свойствами и обеспечивает надежный сухой и промасленный захват:</p>
+                                <ul class="not-num-list">
+                                    <li><span>тойкость к истиранию - уровень 4 (не менее 8000 циклов)</span></li>
+                                    <li><span>cопротивление порезу - уровень 1 (не менее 1,2)</span></li>
+                                    <li><span>сопротивление раздиру - уровень 1 (не менее 10 Н)</span></li>
+                                    <li><span>стойкость к проколу - уровень 1 (не менее 20Н)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 no-padding right">
+                    <div id="tab-3">
+                        <div class="product-tabs__content">
+                            <div class="product-tabs__content--title">
+                                <span>Область применения</span>
+                            </div>
+                            <div class="product-tabs__content--text">
+                                <ul class="not-num-list">
+                                    <li><span>Сборка и проверка компонентов</span></li>
+                                    <li><span>Крепление, отсечение части жгутов, подключение устройств</span></li>
+                                    <li><span>Обработка металлических листов и панелей</span></li>
+                                    <li><span>Металлообработка и монтажные работы</span></li>
+                                    <li><span>Открытие сливных насосов и вентилей</span></li>
+                                    <li><span>Пресс для литья под давлением</span></li>
+                                    <li><span>Захват промасленных частей</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4">
+                        <div class="product-tabs__content">
+                            <div class="product-tabs__content--title">
+                                <span>Стандарты</span>
+                            </div>
+                            <div class="product-tabs__content--text">
+                                <p>ДСТУ EN 420, ДСТУ EN 388</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-5">
+                        <div class="product-tabs__content">
+                            <div class="product-tabs__content--title">
+                                <span>Упаковка</span>
+                            </div>
+                            <div class="product-tabs__content--text">
+                                <p>12 пар в упаковке</p>
+                                <p>144 пары в ящике</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="tab-2">
-                <div class="product-tabs__content">
-                    <div class="product-tabs__content--title">
-                        <span>Техническое описание</span>
-                    </div>
-                    <div class="product-tabs__content--text">
-                        <p class="margin-bottom-sm"><span class="bold-text">Размер: </span>10 (XL)</p>
-                        <p class="margin-bottom-sm"><span class="bold-text"> Основная защита:</span> Защита от истирания, от волдырей, от легких
-                            травм, от царапин и рваных ран, от общепроизводственных загрязнений.</p>
-                        <p class="margin-bottom-sm"><span class="bold-text">Состав:</span>  хлопок, покрытие - нитрил</p>
-                        <p>Обладает маслобензостойкими свойствами и обеспечивает надежный сухой и промасленный захват:</p>
-                        <ul class="not-num-list">
-                            <li><span>тойкость к истиранию - уровень 4 (не менее 8000 циклов)</span></li>
-                            <li><span>cопротивление порезу - уровень 1 (не менее 1,2)</span></li>
-                            <li><span>сопротивление раздиру - уровень 1 (не менее 10 Н)</span></li>
-                            <li><span>стойкость к проколу - уровень 1 (не менее 20Н)</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="tab-3">
-                <div class="product-tabs__content">
-                    <div class="product-tabs__content--title">
-                        <span>Область применения</span>
-                    </div>
-                    <div class="product-tabs__content--text">
-                        <ul class="not-num-list">
-                            <li><span>Сборка и проверка компонентов</span></li>
-                            <li><span>Крепление, отсечение части жгутов, подключение устройств</span></li>
-                            <li><span>Обработка металлических листов и панелей</span></li>
-                            <li><span>Металлообработка и монтажные работы</span></li>
-                            <li><span>Открытие сливных насосов и вентилей</span></li>
-                            <li><span>Пресс для литья под давлением</span></li>
-                            <li><span>Захват промасленных частей</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="tab-4">
-                <div class="product-tabs__content">
-                    <div class="product-tabs__content--title">
-                        <span>Стандарты</span>
-                    </div>
-                    <div class="product-tabs__content--text">
-                        <p>ДСТУ EN 420, ДСТУ EN 388</p>
-                    </div>
-                </div>
-            </div>
-            <div id="tab-5">
-                <div class="product-tabs__content">
-                    <div class="product-tabs__content--title">
-                        <span>Упаковка</span>
-                    </div>
-                    <div class="product-tabs__content--text">
-                        <p>12 пар в упаковке</p>
-                        <p>144 пары в ящике</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>

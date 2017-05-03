@@ -341,7 +341,7 @@ $(function() {
         centerPadding: "5px",
         responsive: [
             {
-                breakpoint: 743,
+                breakpoint: 980,
                 settings: {
                     slidesToShow: 3
 
@@ -350,12 +350,18 @@ $(function() {
         ]
     });
 
-    //////////////////////////////////////// responsive tabs //////////////////////////////////////
+/////////////////////////////////////// product property scroll to target ////////////////////////////////
 
-    $('#responsive-tab').responsiveTabs({
-        active: 1,
-        startCollapsed: 'accordion'
+    $('.product-tabs__list').find('li a').each(function(){
+        $(this).on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top -70
+            }, 500);
+        });
     });
+
+
 
 
 

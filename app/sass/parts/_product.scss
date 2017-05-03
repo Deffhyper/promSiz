@@ -309,6 +309,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 2px;
+    margin-left: 2px;
 
 
 
@@ -316,12 +318,6 @@
       flex-grow: 1;
       text-align: center;
       height: 52px;
-
-      &.r-tabs-state-active {
-        a {
-          background-color: #44444d;
-        }
-      }
 
       a {
         font-family: $font-bold;
@@ -361,14 +357,20 @@
   }
 }
 
-.r-tabs .r-tabs-nav {
+.tabs-content-wrapper {
+  border: 1px solid #d0d5d9;
+  float: left;
+  width: 100%;
   margin-bottom: 30px;
+  .left {
+    border-right: 1px solid #d0d5d9;
+  }
 }
 
 .product-tabs__content {
-  border: 1px solid #d0d5d9;
-  margin-bottom: 60px;
-  min-height: 360px;
+  //border: 1px solid #d0d5d9;
+  //margin-bottom: 60px;
+  //min-height: 360px;
 
   &--title {
     font-size: 18px;
