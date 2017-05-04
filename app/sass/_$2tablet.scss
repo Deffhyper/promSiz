@@ -162,6 +162,25 @@
     height: 85px;
   }
 
+  .user-data__image {
+    height: 255px;
+  }
+
+  .document-list__item .left {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #d0d5d9;
+    padding: 10px;
+  }
+  .document-list__item .right {
+    width: 100%;
+    padding: 10px;
+  }
+  .document-list__item--icon {
+    width: 45px;
+    height: 45px;
+  }
+
 
 
 

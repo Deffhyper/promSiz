@@ -1084,9 +1084,118 @@ section.text-page {
   width: 100%;
 }
 
+.user-data {
+  margin-bottom: 50px;
 
+  &__image {
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+    img {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: auto;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 
+  &__title {
+    padding: 15px 0 14px;
+    border-bottom: 1px solid $accent-color;
+  }
 
+  &__prop {
+
+    &--title {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.user-text {
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+
+.three-item-slider {
+  @extend .four-item-slider;
+  .project {
+    border-top: 1px solid #d0d5d9;
+    border-bottom: 1px solid #d0d5d9;
+    border-right: 1px solid #d0d5d9;
+
+  }
+}
+
+.sidebar__list.document-filter {
+  padding: 0;
+  margin-bottom: 50px;
+
+  .active a{
+    background-color: #d2d9df;
+  }
+}
+
+.document-list {
+  border-top: 1px solid #d0d5d9;
+  border-left: 1px solid #d0d5d9;
+  position: relative;
+  float: left;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  &__item {
+    border-bottom: 1px solid #d0d5d9;
+    border-right: 1px solid #d0d5d9;
+    float: left;
+    width: 100%;
+
+    .left {
+      display: table;
+      float: left;
+      width: 50%;
+      border-right: 1px solid #d0d5d9;
+      padding: 15px;
+      position: relative;
+    }
+
+    .right {
+      display: table;
+      float: left;
+      width: 50%;
+      padding: 15px;
+      position: relative;
+    }
+
+    &--icon {
+      width: 45px;
+      height: 45px;
+      display: table-cell;
+      vertical-align: top;
+      position: relative;
+      overflow: hidden;
+
+    }
+
+    &--link {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 15px;
+      transition: .3s ease;
+      &:hover {
+        color: $accent-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
 
 
 
