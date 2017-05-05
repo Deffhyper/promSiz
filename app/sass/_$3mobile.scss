@@ -410,6 +410,36 @@
     display: none;
   }
 
+  .vacancy-table__item--title {
+    width: 100%;
+    padding: 10px 15px 10px;
+    display: block;
+  }
+  .vacancy-table__item--prop {
+    padding: 10px 10px 0;
+  }
+
+  .video-block iframe {
+    height: 70vw;
+  }
+
+  .authorization-form .btn {
+    width: 100%;
+  }
+  .authorization-form {
+    padding: 25px 20px 25px;
+  }
+  .authorization-form__title {
+    margin-bottom: 15px;
+  }
+  .authorization-form__divider {
+    margin: 10px 0;
+  }
+  .authorization-form__subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
 
 
 

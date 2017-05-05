@@ -108,7 +108,7 @@
 
         <p class="subtitle margin-bottom-sm">Таблица</p>
 
-        <table class="responsive-table">
+        <table class="responsive-table margin-bottom-md">
             <tbody>
                 <tr>
                     <td>№</td>
@@ -150,6 +150,11 @@
             </tbody>
         </table>
 
+    </div>
+
+    <h3 class="text-center margin-bottom-md">Видео с канала YouTube</h3>
+    <div class="video-block">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/CBDbxZY7hng?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
 
