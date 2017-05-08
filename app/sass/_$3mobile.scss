@@ -439,6 +439,56 @@
     font-size: 14px;
     margin-bottom: 20px;
   }
+  .main-nav-item__signIn.dropdown .btn {
+    background-color: #eaeaeb;
+    &:hover {
+      background-color: #eaeaeb;
+    }
+  }
+  .main-nav-item__signIn.dropdown .btn:before {
+    border-top-color: #282832;
+    border-right-color: #282832;
+  }
+  .main-nav-item__signIn.dropdown .btn:after {
+    border-bottom-color: #c7c7cd;
+  }
+  .main-nav-item__signIn.dropdown .dropdown-menu {
+    top: 60px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+  }
+
+  .lk-navigate {
+
+    display: table;
+    li {
+
+      width: 100%;
+      display: table-row;
+    }
+  }
+  .lk-navigate__image {
+    height: 67px;
+    width: 67px;
+    display: table-cell;
+
+    vertical-align: middle;
+  }
+  .lk-navigate__image object, .lk-navigate__image img {
+    height: 40px;
+    margin: 0;
+
+  }
+  .lk-navigate__title {
+    padding: 13px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .lk-navigate li:nth-child(5) object, .lk-navigate li:nth-child(5) img {
+    margin-left: 5px;
+  }
 
 
 

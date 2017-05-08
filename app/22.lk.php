@@ -17,7 +17,42 @@
     <ul class="lk-navigate">
         <li>
             <a href="#">
-
+                <span class="lk-navigate__image">
+                    <object type="image/svg+xml" data="img/svg-image/lk-1.svg"></object>
+                </span>
+                <span class="lk-navigate__title">Личные данные</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="lk-navigate__image">
+                    <object type="image/svg+xml" data="img/svg-image/lk-2.svg"></object>
+                </span>
+                <span class="lk-navigate__title">Корзина</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="lk-navigate__image">
+                    <object type="image/svg+xml" data="img/svg-image/lk-3.svg"></object>
+                </span>
+                <span class="lk-navigate__title">Текущие заказы</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="lk-navigate__image">
+                    <object type="image/svg+xml" data="img/svg-image/lk-4.svg"></object>
+                </span>
+                <span class="lk-navigate__title">История заказов</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="lk-navigate__image">
+                    <img src="img/svg-image/lk-5.png" alt="icon">
+                </span>
+                <span class="lk-navigate__title">Подписки</span>
             </a>
         </li>
     </ul>
