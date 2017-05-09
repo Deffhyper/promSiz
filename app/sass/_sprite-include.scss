@@ -11,3 +11,6 @@
 .icon-blockquote-label {
   @include sprite($blockquote-label);
 }
+.icon-error404 {
+  @include sprite($error404);
+}

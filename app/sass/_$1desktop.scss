@@ -152,10 +152,54 @@
     margin-bottom: 30px;
   }
 
+  .lk-form {
+    padding-right: 40px;
+  }
+  .input-group__item--label {
+    padding-right: 20px;
+  }
 
+  .page-404-img .zebra-bg__content .bold-text {
+    font-size: 170px;
+    top: 121px;
+    right: -18px;
+  }
+  .page-404-img .zebra-bg__content .icon-error404 {
+    transform: scale(.7);
+    top: -10px;
+    left: 37px;
+  }
+  .page-404-img .zebra-bg {
+    height: 270px;
+    width: 270px;
+    background: repeating-linear-gradient(-45deg, #fff, #fff 20px, #f36924 0, #f36924 40px);
+  }
 
+  .page-404-content__title {
+    font-size: 44px;
+    margin-bottom: 19px;
+  }
 
+  .page-404-content__subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
+  .page-404-content .margin-bottom-md {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .page-404-content .btn {
+    width: 230px;
+  }
+  .page-404-img {
+    padding-left: 25px;
+    margin-top: 25px;
+  }
+  .page-404-content {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
 
 
 

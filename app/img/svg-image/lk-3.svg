@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="77" viewBox="0 0 83 77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebeff2;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #282832;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ea6924;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 4 2;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M5,19V77H78V19H5Z"/>
+  <path id="Shape_150_copy" data-name="Shape 150 copy" class="cls-1" d="M0,7V20H83V7H0Z"/>
+  <path class="cls-1" d="M0,7L9,0H75l7,7"/>
+  <path id="Shape_150_copy_2" data-name="Shape 150 copy 2" class="cls-2" d="M29,31v7H55V31H29Z"/>
+  <path id="Shape_150_copy_3" data-name="Shape 150 copy 3" class="cls-3" d="M23,48V61H59V48H23Z"/>
+  <path class="cls-4" d="M29,52h3"/>
+  <path id="Shape_152_copy" data-name="Shape 152 copy" class="cls-4" d="M34,52H53"/>
+  <path id="Shape_152_copy_2" data-name="Shape 152 copy 2" class="cls-4" d="M29,56H39"/>
+  <path id="Shape_152_copy_3" data-name="Shape 152 copy 3" class="cls-4" d="M41,56h5"/>
+  <path id="Shape_152_copy_4" data-name="Shape 152 copy 4" class="cls-5" d="M48,56h5"/>
+  <path class="cls-5" d="M9,23V72"/>
+</svg>

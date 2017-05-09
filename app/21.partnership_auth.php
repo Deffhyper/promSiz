@@ -39,17 +39,17 @@
                 <input type="text" id="f-1" class="modal-input" placeholder="Введите название компании">
                 <label for="f-1">Название компании <mark class="mark-red">*</mark></label>
 
-                <input type="text" id="f-1" class="modal-input" placeholder="Введите регион">
-                <label for="f-1">Введите регион</label>
+                <input type="text" id="f-2" class="modal-input" placeholder="Введите регион">
+                <label for="f-2">Введите регион</label>
 
-                <input type="text" id="f-1" class="modal-input" placeholder="Введите веб-сайт">
-                <label for="f-1">Веб-сайт компании</label>
+                <input type="text" id="f-3" class="modal-input" placeholder="Введите веб-сайт">
+                <label for="f-3">Веб-сайт компании</label>
 
-                <input type="text" id="f-1" class="modal-input" placeholder="Ваш бизнес">
-                <label for="f-1">Основной бизнес <mark class="mark-red">*</mark></label>
+                <input type="text" id="f-4" class="modal-input" placeholder="Ваш бизнес">
+                <label for="f-4">Основной бизнес <mark class="mark-red">*</mark></label>
 
-                <input type="text" id="f-1" class="modal-input" placeholder="Как с вами связаться">
-                <label for="f-1">Контактные даные <mark class="mark-red">*</mark></label>
+                <input type="text" id="f-5" class="modal-input" placeholder="Как с вами связаться">
+                <label for="f-5">Контактные даные <mark class="mark-red">*</mark></label>
             </fieldset>
 
             <button class="btn btn-md btn--accent">Отправить</button>
