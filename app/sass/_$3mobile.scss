@@ -248,6 +248,14 @@
 
   ////////////////////////////////////////////// product ///////////////////////////////////
 
+  .product-tabs__list {
+    display: block;
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
   .r-tabs .r-tabs-accordion-title a{
     display: block;
     font-family: $font-bold;

@@ -195,6 +195,9 @@ input, textarea {
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
 
+textarea {
+  padding: 10px; }
+
 input:focus::-webkit-input-placeholder {
   opacity: 0;
   text-indent: 10px; }
@@ -4893,6 +4896,11 @@ section.text-page {
     font-size: 13px; }
   .catalog-row__item .goods-price__current {
     font-size: 15px; }
+  .product-tabs__list {
+    display: block; }
+    .product-tabs__list li {
+      display: block;
+      margin-bottom: 10px; }
   .r-tabs .r-tabs-accordion-title a {
     display: block;
     font-family: "GothamProBold", sans-serif;

@@ -21,7 +21,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-6">
-                        <h4 class="site-footer__title">Наша комания</h4>
+                        <h4 class="site-footer__title">Наша компания</h4>
                         <ul class="site-footer__list">
                             <li><a href="#">О нас</a></li>
                             <li><a href="#">Как купить</a></li>

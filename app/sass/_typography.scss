@@ -85,6 +85,10 @@ input, textarea {
   }
 }
 
+textarea {
+  padding: 10px;
+}
+
 input:focus::-webkit-input-placeholder {
   opacity: 0;
   text-indent: 10px;

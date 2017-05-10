@@ -108,7 +108,7 @@
                             <form action="#">
                                 <fieldset>
                                     <button type="button" class="btn dec">-</button>
-                                    <input type="text" class="goods-amount-input" value="1 шт." readonly="">
+                                    <input type="text" class="goods-amount-input" value="1 шт.">
                                     <button type="button" class="btn inc">+</button>
                                 </fieldset>
                             </form>

@@ -405,16 +405,20 @@ $(function() {
 
     /////////////////////////////////// goods count //////////////////////////////////////
 
-    var start = 1;
+
     $('.goods-count-block').on('click', function(event){
         var $target = $(event.target);
+        var inputVal = $(this).find('.goods-amount-input').val();
+        var currentVal = Number((inputVal.replace(/шт(\.)?/g, "")).trim());
 
-        if($target.hasClass('dec') && start >= 2) {
-            start--;
-            $(this).find('.goods-amount-input').val(start+' шт.');
+        console.log(currentVal);
+
+        if($target.hasClass('dec') && currentVal >= 2) {
+            --currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
         } else if ($target.hasClass('inc')) {
-            start++;
-            $(this).find('.goods-amount-input').val(start+' шт.');
+            ++currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
         }
     });
 
@@ -426,10 +430,10 @@ $(function() {
         var inpVal = $(this).val();
 
         if(inpVal == 0) {
-             $(this).val('1 шт');
+             $(this).val('1 шт.');
 
         } else {
-            $(this).val(inpVal+' шт');
+            $(this).val(inpVal+' шт.');
         }
     });
 
