@@ -1611,7 +1611,8 @@ body:after {
   .main-drop-mnu__item .level-two__item--title > span {
     max-width: 100%; }
   .main-drop-mnu__item .level-two__item--title:hover > span {
-    color: #fff; }
+    color: #fff;
+    text-decoration: underline; }
   .has-child .level-two__item--title {
     position: relative;
     padding-right: 35px;
@@ -1748,7 +1749,7 @@ body:after {
     font-size: 15px; }
   .remedies-item, .five-item-list li {
     display: inline-block;
-    margin: 0 -2px;
+    margin: 0 -4px 0 0;
     width: 16.6666%;
     text-align: center;
     vertical-align: top;
@@ -1982,7 +1983,10 @@ body:after {
       border-color: #f36924; }
   .four-item-slider .slick-arrow, .three-item-slider .slick-arrow {
     position: absolute;
-    top: 45%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     height: 90px;
     width: 90px;
     -webkit-border-radius: 50%;
@@ -2355,7 +2359,6 @@ body:after {
 
 .main-connect-item__order-left,
 .main-connect-item__order-right {
-  color: #fff;
   height: 190px;
   display: inline-block;
   width: 49%;
@@ -2812,7 +2815,7 @@ body:after {
   border-left: 1px solid #e5e5e7;
   padding: 6px 0 8px 27px;
   position: relative;
-  margin-top: 0;
+  margin-top: 1px;
   float: left;
   width: 100%; }
   .pagination:after {
@@ -3552,7 +3555,6 @@ section.text-page {
     transition: .3s ease; }
 
 .five-item-list {
-  margin-left: 1px;
   margin-bottom: 20px;
   border-right: 0;
   border-bottom: 0;
@@ -4686,6 +4688,8 @@ section.text-page {
     height: 62px; }
   .lk-navigate__image {
     height: 100px; }
+  .lk-form .btn--accent, .lk-form .btn-md--gray-border {
+    width: 205px; }
   .contacts-list {
     margin-top: 10px;
     padding-bottom: 20px; }

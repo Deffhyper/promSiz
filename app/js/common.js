@@ -290,15 +290,35 @@ $(function() {
         range: true,
         min: 15,
         max: 25890,
-        values: [5350, 20180],
+        values: [0, 25890],
         slide: function (event, ui) {
             $("#amount-max").val(ui.values[1]);
             $("#amount-min").val(ui.values[0]);
         }
     });
-    $("#amount-max").val($("#slider-range").slider("values", 1));
+    //$('.range-from').text($("#slider-range").slider("option", "min"));
+    //$('.range-to').text($("#slider-range").slider("option", "max"));
 
+    $("#amount-max").val($("#slider-range").slider("values", 1));
     $("#amount-min").val($("#slider-range").slider("values", 0));
+
+    $("#amount-max, #amount-min").on('blur', function(){
+        var aMax = $('#amount-max').val();
+        var aMin = $('#amount-min').val();
+        var absolutMin = Number($("#slider-range").slider("option", "min"));
+
+        if(aMin > aMax){
+            $("#slider-range").slider("option", "values", [aMin, aMin]);
+            $("#amount-min").val(absolutMin);
+
+        } else {
+            $("#slider-range").slider("option", "values", [aMin, aMax]);
+
+        }
+    });
+
+    //
+
 
 ////////////////////////////////// filter mob script /////////////////////////////////
 
@@ -391,12 +411,44 @@ $(function() {
 
         if($target.hasClass('dec') && start >= 2) {
             start--;
-            $('.goods-amount-input').val(start+' шт.');
+            $(this).find('.goods-amount-input').val(start+' шт.');
         } else if ($target.hasClass('inc')) {
             start++;
-            $('.goods-amount-input').val(start+' шт.');
+            $(this).find('.goods-amount-input').val(start+' шт.');
         }
     });
+
+    $('.goods-amount-input').on('focus', function(){
+        $(this).val('');
+    });
+
+    $('.goods-amount-input').on('blur', function(){
+        var inpVal = $(this).val();
+
+        if(inpVal == 0) {
+             $(this).val('1 шт');
+
+        } else {
+            $(this).val(inpVal+' шт');
+        }
+    });
+
+    $(".goods-amount-input").on('keyup keydown', function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                // Allow: Ctrl+A, Command+A
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                // Allow: home, end, left, right, down, up
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+            // let it happen, don't do anything
+            return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+
 
     ///////////////////////////////////// goods size, color ////////////////////////////////////////
 

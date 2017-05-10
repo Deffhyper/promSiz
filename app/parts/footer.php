@@ -61,7 +61,7 @@
                     </div>
                     <div class="site-footer__develop-block">
                         <span class="footer-span">Разработано:</span>
-                        <i class="icon-sprite icon-dev-logo"></i>
+                        <a href="#"><i class="icon-sprite icon-dev-logo"></i></a>
                     </div>
                     <div class="site-footer__copyright-block">
                         <span class="footer-span"> &copy; 1998-2017, ПромСИЗ. Все права защищены</span>

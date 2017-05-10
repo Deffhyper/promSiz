@@ -194,8 +194,8 @@
         <div id="responsive-tab" class="product-tabs">
             <ul class="product-tabs__list list-inline">
                 <li class="product-tabs__list--title"><a href="#tab-1">Назначение</a></li>
-                <li class="product-tabs__list--title"><a href="#tab-2">Техническоеописание</a></li>
-                <li class="product-tabs__list--title"><a href="#tab-3">Областьприменения</a></li>
+                <li class="product-tabs__list--title"><a href="#tab-2">Техническое описание</a></li>
+                <li class="product-tabs__list--title"><a href="#tab-3">Область применения</a></li>
                 <li class="product-tabs__list--title"><a href="#tab-4">Стандарты</a></li>
                 <li class="product-tabs__list--title"><a href="#tab-5">Упаковка</a></li>
             </ul>
