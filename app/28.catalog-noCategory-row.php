@@ -7,22 +7,9 @@
 <section class="block-bottom-padding--md">
     <div class="container">
         <div class="sidebar">
-            <p class="sidebar__title bold-text">Категории товаров</p>
-            <ul class="sidebar__list">
-                <li><a href="#">Все товары на распродаже</a></li>
-                <li><a href="#">Спецобувь</a></li>
-                <li><a href="#">Рабочие перчатки</a></li>
-                <li><a href="#">Средства защиты глаз и лица</a></li>
-                <li><a href="#">Средства защиты головы</a></li>
-                <li><a href="#">Средства защиты органов слуха</a></li>
-                <li><a href="#">Средства защиты органов дыхания</a></li>
-                <li><a href="#">ДСИЗ</a></li>
-                <li><a href="#">Защита от электрического тока</a></li>
-                <li><a href="#">Защитные системы блокировки LOTO</a></li>
-                <li><a href="#">Средства защиты от падения с высоты</a></li>
-                <li><a href="#">Другое</a></li>
-                <li><a href="#">Распродажа</a></li>
-            </ul>
+
+            <?php include_once "parts/filter.php" ?>
+
         </div>
         <div class="right-block">
             <div class="goods-sort-panel">
@@ -38,17 +25,17 @@
                     </select>
                 </div>
                 <div class="goods-sort__kind">
-                    <a href="#" class="goods-sort__kind--col active">
+                    <a href="/promSIZ/27.catalog-noCategory-col.php" class="goods-sort__kind--col">
                         <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                     </a>
-                    <a href="/promSIZ/09-1.catalog-sale-col.php" class="goods-sort__kind--row">
+                    <a href="#" class="goods-sort__kind--row active">
                         <span></span><span></span><span></span>
                     </a>
                 </div>
             </div>
             <div class="clearfix"></div>
 
-            <?php include_once "parts/catalog-col.php" ?>
+            <?php include_once "parts/catalog-row.php" ?>
 
             <?php include_once "parts/pagination.php" ?>
 

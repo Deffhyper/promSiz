@@ -739,9 +739,11 @@
     }
 
     .main-connect-item__text {
-      max-height: 310px;
+      height: 305px;
       overflow: hidden;
       text-overflow: ellipsis;
+      transition: height .5s ease-in-out;
+
       p {
         font-family: $font-regular;
         font-size: 13px;

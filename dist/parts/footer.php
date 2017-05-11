@@ -40,7 +40,7 @@
             </div>
             <div class="col-sm-4 col-xs-12">
                 <div class="site-footer__right-block">
-                    <h4 class="site-footer__title">Наша комания</h4>
+                    <h4 class="site-footer__title">Наша компания</h4>
                     <div class="site-footer__inform-block">
                         <ul class="site-footer__tel-block">
                             <li>

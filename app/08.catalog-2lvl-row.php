@@ -8,6 +8,23 @@
     <div class="container">
         <div class="sidebar">
 
+            <p class="sidebar__title bold-text">Категории товаров</p>
+            <ul class="sidebar__list">
+                <li><a href="#">Все товары на распродаже</a></li>
+                <li><a href="#">Спецобувь</a></li>
+                <li><a href="#">Рабочие перчатки</a></li>
+                <li><a href="#">Средства защиты глаз и лица</a></li>
+                <li><a href="#">Средства защиты головы</a></li>
+                <li><a href="#">Средства защиты органов слуха</a></li>
+                <li><a href="#">Средства защиты органов дыхания</a></li>
+                <li><a href="#">ДСИЗ</a></li>
+                <li><a href="#">Защита от электрического тока</a></li>
+                <li><a href="#">Защитные системы блокировки LOTO</a></li>
+                <li><a href="#">Средства защиты от падения с высоты</a></li>
+                <li><a href="#">Другое</a></li>
+                <li><a href="#">Распродажа</a></li>
+            </ul>
+
             <?php include_once "parts/filter.php" ?>
 
         </div>
@@ -99,7 +116,7 @@
                     </select>
                 </div>
                 <div class="goods-sort__kind">
-                    <a href="#" class="goods-sort__kind--col">
+                    <a href="/promSIZ/07.catalog-2lvl-col.php" class="goods-sort__kind--col">
                         <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                     </a>
                     <a href="#" class="goods-sort__kind--row active">

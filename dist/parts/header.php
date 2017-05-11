@@ -517,6 +517,13 @@
                             <li><a href="#">Другое</a></li>
                         </ul>
                         <ul class="main-drop-mnu__item--tabletSubMenu">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Клиентам</a></li>
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <ul class="main-drop-mnu__item--tabletSubMenu">
                             <li><a href="#">О нас</a></li>
                             <li><a href="#">Как заказать</a></li>
                             <li><a href="#">Оплата и доставка</a></li>
@@ -527,10 +534,48 @@
                     </div>
                 </div>
                 <ul class="main-mnu list-inline">
-                    <li><a href="#">Окомпании</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Клиентам</a></li>
-                    <li><a href="#">Информация</a></li>
+                    <li>
+                        <a href="#">О компании</a>
+                        <ul>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Наши клиенты</a></li>
+                            <li><a href="#">Наши проекты</a></li>
+                            <li><a href="#">Отзывы и достижения</a></li>
+                            <li><a href="#">Наши партнеры</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Новости и события</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                        <ul>
+                            <li><a href="#">Услуга 1</a></li>
+                            <li><a href="#">Услуга 2</a></li>
+                            <li><a href="#">Услуга 3</a></li>
+                            <li><a href="#">Услуга 4</a></li>
+                            <li><a href="#">Услуга 5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Клиентам</a>
+                        <ul>
+                            <li><a href="#">Как оформить заказ</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">Обмен и возврат</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Информация</a>
+                        <ul>
+                            <li><a href="#">Таблицы размеров одежды</a></li>
+                            <li><a href="#">Таблицы размеров обуви</a></li>
+                            <li><a href="#">Правила ухода за спецодеждой</a></li>
+                            <li><a href="#">Правила ухода за обувью</a></li>
+                            <li><a href="#">Руководства по правильному выбору</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">Нормативные документы</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </div>

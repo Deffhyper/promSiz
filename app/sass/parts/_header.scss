@@ -294,6 +294,7 @@
     height: 100%;
     width: 20%;
     margin: 0 -2px;
+    position: relative;
     a {
       display: block;
       height: 100%;
@@ -301,6 +302,42 @@
       transition: .3s ease;
       &:hover {
         background-color: $accent-color-hover;
+      }
+    }
+    &:hover {
+      &>ul {
+        z-index: 100;
+        opacity: 1;
+      }
+    }
+    &>ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 220px;
+      background-color:#d15411;
+      z-index: -1;
+      opacity: 0;
+      text-align: left;
+
+      //transition: .5s ease;
+      &>li {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        height: auto;
+        border-right: 0;
+
+        &>a {
+          line-height: inherit;
+          font-family: $font-light;
+          padding: 10px 15px;
+          font-size: 14px;
+          &:hover {
+            background-color: #282832;
+          }
+        }
       }
     }
   }
@@ -789,6 +826,7 @@
     background: #000;
     opacity: .3;
     z-index: 200;
+    cursor: pointer;
   }
   .main-menu-open {
     .site-header {

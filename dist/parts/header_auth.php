@@ -44,7 +44,8 @@
                         </ul>
                     </div>
                     <div class="main-connect__callback hidden-xs">
-                        <a href="#" class="btn btn-md btn--gray" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок</a>
+                        <a href="#" class="btn btn-md btn--gray" data-toggle="modal" data-target="#modal-callback-2">Заказать
+                            звонок</a>
                     </div>
                 </div>
 
@@ -54,142 +55,158 @@
                             <span class="search-label">Поиск по сайту</span>
                             <span class="icon-font icon-search"></span>
                         </a>
+
                         <div class="site-search">
                             <form action="">
                                 <fieldset>
                                     <input type="text" class="site-search__input" autofocus>
-                                    <button type="reset" class="btn site-search__btn-reset"><i class="icon-sprite icon-close"></i></button>
-                                    <button type="submit" class="btn site-search__btn-submit"><i class="icon-font icon-search"></i></button>
+                                    <button type="reset" class="btn site-search__btn-reset"><i
+                                            class="icon-sprite icon-close"></i></button>
+                                    <button type="submit" class="btn site-search__btn-submit"><i
+                                            class="icon-font icon-search"></i></button>
                                 </fieldset>
                                 <button type="submit" class="btn btn--gray site-search__submit">найти</button>
                             </form>
                             <table class="site-search__result">
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
-                                        </td>
-                                        <td>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="goods-prop__name">
-                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <s class="goods-price__old">715 грн</s>
-                                                            <span class="goods-price__current">679 грн</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
-                                        </td>
-                                        <td>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="goods-prop__name">
-                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <s class="goods-price__old">715 грн</s>
-                                                            <span class="goods-price__current">679 грн</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"><img src="img/jpeg_files/search-3.jpg" alt="icon"></a>
-                                        </td>
-                                        <td>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="goods-prop__name">
-                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <s class="goods-price__old">715 грн</s>
-                                                            <span class="goods-price__current">679 грн</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
-                                        </td>
-                                        <td>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="goods-prop__name">
-                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <s class="goods-price__old">715 грн</s>
-                                                            <span class="goods-price__current">679 грн</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
-                                        </td>
-                                        <td>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="goods-prop__name">
-                                                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <s class="goods-price__old">715 грн</s>
-                                                            <span class="goods-price__current">679 грн</span>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2"><a href="#" class="bold-text">Все результаты поиска</a></td>
-                                    </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="goods-prop__name">
+                                                    <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <s class="goods-price__old">715 грн</s>
+                                                    <span class="goods-price__current">679 грн</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="goods-prop__name">
+                                                    <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <s class="goods-price__old">715 грн</s>
+                                                    <span class="goods-price__current">679 грн</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/jpeg_files/search-3.jpg" alt="icon"></a>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="goods-prop__name">
+                                                    <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <s class="goods-price__old">715 грн</s>
+                                                    <span class="goods-price__current">679 грн</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/jpeg_files/search-1.jpg" alt="icon"></a>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="goods-prop__name">
+                                                    <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <s class="goods-price__old">715 грн</s>
+                                                    <span class="goods-price__current">679 грн</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#"><img src="img/jpeg_files/search-2.jpg" alt="icon"></a>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="goods-prop__name">
+                                                    <a href="#">Перчатки антивибрационные Mechanix AV</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <s class="goods-price__old">715 грн</s>
+                                                    <span class="goods-price__current">679 грн</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><a href="#" class="bold-text">Все результаты поиска</a></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="main-nav-item main-nav-item__sign">
-                        <a href="#">
+                    <div class="main-nav-item main-nav-item__sign main-nav-item__signIn dropdown">
+                        <a data-toggle="dropdown">
+                            <span class="btn"></span>
                             <span class="icon-font icon-user"></span>
                         </a>
+                            <ul class="dropdown-menu">
+                                <li class="bold-text">Селезнев Дмитрий</li>
+                                <li class="divider"></li>
+                                <li><a href="#">Личные данные</a></li>
+                                <li><a href="#">Корзина</a></li>
+                                <li><a href="#">Текущие заказы</a></li>
+                                <li><a href="#">История заказов</a></li>
+                                <li><a href="#">Подписки</a></li>
+                                <li class="divider"></li>
+                                <li class="bold-text"><a href="#">Выйти</a></li>
+                            </ul>
+
                     </div>
                     <div class="main-nav-item main-nav-item__cart">
                         <a href="#">
-                            <span class="cart-goods-counter">3</span>
+                            <span class="cart-goods-counter">333</span>
                             <span class="icon-font icon-cart"></span>
                         </a>
                     </div>
@@ -208,6 +225,7 @@
                         <span class="for-tablet">Меню</span>
                         <span class="for-desktop">Каталог товаров</span>
                     </a>
+
                     <div class="main-drop-mnu__item">
                         <div class="main-drop-mnu__item--title">
                             <span>Каталог товаров</span>
@@ -517,13 +535,6 @@
                             <li><a href="#">Другое</a></li>
                         </ul>
                         <ul class="main-drop-mnu__item--tabletSubMenu">
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Клиентам</a></li>
-                            <li><a href="#">Информация</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                        <ul class="main-drop-mnu__item--tabletSubMenu">
                             <li><a href="#">О нас</a></li>
                             <li><a href="#">Как заказать</a></li>
                             <li><a href="#">Оплата и доставка</a></li>
@@ -534,52 +545,14 @@
                     </div>
                 </div>
                 <ul class="main-mnu list-inline">
-                    <li>
-                        <a href="#">О компании</a>
-                        <ul>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Наши клиенты</a></li>
-                            <li><a href="#">Наши проекты</a></li>
-                            <li><a href="#">Отзывы и достижения</a></li>
-                            <li><a href="#">Наши партнеры</a></li>
-                            <li><a href="#">Вакансии</a></li>
-                            <li><a href="#">Новости и события</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Услуги</a>
-                        <ul>
-                            <li><a href="#">Услуга 1</a></li>
-                            <li><a href="#">Услуга 2</a></li>
-                            <li><a href="#">Услуга 3</a></li>
-                            <li><a href="#">Услуга 4</a></li>
-                            <li><a href="#">Услуга 5</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Клиентам</a>
-                        <ul>
-                            <li><a href="#">Как оформить заказ</a></li>
-                            <li><a href="#">Оплата и доставка</a></li>
-                            <li><a href="#">Обмен и возврат</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Информация</a>
-                        <ul>
-                            <li><a href="#">Таблицы размеров одежды</a></li>
-                            <li><a href="#">Таблицы размеров обуви</a></li>
-                            <li><a href="#">Правила ухода за спецодеждой</a></li>
-                            <li><a href="#">Правила ухода за обувью</a></li>
-                            <li><a href="#">Руководства по правильному выбору</a></li>
-                            <li><a href="#">Статьи</a></li>
-                            <li><a href="#">Нормативные документы</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Окомпании</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Клиентам</a></li>
+                    <li><a href="#">Информация</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
-            
+
         </div>
     </div>
 </header>
