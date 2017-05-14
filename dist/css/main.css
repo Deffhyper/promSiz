@@ -1984,26 +1984,8 @@ body:after {
 .four-item-slider, .three-item-slider {
   position: relative;
   overflow: hidden; }
-  .four-item-slider:after, .three-item-slider:after {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 1px;
-    background-color: #d0d5d9;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100; }
-  .four-item-slider:before, .three-item-slider:before {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 1px;
-    background-color: #d0d5d9;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 100; }
+  .four-item-slider .slick-list, .three-item-slider .slick-list {
+    padding: 0 0 0 3px; }
   .four-item-slider.no-arrows .slick-arrow, .no-arrows.three-item-slider .slick-arrow {
     display: none !important; }
   .four-item-slider .goods, .three-item-slider .goods {

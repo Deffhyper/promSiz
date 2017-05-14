@@ -341,27 +341,30 @@
   //border: 1px solid #d0d5d9;
   position: relative;
   overflow: hidden;
-  &:after {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 1px;
-    background-color: #d0d5d9;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-  }
-  &:before {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 1px;
-    background-color: #d0d5d9;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 100;
+  //&:after {
+  //  content: "";
+  //  display: block;
+  //  height: 100%;
+  //  width: 1px;
+  //  background-color: #d0d5d9;
+  //  position: absolute;
+  //  top: 0;
+  //  left: 0;
+  //  z-index: 100;
+  //}
+  //&:before {
+  //  content: "";
+  //  display: block;
+  //  height: 100%;
+  //  width: 1px;
+  //  background-color: #d0d5d9;
+  //  position: absolute;
+  //  top: 0;
+  //  right: 0;
+  //  z-index: 100;
+  //}
+  .slick-list {
+    padding: 0 0 0 3px;
   }
 
   &.no-arrows {
