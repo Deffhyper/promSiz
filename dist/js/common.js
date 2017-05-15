@@ -222,6 +222,12 @@ $(function() {
             $('.site-header').removeClass('change');
             $('body').css('padding-top', 0);
         }
+
+        if ($(this).scrollTop() > 500) {
+            $('#scroller').fadeIn('slow');
+        } else {
+            $('#scroller').fadeOut('slow');
+        }
     });
 
     //////////////////////////////////////////// masked tel input ////////////////
@@ -240,14 +246,14 @@ $(function() {
         range: true,
         min: 15,
         max: 25890,
-        values: [0, 25890],
+        values: [15, 25890],
         slide: function (event, ui) {
             $("#amount-max").val(ui.values[1]);
             $("#amount-min").val(ui.values[0]);
         }
     });
-    //$('.range-from').text($("#slider-range").slider("option", "min"));
-    //$('.range-to').text($("#slider-range").slider("option", "max"));
+    $('.sidebar-range__static .max').text(parseInt($("#slider-range").slider("values", 0)));
+    $('.sidebar-range__static .min').text(parseInt($("#slider-range").slider("values", 1)));
 
     $("#amount-max").val($("#slider-range").slider("values", 1));
     $("#amount-min").val($("#slider-range").slider("values", 0));
@@ -258,11 +264,11 @@ $(function() {
         var absolutMin = Number($("#slider-range").slider("option", "min"));
 
         if(aMin > aMax){
-            $("#slider-range").slider("option", "values", [aMin, aMin]);
+            $("#slider-range").slider("values", [aMin, aMin]);
             $("#amount-min").val(absolutMin);
 
         } else {
-            $("#slider-range").slider("option", "values", [aMin, aMax]);
+            $("#slider-range").slider("values", [aMin, aMax]);
 
         }
     });
@@ -473,7 +479,7 @@ $(function() {
     $mainContent.find('p').each(function(){
         contentHeight += $(this).outerHeight(true);
     });
-    console.log("spoiler content height:"+contentHeight+"px");
+    //console.log("spoiler content height:"+contentHeight+"px");
 
     if(contentHeight > 305) {
         $(spoilerLink).insertAfter($mainContent);

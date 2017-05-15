@@ -19,8 +19,8 @@
             <div id="slider-range"></div>
 
             <div class="sidebar-range__static">
-                <span class="range-from">15</span>
-                <span class="range-to">25890</span>
+                <span class="min"></span>
+                <span class="max"></span>
             </div>
 
         </fieldset>

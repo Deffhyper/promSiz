@@ -394,7 +394,8 @@
     width: 90px;
     border-radius: 50%;
     background-color: #edc9b5;
-    z-index: 102;
+    //z-index: 102;
+    z-index: 2;
     &:after {
       height: 30px;
       width: 30px;

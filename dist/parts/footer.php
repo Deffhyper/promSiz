@@ -69,6 +69,7 @@
                 </div>
             </div>
         </div>
+        <a href="#" id="scroller"></a>
     </div>
 </footer>
 
