@@ -373,8 +373,8 @@
     }
   }
 
-  .slick-slider .slick-track {
-    //margin-right: -1px;
+  .slick-slide {
+    padding-bottom: 1px;
   }
 
   .goods {
@@ -951,6 +951,9 @@
   }
   .main-brands__title {
     width: 10%;
+  }
+  .four-item-slider .slick-list, .three-item-slider .slick-list {
+    padding: 0 0 0 2px;
   }
 }
 

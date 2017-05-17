@@ -1648,42 +1648,7 @@ section.text-page {
   }
 }
 
-#scroller {
-  width: 70px;
-  height: 70px;
-  position: fixed;
-  right: 20px;
-  bottom: 40px;
-  background-color: #ebeff2;
-  opacity: .75;
-  z-index: 10;
-  transition: .3s ease;
-  display: none;
 
-  &:after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-top: 1px solid $accent-color;
-    border-right: 1px solid $accent-color;
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    transform: rotateZ(-45deg);
-    transition: .3s ease;
-    opacity: .75;
-  }
-
-  &:hover {
-    opacity: 1;
-    &:after {
-      opacity: 1;
-    }
-  }
-
-
-}
 
 
 

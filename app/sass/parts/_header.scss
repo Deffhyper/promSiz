@@ -306,7 +306,7 @@
     }
     &:hover {
       &>ul {
-        z-index: 100;
+        z-index: 12;
         opacity: 1;
       }
     }
@@ -373,6 +373,7 @@
     background-color: #eef2f6;
     border: 0;
     border-radius: 0;
+    z-index: 13;
   }
 
   .dropdown-menu>li>a {
@@ -538,9 +539,16 @@
     top: -208px;
     left: 0;
     right: 0;
+    background-color: #dde1e4;
 
     &.change {
       top: 0;
+    }
+
+    .site-header-menu {
+      max-width: 1280px;
+      margin: auto;
+      position: relative;
     }
 
     .site-header-top,
