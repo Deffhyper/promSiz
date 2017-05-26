@@ -1875,7 +1875,7 @@ body:after {
     .remedies-item__image {
       height: 145px;
       position: relative; }
-      .remedies-item__image object {
+      .remedies-item__image object, .remedies-item__image img {
         position: absolute;
         top: 0;
         right: 0;
