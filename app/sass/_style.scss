@@ -1,6 +1,88 @@
-section.text-page {
+.text-page {
   padding-bottom: 70px;
+
+  img[align="left"] {
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+
+  img[align="right"] {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 24px;
+    padding-bottom: 1px;
+  }
+
+  h2, h3, h4 {
+    margin-bottom: 19px;
+    padding-bottom: 1px;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 25px;
+    margin-bottom: 20px;
+
+    &>li {
+      padding-left: 5px;
+      margin-bottom: 12px;
+      color: $accent-color;
+      font-family: $font-bold;
+      span, p, i {
+        color: $text-color;
+        font-family: $font-light;
+      }
+      i {
+        font-family: $font-light-italic;
+        font-size: 13px;
+      }
+      ul {
+        padding: 14px 0 1px;
+        li {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  ul {
+    @extend ol;
+    list-style-type: square;
+    &>li {
+      font-size: 15px;
+      span, p, i {
+        font-size: 14px;
+      }
+      i {
+        font-size: 13px;
+      }
+    }
+  }
+
+  blockquote {
+
+  }
+
+  table {
+
+  }
+
+  iframe {
+    max-width: 840px;
+    display: block;
+    margin: auto;
+  }
+
+  b {
+    font-family: $font-bold;
+  }
+
 }
+
+
 
 .resp-table {
 

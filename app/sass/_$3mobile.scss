@@ -8,6 +8,36 @@
   h3 {
     font-size: 17px;
   }
+
+  .text-page img[align="left"],
+  .text-page img[align="right"] {
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    float: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-page h2,
+  .text-page h3,
+  .text-page h4,
+  .text-page p {
+    margin-bottom: 9px;
+  }
+
+  .resp-table .responsive-table {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .resp-table {
+    margin-bottom: 9px;
+    padding-bottom: 1px;
+  }
+
+
   .float-left-block {
     width: 290px;
     float: none;

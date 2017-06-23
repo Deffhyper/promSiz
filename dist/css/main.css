@@ -163,7 +163,7 @@ h3 {
 h4 {
   font-size: 16px; }
 
-ul, ol {
+ul, ol, .text-page ul {
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -440,7 +440,9 @@ textarea:focus:-ms-input-placeholder {
 .responsive-table {
   width: 100%;
   border-left: 1px solid #dddde0;
-  border-right: 1px solid #dddde0; }
+  border-right: 1px solid #dddde0;
+  margin-bottom: 24px;
+  padding-bottom: 1px; }
   .responsive-table tbody tr:nth-child(odd) {
     background-color: #f2f4f7; }
   .responsive-table tbody tr:first-child {
@@ -3271,8 +3273,53 @@ body:after {
 .product-container-top {
   margin-bottom: 50px; }
 
-section.text-page {
+.text-page {
   padding-bottom: 70px; }
+  .text-page img[align="left"] {
+    margin-right: 30px;
+    margin-bottom: 10px; }
+  .text-page img[align="right"] {
+    margin-left: 30px;
+    margin-bottom: 10px; }
+  .text-page p {
+    margin-bottom: 24px;
+    padding-bottom: 1px; }
+  .text-page h2, .text-page h3, .text-page h4 {
+    margin-bottom: 19px;
+    padding-bottom: 1px; }
+  .text-page ol, .text-page ul {
+    list-style: decimal;
+    padding-left: 25px;
+    margin-bottom: 20px; }
+    .text-page ol > li, .text-page ul > li {
+      padding-left: 5px;
+      margin-bottom: 12px;
+      color: #f36924;
+      font-family: "GothamProBold", sans-serif; }
+      .text-page ol > li span, .text-page ul > li span, .text-page ol > li p, .text-page ul > li p, .text-page ol > li i, .text-page ul > li i {
+        color: #282832;
+        font-family: "GothamProLight", sans-serif; }
+      .text-page ol > li i, .text-page ul > li i {
+        font-family: "GothamProLightItalic", sans-serif;
+        font-size: 13px; }
+      .text-page ol > li ul, .text-page ul > li ul {
+        padding: 14px 0 1px; }
+        .text-page ol > li ul li, .text-page ul > li ul li {
+          margin-bottom: 5px; }
+  .text-page ul {
+    list-style-type: square; }
+    .text-page ul > li {
+      font-size: 15px; }
+      .text-page ul > li span, .text-page ul > li p, .text-page ul > li i {
+        font-size: 14px; }
+      .text-page ul > li i {
+        font-size: 13px; }
+  .text-page iframe {
+    max-width: 840px;
+    display: block;
+    margin: auto; }
+  .text-page b {
+    font-family: "GothamProBold", sans-serif; }
 
 .resp-table {
   border-top: 1px solid #dddde0; }
@@ -4785,6 +4832,26 @@ section.text-page {
     font-size: 20px; }
   h3 {
     font-size: 17px; }
+  .text-page img[align="left"],
+  .text-page img[align="right"] {
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    float: none;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  .text-page h2,
+  .text-page h3,
+  .text-page h4,
+  .text-page p {
+    margin-bottom: 9px; }
+  .resp-table .responsive-table {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  .resp-table {
+    margin-bottom: 9px;
+    padding-bottom: 1px; }
   .float-left-block {
     width: 290px;
     float: none;

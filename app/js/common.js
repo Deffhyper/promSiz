@@ -236,7 +236,7 @@ $(function() {
 
     ///////////////////////////////////////////// responsive table ///////////////////
 
-    $('.responsive-table').cardtable({
+    $('.text-page').find('table').addClass('responsive-table').cardtable({
         myClass:'resp-table',
         headIndex: 2
     });
