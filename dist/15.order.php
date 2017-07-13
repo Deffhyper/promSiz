@@ -118,17 +118,17 @@
 
                 <h2 class="block-title-md">Информация о покупателе</h2>
 
-                <ul class="horizontal-radio list-inline margin-bottom-md">
+                <ul id="input-group-tabs-control" class="horizontal-radio list-inline margin-bottom-md">
                     <li>
-                        <input type="radio" id="u-1" class="custom-radio" name="user-status" checked>
-                        <label for="u-1" class="custom-radio__label">Физическое лицо</label>
+                        <input type="radio" id="control-one" class="custom-radio" name="user-status" checked>
+                        <label for="control-one" class="custom-radio__label">Физическое лицо</label>
                     </li>
                     <li>
-                        <input type="radio" id="u-2" class="custom-radio" name="user-status">
-                        <label for="u-2" class="custom-radio__label">Юридическое лицо</label>
+                        <input type="radio" id="control-two" class="custom-radio" name="user-status">
+                        <label for="control-two" class="custom-radio__label">Юридическое лицо</label>
                     </li>
                 </ul>
-                <ul class="input-group">
+                <ul id="input-group-1"  class="input-group input-group__tab active">
                     <li class="input-group__item">
                         <label for="u-3" class="input-group__item--label">Ваше имя<mark class="mark-red">*</mark>:</label>
                         <input type="text" id="u-3" class="input-border">
@@ -148,6 +148,41 @@
                     <li class="input-group__item">
                         <label for="u-7" class="input-group__item--label">Телефон<mark class="mark-red">*</mark>:</label>
                         <input type="text" id="u-7" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="ud-7" class="input-group__item--label">Факс:</label>
+                        <input type="text" id="ud-7" class="input-border">
+                    </li>
+                </ul>
+
+                <ul id="input-group-2"  class="input-group input-group__tab">
+                    <li class="input-group__item">
+                        <label for="uu-1" class="input-group__item--label">Название компании<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-1" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-2" class="input-group__item--label">ИНН<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-2" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-3" class="input-group__item--label">КПП<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-3" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-4" class="input-group__item--label">Имя<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-4" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-5" class="input-group__item--label">Фамилия<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-5" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-6" class="input-group__item--label">Отчество:</label>
+                        <input type="text" id="uu-6" class="input-border">
+                    </li>
+                    <li class="input-group__item">
+                        <label for="uu-7" class="input-group__item--label">E-mail<mark class="mark-red">*</mark>:</label>
+                        <input type="text" id="uu-7" class="input-border">
                     </li>
                 </ul>
 

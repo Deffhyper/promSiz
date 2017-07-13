@@ -500,6 +500,29 @@ $(function() {
     });
 
 
+    ////////////////////////////////////////////// information tab /////////////////////
+
+    $('#input-group-tabs-control').find('input').change(function(e){
+        switch (e.target.id) {
+            case 'control-one':
+                if(!$("#input-group-1").hasClass('active')){
+                    $("#input-group-1").addClass('active');
+                    $("#input-group-2").removeClass('active');
+                }
+                break;
+            case 'control-two':
+                if(!$("#input-group-2").hasClass('active')){
+                    $("#input-group-2").addClass('active');
+                    $("#input-group-1").removeClass('active');
+                }
+                break;
+            default:
+                $("#input-group-1").addClass('active');
+                $("#input-group-2").removeClass('active');
+        }
+    });
+
+
 
 
 

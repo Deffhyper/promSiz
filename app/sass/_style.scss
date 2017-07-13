@@ -1157,6 +1157,13 @@
   }
 }
 
+.input-group__tab {
+  display: none;
+  &.active {
+    display: block;
+  }
+}
+
 .vertical-radio {
   &__item {
     margin-bottom: 15px;

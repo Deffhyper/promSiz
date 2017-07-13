@@ -4143,6 +4143,11 @@ body:after {
   .input-group__item .input-border {
     width: 65%; }
 
+.input-group__tab {
+  display: none; }
+  .input-group__tab.active {
+    display: block; }
+
 .vertical-radio__item {
   margin-bottom: 15px; }
 
