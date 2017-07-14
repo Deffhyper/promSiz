@@ -5161,6 +5161,8 @@ body:after {
       -webkit-transform: none;
           -ms-transform: none;
               transform: none; }
+  .order-cart-table .total {
+    padding: 25px 5px 20px; }
   .order-cart-table__item--prop {
     padding-top: 5px;
     padding-left: 5px;
