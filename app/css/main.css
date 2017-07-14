@@ -1384,7 +1384,8 @@ body:after {
       padding: 4px 6px;
       line-height: 1;
       font-family: "GothamProBold", sans-serif;
-      font-size: 13px; }
+      font-size: 13px;
+      z-index: 1; }
       .main-nav-item__cart .cart-goods-counter:after {
         content: "";
         width: 0;
@@ -2057,7 +2058,7 @@ body:after {
     border-top: 1px solid #d0d5d9;
     border-bottom: 1px solid #d0d5d9; }
     .four-item-slider .goods:hover, .three-item-slider .goods:hover {
-      border-color: #f36924; }
+      border-color: #f36924 !important; }
   .four-item-slider .slick-arrow, .three-item-slider .slick-arrow {
     position: absolute;
     top: 50%;
@@ -2084,6 +2085,16 @@ body:after {
       left: -47px; }
       .four-item-slider .slick-arrow.slick-prev:after, .three-item-slider .slick-arrow.slick-prev:after {
         right: 5px; }
+  .four-item-slider.one-slide .goods, .one-slide.three-item-slider .goods {
+    border-left: 1px solid #d0d5d9; }
+  .four-item-slider.two-slides .slick-track .slick-slide:first-child .goods, .two-slides.three-item-slider .slick-track .slick-slide:first-child .goods {
+    border-left: 1px solid #d0d5d9; }
+  .four-item-slider.three-slides .slick-track .slick-slide:first-child .goods, .three-slides.three-item-slider .slick-track .slick-slide:first-child .goods {
+    border-left: 1px solid #d0d5d9; }
+  .four-item-slider.four-slides .slick-track .slick-slide:first-child .goods, .four-slides.three-item-slider .slick-track .slick-slide:first-child .goods {
+    border-left: 1px solid #d0d5d9; }
+  .four-item-slider.four-slides .slick-list, .four-slides.three-item-slider .slick-list {
+    padding: 0 0 0 2px; }
 
 .our-services__all {
   display: inline-block;
@@ -2569,7 +2580,19 @@ body:after {
   .main-brands__title {
     width: 10%; }
   .four-item-slider .slick-list, .three-item-slider .slick-list, .three-item-slider .slick-list {
-    padding: 0 0 0 2px; } }
+    padding: 0 0 0 1px; }
+  .four-item-slider .slick-track, .three-item-slider .slick-track {
+    left: 1px; }
+  .four-item-slider.three-slides, .three-slides.three-item-slider {
+    overflow: visible; }
+    .four-item-slider.three-slides .slick-list, .three-slides.three-item-slider .slick-list {
+      overflow: visible; }
+    .four-item-slider.three-slides .slick-track .slick-slide:last-child .goods, .three-slides.three-item-slider .slick-track .slick-slide:last-child .goods {
+      border-right: 1px solid #d0d5d9; }
+  .four-item-slider.four-slides .slick-track, .four-slides.three-item-slider .slick-track {
+    left: 0; }
+  .four-item-slider.three-slides .slick-track, .three-slides.three-item-slider .slick-track {
+    left: 0; } }
 
 @media (max-width: 991px) {
   .main-logo {
@@ -2651,7 +2674,11 @@ body:after {
   .block-with-back__title {
     margin-bottom: 20px; }
   .block-no-back {
-    padding: 40px 0; } }
+    padding: 40px 0; }
+  .four-item-slider.four-slides .slick-track, .four-slides.three-item-slider .slick-track, .four-slides.three-item-slider .slick-track {
+    left: 1px; }
+  .four-item-slider .slick-list, .three-item-slider .slick-list, .three-item-slider .slick-list, .three-item-slider .slick-list {
+    padding: 0 0 0 2px; } }
 
 @media (max-width: 767px) {
   .four-item-slider, .three-item-slider {
@@ -2660,6 +2687,20 @@ body:after {
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
+  .four-item-slider.one-slide, .one-slide.three-item-slider {
+    width: 270px; }
+  .four-item-slider.one-slide .slick-track, .one-slide.three-item-slider .slick-track {
+    left: 0; }
+  .four-item-slider.two-slides, .two-slides.three-item-slider {
+    width: 500px;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    margin-left: -185px; }
+  .four-item-slider.three-slides, .three-slides.three-item-slider {
+    margin-left: 72px; }
+  .four-item-slider.two-slides .slick-list, .two-slides.three-item-slider .slick-list {
+    overflow: visible; }
   .main-drop-mnu .for-tablet {
     display: none; }
   .main-connect .dropdown > a:after {

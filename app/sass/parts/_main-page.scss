@@ -383,7 +383,7 @@
     border-bottom: 1px solid #d0d5d9;
 
     &:hover {
-      border-color: $accent-color;
+      border-color: $accent-color !important;
     }
   }
   .slick-arrow {
@@ -415,6 +415,39 @@
       &:after {
         right: 5px;
       }
+    }
+  }
+
+  &.one-slide {
+    .goods {
+      border-left: 1px solid #d0d5d9;
+    }
+  }
+
+  &.two-slides {
+    .slick-track .slick-slide:first-child {
+      .goods {
+        border-left: 1px solid #d0d5d9;
+      }
+    }
+  }
+
+  &.three-slides {
+    .slick-track .slick-slide:first-child {
+      .goods {
+        border-left: 1px solid #d0d5d9;
+      }
+    }
+  }
+
+  &.four-slides {
+    .slick-track .slick-slide:first-child {
+      .goods {
+        border-left: 1px solid #d0d5d9;
+      }
+    }
+    .slick-list {
+      padding: 0 0 0 2px;
     }
   }
 }
@@ -953,7 +986,34 @@
     width: 10%;
   }
   .four-item-slider .slick-list, .three-item-slider .slick-list {
-    padding: 0 0 0 2px;
+    padding: 0 0 0 1px;
+  }
+
+  .four-item-slider .slick-track {
+    left: 1px;
+  }
+
+  .four-item-slider.three-slides {
+    overflow: visible;
+    .slick-list {
+      overflow: visible;
+    }
+    .slick-track .slick-slide:last-child {
+      .goods {
+        border-right: 1px solid #d0d5d9;
+      }
+    }
+  }
+
+  .four-item-slider.four-slides {
+    .slick-track {
+      left: 0;
+    }
+  }
+  .four-item-slider.three-slides {
+    .slick-track {
+      left: 0;
+    }
   }
 }
 
@@ -1065,6 +1125,13 @@
     padding: 40px 0;
   }
 
+  .four-item-slider.four-slides .slick-track, .four-slides.three-item-slider .slick-track {
+    left: 1px;
+  }
+  .four-item-slider .slick-list, .three-item-slider .slick-list, .three-item-slider .slick-list {
+    padding: 0 0 0 2px;
+  }
+
 }
 
 @media ($mobile){
@@ -1073,6 +1140,30 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .four-item-slider.one-slide {
+    width: 270px;
+  }
+  .four-item-slider.one-slide .slick-track{
+    left: 0;
+  }
+
+  .four-item-slider.two-slides {
+    width: 500px;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    margin-left: -185px;
+  }
+
+  .four-item-slider.three-slides {
+    margin-left: 72px;
+  }
+
+  .four-item-slider.two-slides .slick-list {
+    overflow: visible;
+  }
+
   .main-drop-mnu .for-tablet {
     display: none;
   }

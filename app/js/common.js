@@ -45,32 +45,170 @@ $(function() {
 
     ////////////////////////////////////// four item slider /////////////////////////////////////
 
-    $('.four-item-slider').slick({
-        infinite: true,
-        speed: 300,
-        slidesToShow: 4.006,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1280,
-                settings: {
-                    slidesToShow: 3.006,
-                    slidesToScroll: 1,
-                    infinite: true
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    arrows: false
-                }
-            }
+    function fourItemSliderInit(){
+        var fourItemSlider = $('.four-item-slider'),
+            fourItemSliderCount = fourItemSlider.children().length;
 
-        ]
-    });
+        switch (fourItemSliderCount) {
+            case 1 :
+                fourItemSlider.addClass('one-slide');
+                fourItemSlider.slick({
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4.006,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1280,
+                            settings: {
+                                slidesToShow: 3.006,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                infinite: false,
+                                arrows: false
+                            }
+                        }
+
+                    ]
+                });
+                break;
+
+            case 2:
+                fourItemSlider.addClass('two-slides');
+                fourItemSlider.slick({
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4.006,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1280,
+                            settings: {
+                                slidesToShow: 3.006,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 1.5,
+                                slidesToScroll: 1,
+                                infinite: false,
+                                arrows: false,
+                                centerMode: true
+                            }
+                        }
+
+                    ]
+                });
+
+                break;
+
+            case 3:
+                fourItemSlider.addClass('three-slides');
+                fourItemSlider.slick({
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 4.006,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1280,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 2.5,
+                                slidesToScroll: 1,
+                                arrows: false,
+                                centerMode: true,
+                                infinite: true
+                            }
+                        }
+
+                    ]
+                });
+
+                break;
+
+            case 4:
+                fourItemSlider.addClass('four-slides');
+                fourItemSlider.slick({
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 4.006,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1280,
+                            settings: {
+                                slidesToShow: 3.005,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                arrows: false,
+                                infinite: true
+                            }
+                        }
+
+                    ]
+                });
+
+                break;
+
+            default :
+                fourItemSlider.slick({
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4.006,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1280,
+                            settings: {
+                                slidesToShow: 3.006,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                infinite: true,
+                                arrows: false
+                            }
+                        }
+
+                    ]
+                });
+        }
+
+
+    }
+
+    fourItemSliderInit();
+
+
      ////////////////////////////////////// three item slider /////////////////////////////////////
 
     $('.three-item-slider').slick({

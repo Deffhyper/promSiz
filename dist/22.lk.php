@@ -50,7 +50,7 @@
         <li>
             <a href="#">
                 <span class="lk-navigate__image">
-                    <img src="img/svg-image/lk-5.png" alt="icon">
+                    <object type="image/svg+xml" data="img/svg-image/lk-5.svg"></object>
                 </span>
                 <span class="lk-navigate__title">Подписки</span>
             </a>

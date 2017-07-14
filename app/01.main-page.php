@@ -153,27 +153,27 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="goods">
-                    <div class="goods-image">
-                        <a href="#">
-                            <img src="img/jpeg_files/goods-1.jpg" alt="goods">
-                        </a>
-                    </div>
-                    <div class="goods-prop">
-                        <div class="goods-prop__name">
-                            <a href="#">Перчатки антивибрационные Mechanix AV</a>
-                        </div>
-                        <div class="goods-price">
-                            <s class="goods-price__old">715 грн</s>
-                            <span class="goods-price__current">679 грн</span>
-                        </div>
-                        <div class="goods-show-more">
-                            <a href="#" class="btn">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!--            <div>-->
+<!--                <div class="goods">-->
+<!--                    <div class="goods-image">-->
+<!--                        <a href="#">-->
+<!--                            <img src="img/jpeg_files/goods-1.jpg" alt="goods">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="goods-prop">-->
+<!--                        <div class="goods-prop__name">-->
+<!--                            <a href="#">Перчатки антивибрационные Mechanix AV</a>-->
+<!--                        </div>-->
+<!--                        <div class="goods-price">-->
+<!--                            <s class="goods-price__old">715 грн</s>-->
+<!--                            <span class="goods-price__current">679 грн</span>-->
+<!--                        </div>-->
+<!--                        <div class="goods-show-more">-->
+<!--                            <a href="#" class="btn">Подробнее</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <div class="block-with-back__link text-center">
             <a href="#" class="btn btn-md btn--gray"><span>Смотреть все</span></a>
