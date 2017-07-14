@@ -242,36 +242,36 @@ $(function() {
     });
 
 ////////////////////////////////////range slider///////////////////////////////////////////
-    $("#slider-range").slider({
-        range: true,
-        min: 15,
-        max: 25890,
-        values: [15, 25890],
-        slide: function (event, ui) {
-            $("#amount-max").val(ui.values[1]);
-            $("#amount-min").val(ui.values[0]);
-        }
-    });
-    $('.sidebar-range__static .max').text(parseInt($("#slider-range").slider("values", 0)));
-    $('.sidebar-range__static .min').text(parseInt($("#slider-range").slider("values", 1)));
-
-    $("#amount-max").val($("#slider-range").slider("values", 1));
-    $("#amount-min").val($("#slider-range").slider("values", 0));
-
-    $("#amount-max, #amount-min").on('blur', function(){
-        var aMax = $('#amount-max').val();
-        var aMin = $('#amount-min').val();
-        var absolutMin = Number($("#slider-range").slider("option", "min"));
-
-        if(aMin > aMax){
-            $("#slider-range").slider("values", [aMin, aMin]);
-            $("#amount-min").val(absolutMin);
-
-        } else {
-            $("#slider-range").slider("values", [aMin, aMax]);
-
-        }
-    });
+//    $("#slider-range").slider({
+//        range: true,
+//        min: 15,
+//        max: 25890,
+//        values: [15, 25890],
+//        slide: function (event, ui) {
+//            $("#amount-max").val(ui.values[1]);
+//            $("#amount-min").val(ui.values[0]);
+//        }
+//    });
+//    $('.sidebar-range__static .max').text(parseInt($("#slider-range").slider("values", 0)));
+//    $('.sidebar-range__static .min').text(parseInt($("#slider-range").slider("values", 1)));
+//
+//    $("#amount-max").val($("#slider-range").slider("values", 1));
+//    $("#amount-min").val($("#slider-range").slider("values", 0));
+//
+//    $("#amount-max, #amount-min").on('blur', function(){
+//        var aMax = $('#amount-max').val();
+//        var aMin = $('#amount-min').val();
+//        var absolutMin = Number($("#slider-range").slider("option", "min"));
+//
+//        if(aMin > aMax){
+//            $("#slider-range").slider("values", [aMin, aMin]);
+//            $("#amount-min").val(absolutMin);
+//
+//        } else {
+//            $("#slider-range").slider("values", [aMin, aMax]);
+//
+//        }
+//    });
 
     //
 
@@ -412,12 +412,12 @@ $(function() {
 
     ///////////////////////////////////// goods size, color ////////////////////////////////////////
 
-    $('.goods-size__list, .goods-color__list').on('click', 'li', function(e){
-        e.preventDefault();
-        if(!$(this).hasClass('active')) {
-            $(this).addClass('active').siblings().removeClass('active');
-        }
-    });
+    //$('.goods-size__list, .goods-color__list').on('click', 'li', function(e){
+    //    e.preventDefault();
+    //    if(!$(this).hasClass('active')) {
+    //        $(this).addClass('active').siblings().removeClass('active');
+    //    }
+    //});
 
     ///////////////////////////////////////////// product slider /////////////////////////////////
 
@@ -479,7 +479,7 @@ $(function() {
     $mainContent.find('p').each(function(){
         contentHeight += $(this).outerHeight(true);
     });
-    //console.log("spoiler content height:"+contentHeight+"px");
+
 
     if(contentHeight > 305) {
         $(spoilerLink).insertAfter($mainContent);
@@ -504,13 +504,13 @@ $(function() {
 
     $('#input-group-tabs-control').find('input').change(function(e){
         switch (e.target.id) {
-            case 'control-one':
+            case 'person-1':
                 if(!$("#input-group-1").hasClass('active')){
                     $("#input-group-1").addClass('active');
                     $("#input-group-2").removeClass('active');
                 }
                 break;
-            case 'control-two':
+            case 'person-2':
                 if(!$("#input-group-2").hasClass('active')){
                     $("#input-group-2").addClass('active');
                     $("#input-group-1").removeClass('active');

@@ -120,12 +120,12 @@
 
                 <ul id="input-group-tabs-control" class="horizontal-radio list-inline margin-bottom-md">
                     <li>
-                        <input type="radio" id="control-one" class="custom-radio" name="user-status" checked>
-                        <label for="control-one" class="custom-radio__label">Физическое лицо</label>
+                        <input type="radio" id="person-1" class="custom-radio" name="user-status" checked>
+                        <label for="person-1" class="custom-radio__label">Физическое лицо</label>
                     </li>
                     <li>
-                        <input type="radio" id="control-two" class="custom-radio" name="user-status">
-                        <label for="control-two" class="custom-radio__label">Юридическое лицо</label>
+                        <input type="radio" id="person-2" class="custom-radio" name="user-status">
+                        <label for="person-2" class="custom-radio__label">Юридическое лицо</label>
                     </li>
                 </ul>
                 <ul id="input-group-1"  class="input-group input-group__tab active">
@@ -243,7 +243,7 @@
 
                 <textarea name="user-meassage" id="" class="order-message input-message margin-bottom-lg"></textarea>
 
-                <button type="submit" class="btn btn-lg btn--accent">Оформить заказ</button>
+                <input type="submit" class="btn btn-lg btn--accent" value="Оформить заказ">
 
 
 
