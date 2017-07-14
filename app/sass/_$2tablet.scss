@@ -127,6 +127,12 @@
     max-width: 300px;
     margin: auto;
   }
+  .tabs-content-wrapper {
+    display: block;
+    .left {
+      border-right: 0;
+    }
+  }
 
   .client-detail .client-detail__image {
     width: 185px;

@@ -362,6 +362,8 @@
   float: left;
   width: 100%;
   margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
   .left {
     border-right: 1px solid #d0d5d9;
   }
