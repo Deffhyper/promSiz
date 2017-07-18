@@ -1409,7 +1409,8 @@ body:after {
 
 .site-header {
   -webkit-transition: .3s ease;
-  transition: .3s ease; }
+  transition: .3s ease;
+  position: relative; }
   .site-header.header-fixed {
     position: fixed;
     z-index: 300;
@@ -1731,6 +1732,13 @@ body:after {
     width: 800px; } }
 
 @media (max-width: 767px) {
+  .main-menu-open .site-header-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    bottom: 0; }
   .main-connect .icon-smartphone {
     display: block; }
   .main-drop-mnu__item {

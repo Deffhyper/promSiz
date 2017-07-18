@@ -535,6 +535,7 @@
 
 .site-header {
   transition: .3s ease;
+  position: relative;
 
   &.header-fixed {
     position: fixed;
@@ -981,6 +982,15 @@
 }
 
 @media ($mobile) {
+
+  .main-menu-open .site-header-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    bottom: 0;
+  }
   .main-connect .icon-smartphone {
     display: block;
   }
