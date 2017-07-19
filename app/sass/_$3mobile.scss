@@ -68,6 +68,12 @@
 
   .three-list__item {
     width: 100%;
+    &:nth-child(-n+2){
+      border-top: 0;
+    }
+    &:first-child {
+      border-top: 1px solid #e5e5e7;
+    }
   }
   .reviews-list__item--title {
     max-height: 55px;
