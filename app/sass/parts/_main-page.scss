@@ -99,7 +99,7 @@
   margin-bottom: 60px;
   &-list {
     border-left: 1px solid #e5e5e7;
-    border-top: 1px solid #e5e5e7;
+    //border-top: 1px solid #e5e5e7;
     font-family: $font-normal;
     font-size: 15px;
   }
@@ -112,6 +112,9 @@
     height: 210px;
     border-bottom: 1px solid #e5e5e7;
     border-right: 1px solid #e5e5e7;
+    &:nth-child(-n+6){
+      border-top: 1px solid #e5e5e7;
+    }
     span {
       display: block;
       line-height: 1.4;
@@ -160,6 +163,12 @@
   .remedies-item {
     width: 25%;
   }
+  .remedies-item:nth-child(-n+6){
+    border-top: 0;
+  }
+  .remedies-item:nth-child(-n+4){
+    border-top: 1px solid #e5e5e7;
+  }
 }
 @media ($tablet) {
   .remedies-item {
@@ -183,6 +192,12 @@
   }
   .remedies-item span {
     line-height: 1;
+  }
+  .remedies-item:nth-child(-n+4){
+    border-top: 0;
+  }
+  .remedies-item:nth-child(-n+4){
+    border-top: 1px solid #e5e5e7;
   }
 }
 

@@ -553,7 +553,7 @@
   margin-bottom: 20px;
   border-right: 0;
   border-bottom: 0;
-  border-top: 1px solid #e5e5e7;
+  //border-top: 1px solid #e5e5e7;
   border-left: 1px solid #e5e5e7;
   li {
     @extend .remedies-item;
@@ -565,6 +565,12 @@
     border-top: 0;
     border-left: 0;
     height: 190px;
+    &:nth-child(-n+6) {
+      border-top: 0;
+    }
+    &:nth-child(-n+5) {
+      border-top: 1px solid #e5e5e7;
+    }
     a {
       &:hover {
         span {

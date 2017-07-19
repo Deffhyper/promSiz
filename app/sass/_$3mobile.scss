@@ -141,6 +141,7 @@
         content: none;
       }
     }
+
     .five-item-list--photo {
       height: 60px;
       width: 60px;
@@ -163,6 +164,11 @@
       justify-content: flex-start;
     }
   }
+
+  .five-item-list li:nth-child(-n+3) {
+    border-top: 0;
+  }
+
   .right-block__title {
     margin-bottom: 15px;
     padding: 0;

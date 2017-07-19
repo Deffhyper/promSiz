@@ -44,6 +44,12 @@
       display: none;
     }
   }
+  .five-item-list li:nth-child(-n+5) {
+    border-top: 0;
+  }
+  .five-item-list li:nth-child(-n+3) {
+    border-top: 1px solid #e5e5e7;
+  }
   .catalog-col__item {
     width: 50.1%;
   }
