@@ -661,6 +661,33 @@ $(function() {
     });
 
 
+///////////////////////////////////////////////////// delivery tabs ///////////////////////////
+
+    $('.delivery-radio-buttons').find('input').change(function(e){
+        switch (e.target.id) {
+            case 'delivery-1':
+                $('.delivery-inputs-list__item').eq(0).addClass('active').siblings().removeClass('active');
+                $('.payment-method').find('.disabled').removeClass('disabled');
+
+                break;
+            case 'delivery-2':
+                $('.delivery-inputs-list__item').eq(1).addClass('active').siblings().removeClass('active');
+                $('.payment-method').find('.disabled').removeClass('disabled');
+                break;
+            case 'delivery-3':
+                $('.delivery-inputs-list__item').eq(2).addClass('active').siblings().removeClass('active');
+                $('.payment-method').find('li').eq(2).addClass('disabled');
+                break;
+            case 'delivery-4':
+                $('.delivery-inputs-list__item').eq(3).addClass('active').siblings().removeClass('active');
+                $('.payment-method').find('li').eq(2).addClass('disabled');
+                break;
+
+        }
+
+    });
+
+
 
 
 

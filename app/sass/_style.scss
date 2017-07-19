@@ -1131,6 +1131,10 @@
   .btn {
     width: 270px;
   }
+
+  .gray-form {
+    margin-bottom: 25px;
+  }
 }
 
 .horizontal-radio {
@@ -1212,6 +1216,21 @@
 .user-text {
   padding-left: 30px;
   margin-bottom: 50px;
+}
+
+.delivery-inputs-list {
+  &__item {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}
+
+.payment-method {
+  .disabled {
+    display: none;
+  }
 }
 
 .three-item-slider {
@@ -1364,6 +1383,10 @@
       font-size: 15px;
     }
   }
+}
+
+.gray-form {
+  @extend .authorization-form;
 }
 
 .main-nav-item__signIn {
