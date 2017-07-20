@@ -237,10 +237,28 @@
                         <h3 class="block-title-md">Адрес доставки</h3>
                         <ul class="input-group">
                             <li class="input-group__item">
-                                <label for="u-10" class="input-group__item--label">Город
+                                <label for="smart-search-1" class="input-group__item--label">Город
                                     <mark class="mark-red">*</mark>
                                     :</label>
-                                <input type="text" id="u-10" class="input-border" value="Киев">
+                                <div class="smart-search-block">
+                                    <input type="text" id="smart-search-1" class="smart-search-input input-border">
+                                    <div id="smart-search-res-1" class="search-input-result">
+                                        <ul>
+                                            <li><a href="#">Киев</a></li>
+                                            <li><a href="#">Харьков</a></li>
+                                            <li><a href="#">Запорожье</a></li>
+                                            <li><a href="#">Донецк</a></li>
+                                            <li><a href="#">Луганск</a></li>
+                                            <li><a href="#">Винница</a></li>
+                                            <li><a href="#">Днепропетровск</a></li>
+                                            <li><a href="#">Чернигов</a></li>
+                                            <li><a href="#">Львов</a></li>
+                                            <li><a href="#">Одесса</a></li>
+                                            <li id="noResult-1"><a href="#">Нет результатов</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </li>
                             <li class="input-group__item">
                                 <label for="u-11" class="input-group__item--label">Улица
@@ -267,16 +285,50 @@
                         <h3 class="block-title-md">Адрес доставки</h3>
                         <ul class="input-group">
                             <li class="input-group__item">
-                                <label for="ua-10" class="input-group__item--label">Город
+                                <label for="smart-search-2" class="input-group__item--label">Город
                                     <mark class="mark-red">*</mark>
                                     :</label>
-                                <input type="text" id="ua-10" class="input-border" value="Киев">
+                                <div class="smart-search-block">
+                                    <input type="text" id="smart-search-2" class="smart-search-input input-border">
+                                    <div id="smart-search-res-2" class="search-input-result">
+                                        <ul>
+                                            <li><a href="#">Киев</a></li>
+                                            <li><a href="#">Харьков</a></li>
+                                            <li><a href="#">Запорожье</a></li>
+                                            <li><a href="#">Донецк</a></li>
+                                            <li><a href="#">Луганск</a></li>
+                                            <li><a href="#">Винница</a></li>
+                                            <li><a href="#">Днепропетровск</a></li>
+                                            <li><a href="#">Чернигов</a></li>
+                                            <li><a href="#">Львов</a></li>
+                                            <li><a href="#">Одесса</a></li>
+                                            <li id="noResult-2"><a href="#">Нет результатов</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                             <li class="input-group__item">
-                                <label for="ua-11" class="input-group__item--label">Отделение Новой Почты
+                                <label for="smart-search-3" class="input-group__item--label">Отделение Новой Почты
                                     <mark class="mark-red">*</mark>
                                     :</label>
-                                <input type="text" id="ua-11" class="input-border">
+                                <div class="smart-search-block">
+                                    <input type="text" id="smart-search-3" class="smart-search-input input-border">
+                                    <div id="smart-search-res-3" class="search-input-result">
+                                        <ul>
+                                            <li><a href="#">Отделение 1</a></li>
+                                            <li><a href="#">Отделение 2</a></li>
+                                            <li><a href="#">Отделение 3</a></li>
+                                            <li><a href="#">Отделение 4</a></li>
+                                            <li><a href="#">Отделение 5</a></li>
+                                            <li><a href="#">Отделение 6</a></li>
+                                            <li><a href="#">Отделение 7</a></li>
+                                            <li><a href="#">Отделение 8</a></li>
+                                            <li><a href="#">Отделение 9</a></li>
+                                            <li><a href="#">Отделение 10</a></li>
+                                            <li id="noResult-3"><a href="#">Нет результатов</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </li>
