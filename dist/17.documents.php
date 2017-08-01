@@ -22,97 +22,53 @@
     <div class="right-block">
         <div class="document-list">
             <ul>
-
                 <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/pdf-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа PDF Название
-                            нормативного документа PDF</a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/doc-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две строки</a>
-                    </div>
-                </li>
-
-                <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/jpg-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция по експлуатации </a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/xls-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция</a>
-                    </div>
-                </li>
-
-                <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/xls-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция</a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/txt-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа PDF</a>
-                    </div>
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/pdf-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название документа</a>
                 </li>
                 <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/zip-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция по експлуатации очень длинное название
-                            инструкции в несколько строк, инструкция по експлуатации очень длинное название инструкции в
-                            несколько строк. </a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/ppt-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа PDF</a>
-                    </div>
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/doc-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
                 </li>
                 <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/pdf-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция</a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/txt-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа PDF</a>
-                    </div>
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/jpg-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
                 </li>
                 <li class="document-list__item">
-                    <div class="left">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/jpg-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Инструкция по експлуатации очень длинное название
-                            инструкции в несколько строк, инструкция по експлуатации очень длинное название инструкции в
-                            несколько строк. </a>
-                    </div>
-                    <div class="right">
-                        <a href="#" class="document-list__item--icon">
-                            <object data="img/svg-icon/ppt-icon.svg" type="image/svg+xml"></object>
-                        </a>
-                        <a href="#" class="document-list__item--link">Название нормативного документа PDF</a>
-                    </div>
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/xls-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
+                </li>
+                <li class="document-list__item">
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/txt-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
+                </li>
+                <li class="document-list__item">
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/zip-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
+                </li>
+                <li class="document-list__item">
+                    <a href="#" class="document-list__item--icon">
+                        <object data="img/svg-icon/txt-icon.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a href="#" class="document-list__item--link">Название нормативного документа DOC длинное в две
+                        строки</a>
                 </li>
             </ul>
         </div>
