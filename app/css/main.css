@@ -2118,7 +2118,6 @@ body:after {
   .four-item-slider .slick-slide, .three-item-slider .slick-slide {
     padding-bottom: 1px; }
   .four-item-slider .goods, .three-item-slider .goods {
-    display: inline-block;
     border-top: 1px solid #d0d5d9;
     border-bottom: 1px solid #d0d5d9; }
     .four-item-slider .goods:hover, .three-item-slider .goods:hover {
@@ -3509,7 +3508,7 @@ body:after {
       width: 100%;
       background-color: transparent;
       position: absolute;
-      top: 0;
+      top: -1px;
       left: 0;
       -webkit-transition: .3s ease;
       transition: .3s ease; }

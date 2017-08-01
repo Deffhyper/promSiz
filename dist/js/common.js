@@ -370,7 +370,7 @@ $(function() {
 
     //////////////////////////////////////////// masked tel input ////////////////
 
-    $('.tel-input').mask("+38(999) 999-99-99");
+    $('.tel-input').mask("+38(999) 999-99-99", {autoclear: false});
 
     ///////////////////////////////////////////// responsive table ///////////////////
 
@@ -665,20 +665,20 @@ $(function() {
 
     $('.delivery-radio-buttons').find('input').change(function(e){
         switch (e.target.id) {
-            case 'delivery-1':
+            case 'delivery_6':
                 $('.delivery-inputs-list__item').eq(0).addClass('active').siblings().removeClass('active');
                 $('.payment-method').find('.disabled').removeClass('disabled');
 
                 break;
-            case 'delivery-2':
+            case 'delivery_5':
                 $('.delivery-inputs-list__item').eq(1).addClass('active').siblings().removeClass('active');
                 $('.payment-method').find('.disabled').removeClass('disabled');
                 break;
-            case 'delivery-3':
+            case 'delivery_2':
                 $('.delivery-inputs-list__item').eq(2).addClass('active').siblings().removeClass('active');
                 $('.payment-method').find('li').eq(2).addClass('disabled');
                 break;
-            case 'delivery-4':
+            case 'delivery_3':
                 $('.delivery-inputs-list__item').eq(3).addClass('active').siblings().removeClass('active');
                 $('.payment-method').find('li').eq(2).addClass('disabled');
                 break;
@@ -690,13 +690,13 @@ $(function() {
 
     //////////////////////////////// order smart search /////////////////////////////////////////////////////
 
-    $('.search-input-result').find('ul').mCustomScrollbar({
-        theme:"dark-theme",
-        setHeight: 200,
-        scrollButtons:{
-            enable:false
-        }
-    });
+    // $('.search-input-result').find('ul').mCustomScrollbar({
+    //     theme:"dark-theme",
+    //     setHeight: 200,
+    //     scrollButtons:{
+    //         enable:false
+    //     }
+    // });
 
     $(document).on('focus', '.smart-search-input', function () {
         $(this).val('');
