@@ -299,7 +299,7 @@ $(function() {
 
             $('.main-drop-mnu__item--list').on('click', function (e) {
                 var target = e.target;
-                if ($(target).closest('li').hasClass('has-child')) {
+                if ($(target).closest('li').hasClass('has-child') && !$(target).is('a')) {
                     e.preventDefault();
                     console.log('has child');
                     $(target).closest('li').find('ul').eq(0).show(0, function () {

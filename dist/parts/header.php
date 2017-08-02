@@ -214,21 +214,23 @@
                         </div>
                         <ul class="main-drop-mnu__item--list">
                             <li class="has-child">
-                                <a href="#">Спецодежда</a>
+                                <div class="has-child__wrapper">
+                                    <a href="https://www.google.com.ua">Спецодежда</a>
+                                </div>
                                 <ul class="level-two">
                                     <li class="tablet-navigate">
                                         <div class="tablet-navigate__back">
                                             <a href="#" class="btn"><span>Назад</span></a>
                                         </div>
                                         <div class="tablet-navigate__title">
-                                            <a href="#">Средства защиты от падения с высоты</a>
+                                            <a href="#">Спецодежда</a>
                                         </div>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-1.png" alt="menu">
-                                            <span>Пояса страховочные</span>
-                                        </a>
+                                            <a href="https://www.google.com.ua">Пояса страховочные</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -243,10 +245,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-2.png" alt="menu">
-                                            <span>Стропы страховочные</span>
-                                        </a>
+                                            <a href="#">Стропы страховочные</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -262,10 +264,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-3.png" alt="menu">
-                                            <span>Анкерные устройства</span>
-                                        </a>
+                                            <a href="#">Анкерные устройства</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -280,10 +282,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-4.png" alt="menu">
-                                            <span>Страховочные устройства втягивающего типа</span>
-                                        </a>
+                                            <a href="#">Страховочные устройства втягивающего типа</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -298,10 +300,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-5.png" alt="menu">
-                                            <span>Стационарные системы страховки</span>
-                                        </a>
+                                            <a href="#">Стационарные системы страховки</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -316,46 +318,46 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-6.png" alt="menu">
-                                            <span>Оборудование для работ в ограниченном пространстве</span>
-                                        </a>
+                                            <a href="#">Оборудование для работ в ограниченном пространстве</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-7.png" alt="menu">
-                                            <span>Устройства для спасения и эвакуации</span>
-                                        </a>
+                                            <a href="#">Устройства для спасения и эвакуации</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-8.png" alt="menu">
-                                            <span>Снаряжение для промышленного альпинизма</span>
-                                        </a>
+                                            <a href="3">Снаряжение для промышленного альпинизма</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-9.png" alt="menu">
-                                            <span>Когти, лазы и комплектующие</span>
-                                        </a>
+                                            <a href="#">Когти, лазы и комплектующие</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-10.png" alt="menu">
-                                            <span>Лестничные конструкции</span>
-                                        </a>
+                                            <a href="#">Лестничные конструкции</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-11.png" alt="menu">
-                                            <span>Веревки и шнуры</span>
-                                        </a>
+                                            <a href="#">Веревки и шнуры</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-12.png" alt="menu">
-                                            <span>Аксессуары</span>
-                                        </a>
+                                            <a href="#">Аксессуары</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </li>
@@ -369,28 +371,30 @@
                             <li><a href="#">Защита от электрического тока</a></li>
                             <li><a href="#">Защитные системы блокировки LOTO</a></li>
                             <li class="has-child">
-                                <a href="#">Средства защиты от падения с высоты</a>
+                                <div class="has-child__wrapper">
+                                    <a href="https://www.google.com.ua">Средства защиты от падения с высоты Средства защиты от падения с высоты Средства защиты от падения с высоты Средства защиты от падения с высоты</a>
+                                </div>
                                 <ul class="level-two">
                                     <li class="tablet-navigate">
                                         <div class="tablet-navigate__back">
                                             <a href="#" class="btn"><span>Назад</span></a>
                                         </div>
                                         <div class="tablet-navigate__title">
-                                            <a href="#">Средства защиты от падения с высоты</a>
+                                            <a href="#">Средства защиты от падения с высоты Средства защиты от падения с высоты Средства защиты от падения с высоты Средства защиты от падения с высоты</a>
                                         </div>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-1.png" alt="menu">
-                                            <span>Пояса страховочные</span>
-                                        </a>
+                                            <a href="https://www.google.com.ua"> Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
                                                     <a href="#" class="btn"><span>Назад</span></a>
                                                 </div>
                                                 <div class="tablet-navigate__title">
-                                                    <a href="#">Пояса страховочные</a>
+                                                    <a href="#">Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные Пояса страховочные</a>
                                                 </div>
                                             </li>
                                             <li><a href="#">Пояса лямочные</a></li>
@@ -398,10 +402,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-2.png" alt="menu">
-                                            <span>Стропы страховочные</span>
-                                        </a>
+                                            <a href="#">Стропы страховочные</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -417,10 +421,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-3.png" alt="menu">
-                                            <span>Анкерные устройства</span>
-                                        </a>
+                                            <a href="#">Анкерные устройства</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -435,10 +439,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-4.png" alt="menu">
-                                            <span>Страховочные устройства втягивающего типа</span>
-                                        </a>
+                                            <a href="#">Страховочные устройства втягивающего типа</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -453,10 +457,10 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item has-child">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-5.png" alt="menu">
-                                            <span>Стационарные системы страховки</span>
-                                        </a>
+                                            <a href="#">Стационарные системы страховки</a>
+                                        </div>
                                         <ul class="level-two__item--list">
                                             <li class="tablet-navigate">
                                                 <div class="tablet-navigate__back">
@@ -471,50 +475,200 @@
                                         </ul>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-6.png" alt="menu">
-                                            <span>Оборудование для работ в ограниченном пространстве</span>
-                                        </a>
+                                            <a href="#">Оборудование для работ в ограниченном пространстве</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-7.png" alt="menu">
-                                            <span>Устройства для спасения и эвакуации</span>
-                                        </a>
+                                            <a href="#">Устройства для спасения и эвакуации</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-8.png" alt="menu">
-                                            <span>Снаряжение для промышленного альпинизма</span>
-                                        </a>
+                                            <a href="3">Снаряжение для промышленного альпинизма</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-9.png" alt="menu">
-                                            <span>Когти, лазы и комплектующие</span>
-                                        </a>
+                                            <a href="#">Когти, лазы и комплектующие</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-10.png" alt="menu">
-                                            <span>Лестничные конструкции</span>
-                                        </a>
+                                            <a href="#">Лестничные конструкции</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-11.png" alt="menu">
-                                            <span>Веревки и шнуры</span>
-                                        </a>
+                                            <a href="#">Веревки и шнуры</a>
+                                        </div>
                                     </li>
                                     <li class="level-two__item">
-                                        <a href="#" class="level-two__item--title">
+                                        <div class="level-two__item--title">
                                             <img src="img/jpeg_files/m-12.png" alt="menu">
-                                            <span>Аксессуары</span>
-                                        </a>
+                                            <a href="#">Аксессуары</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Другое</a></li>
+<!--                            <li class="has-child">-->
+<!--                                <div class="has-child__wrapper">-->
+<!--                                    <a href="#">Средства защиты от падения с высоты</a>-->
+<!--                                </div>-->
+<!--                                <ul class="level-two">-->
+<!--                                    <li class="tablet-navigate">-->
+<!--                                        <div class="tablet-navigate__back">-->
+<!--                                            <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                        </div>-->
+<!--                                        <div class="tablet-navigate__title">-->
+<!--                                            <a href="#">Средства защиты от падения с высоты</a>-->
+<!--                                        </div>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item has-child">-->
+<!--                                        <div class="has-child__wrapper">-->
+<!--                                            <a href="#" class="level-two__item--title">-->
+<!--                                                <img src="img/jpeg_files/m-1.png" alt="menu">-->
+<!--                                                <span>Пояса страховочные</span>-->
+<!--                                            </a>-->
+<!--                                        </div>-->
+<!--                                        <ul class="level-two__item--list">-->
+<!--                                            <li class="tablet-navigate">-->
+<!--                                                <div class="tablet-navigate__back">-->
+<!--                                                    <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                                </div>-->
+<!--                                                <div class="tablet-navigate__title">-->
+<!--                                                    <a href="#">Пояса страховочные</a>-->
+<!--                                                </div>-->
+<!--                                            </li>-->
+<!--                                            <li><a href="#">Пояса лямочные</a></li>-->
+<!--                                            <li><a href="#">Пояса безлямочные (для удержания)</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item has-child">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-2.png" alt="menu">-->
+<!--                                            <span>Стропы страховочные</span>-->
+<!--                                        </a>-->
+<!--                                        <ul class="level-two__item--list">-->
+<!--                                            <li class="tablet-navigate">-->
+<!--                                                <div class="tablet-navigate__back">-->
+<!--                                                    <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                                </div>-->
+<!--                                                <div class="tablet-navigate__title">-->
+<!--                                                    <a href="#">Стропы страховочные</a>-->
+<!--                                                </div>-->
+<!--                                            </li>-->
+<!--                                            <li><a href="#">С амортизатором</a></li>-->
+<!--                                            <li><a href="#">Без амортизатора</a></li>-->
+<!--                                            <li><a href="#">Для позиционирования</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item has-child">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-3.png" alt="menu">-->
+<!--                                            <span>Анкерные устройства</span>-->
+<!--                                        </a>-->
+<!--                                        <ul class="level-two__item--list">-->
+<!--                                            <li class="tablet-navigate">-->
+<!--                                                <div class="tablet-navigate__back">-->
+<!--                                                    <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                                </div>-->
+<!--                                                <div class="tablet-navigate__title">-->
+<!--                                                    <a href="#">Анкерные устройства</a>-->
+<!--                                                </div>-->
+<!--                                            </li>-->
+<!--                                            <li><a href="#">Анкерные крепления</a></li>-->
+<!--                                            <li><a href="#">Мобильные анкерные линии</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item has-child">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-4.png" alt="menu">-->
+<!--                                            <span>Страховочные устройства втягивающего типа</span>-->
+<!--                                        </a>-->
+<!--                                        <ul class="level-two__item--list">-->
+<!--                                            <li class="tablet-navigate">-->
+<!--                                                <div class="tablet-navigate__back">-->
+<!--                                                    <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                                </div>-->
+<!--                                                <div class="tablet-navigate__title">-->
+<!--                                                    <a href="#">Страховочные устройства втягивающего типа</a>-->
+<!--                                                </div>-->
+<!--                                            </li>-->
+<!--                                            <li><a href="#">Тросовые</a></li>-->
+<!--                                            <li><a href="#">Ленточные</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item has-child">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-5.png" alt="menu">-->
+<!--                                            <span>Стационарные системы страховки</span>-->
+<!--                                        </a>-->
+<!--                                        <ul class="level-two__item--list">-->
+<!--                                            <li class="tablet-navigate">-->
+<!--                                                <div class="tablet-navigate__back">-->
+<!--                                                    <a href="#" class="btn"><span>Назад</span></a>-->
+<!--                                                </div>-->
+<!--                                                <div class="tablet-navigate__title">-->
+<!--                                                    <a href="#">Стационарные системы страховки</a>-->
+<!--                                                </div>-->
+<!--                                            </li>-->
+<!--                                            <li><a href="#">Горизонтальные стационарные системы страховки</a></li>-->
+<!--                                            <li><a href="#">Вертикальные стационарные системы страховки</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-6.png" alt="menu">-->
+<!--                                            <span>Оборудование для работ в ограниченном пространстве</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-7.png" alt="menu">-->
+<!--                                            <span>Устройства для спасения и эвакуации</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-8.png" alt="menu">-->
+<!--                                            <span>Снаряжение для промышленного альпинизма</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-9.png" alt="menu">-->
+<!--                                            <span>Когти, лазы и комплектующие</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-10.png" alt="menu">-->
+<!--                                            <span>Лестничные конструкции</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-11.png" alt="menu">-->
+<!--                                            <span>Веревки и шнуры</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="level-two__item">-->
+<!--                                        <a href="#" class="level-two__item--title">-->
+<!--                                            <img src="img/jpeg_files/m-12.png" alt="menu">-->
+<!--                                            <span>Аксессуары</span>-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li><a href="#">Другое</a></li>-->
                         </ul>
                         <ul class="main-drop-mnu__item--tabletSubMenu">
                             <li><a href="#">О компании</a></li>
