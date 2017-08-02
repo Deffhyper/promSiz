@@ -454,6 +454,11 @@ $(function() {
     $('.main-nav-item__search a').on('click', function(e){
         e.preventDefault();
 
+
+        if(window.innerWidth < 769 && $('.main-menu-open').length){
+            $('#trigger-menu').trigger('click');
+        }
+
         setTimeout(function(){
             $('.search-trigger').addClass('open');
             $siteSearch.addClass('open');
@@ -494,6 +499,16 @@ $(function() {
        } else {
            $('.site-search__result').css('display', 'none');
        }
+    });
+
+
+    //////////////////////////////////// close mobile menu when phone dropdown is opened////////////////////
+
+
+    $('.site-header-menu__middle .main-connect .dropdown').on('click', function (e) {
+        if (window.innerWidth < 769 && $('.main-menu-open').length) {
+            $('#trigger-menu').trigger('click');
+        }
     });
 
 
