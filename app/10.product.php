@@ -127,21 +127,25 @@
                             <a href="#">
                                 <object type="image/svg+xml" data="img/svg-image/prod-i-1.svg"></object>
                             </a>
+                            <span class="hint">Защита от огня</span>
                         </li>
                         <li>
                             <a href="#">
                                 <object type="image/svg+xml" data="img/svg-image/prod-i-2.svg"></object>
                             </a>
+                            <span class="hint">Защита от холода</span>
                         </li>
                         <li>
                             <a href="#">
                                 <object type="image/svg+xml" data="img/svg-image/prod-i-3.svg"></object>
                             </a>
+                            <span class="hint">Защита от шума</span>
                         </li>
                         <li>
                             <a href="#">
                                 <object type="image/svg+xml" data="img/svg-image/prod-i-4.svg"></object>
                             </a>
+                            <span class="hint">Защита от вибрации</span>
                         </li>
                         <li>
                             <a href="#">
