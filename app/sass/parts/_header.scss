@@ -791,6 +791,33 @@
   }
 }
 
+.site-header.header-fixed.hover {
+  background-color: transparent;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+}
+
+.site-header.header-fixed .site-header-menu__bottom:after,
+.site-header.header-fixed .site-header-menu__bottom:before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 9999px;
+  position: absolute;
+  top: 0;
+  background-color: #dde1e4;
+}
+.site-header.header-fixed .site-header-menu__bottom:after {
+  left: 100%;
+  z-index: 1;
+}
+.site-header.header-fixed .site-header-menu__bottom:before {
+  right: 100%;
+  z-index: 1;
+}
+
+
 
 
 
