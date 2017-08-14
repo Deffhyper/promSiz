@@ -274,6 +274,7 @@ $(function() {
 
 
 
+
 //////////////////////////////////// tablet menu /////////////////////////
     function tabletMenu(windowWidth) {
 
@@ -283,31 +284,31 @@ $(function() {
 
                 var $dropmenu = $('.main-drop-mnu__item');
 
-                    if ($dropmenu.is(':visible')) {
-                        $dropmenu.removeClass('active');
-                        $('#trigger-menu').removeClass('active');
-                        $('body').removeClass('main-menu-open');
-                        $(document).find('.menu-blur').remove();
-                    } else {
-                        $dropmenu.addClass('active');
-                        $('#trigger-menu').addClass('active');
-                        $('body').addClass('main-menu-open');
-                        $('body').append('<div class="menu-blur"></div>');
-                    }
+                if ($dropmenu.is(':visible')) {
+                    $dropmenu.removeClass('active');
+                    $('#trigger-menu').removeClass('active');
+                    $('body').removeClass('main-menu-open');
+                    $(document).find('.menu-blur').remove();
+                } else {
+                    $dropmenu.addClass('active');
+                    $('#trigger-menu').addClass('active');
+                    $('body').addClass('main-menu-open');
+                    $('body').append('<div class="menu-blur"></div>');
+                }
 
             });
 
             $('.main-drop-mnu__item--list').on('click', function (e) {
                 var target = e.target;
                 if ($(target).closest('li').hasClass('has-child') && !$(target).is('a')) {
-                    e.preventDefault();
-                    console.log('has child');
+                    //e.preventDefault();
+
                     $(target).closest('li').find('ul').eq(0).show(0, function () {
                         $(this).animate({'left': 0}, 300);
                     });
                 }
                 if ($(target).closest('a').hasClass('btn')) {
-                    console.log('back');
+
                     e.preventDefault();
                     $(target).closest('ul').animate({
                         'left': '-999px'
@@ -347,31 +348,34 @@ $(function() {
 
     /////////////////////////////////// fixed menu on scroll ////////////////////////
 
+    var $siteHeader = $('.site-header');
+    var $mainDropMnu = $('.main-drop-mnu');
+
     $(document).on('scroll resize', function(){
-
-        var $siteHeader = $('.site-header'),
-            $mainDropMnu = $('.main-drop-mnu');
-
-        if($(this).scrollTop() >= 205 && $(document).width() > 1260) {
+        if($(this).scrollTop() >= 205 && $(this).width() > 1260 && !$mainDropMnu.is(':hover')) {
             $siteHeader.addClass('header-fixed');
             $('body').css('padding-top', '205px');
             setTimeout(function(){
                 $siteHeader.addClass('change');
             },100);
 
-            $mainDropMnu.unbind('hover').hover(
+            $mainDropMnu.hover(
                 function(){
                     $siteHeader.addClass('hover');
+                    $('body').css('overflow', 'hidden');
                 }
                 , function(){
                     $siteHeader.removeClass('hover');
+                    $('body').css('overflow', 'visible');
                 });
+
         } else {
             $siteHeader.removeClass('header-fixed');
             $('.header-menu').removeAttr("style");
             $siteHeader.removeClass('change');
-            $('body').css('padding-top', 0);
-            $mainDropMnu.unbind('hover');
+            $mainDropMnu.unbind();
+            $siteHeader.removeClass('hover');
+            $('body').removeAttr("style");
         }
 
         if ($(this).scrollTop() > 500) {
