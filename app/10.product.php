@@ -179,6 +179,7 @@
                     </ul>
                     <ul class="product-other-property">
                         <li>
+                            <object type="image/svg+xml" data="img/svg-icon/nylon-jacket.svg"></object>
                             <a href="#">Таблица размеров</a>
                         </li>
                         <li>

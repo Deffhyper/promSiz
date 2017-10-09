@@ -5547,3 +5547,6 @@ body:after {
     margin-bottom: 10px; }
   .page-404-content .btn {
     width: 100%; } }
+
+.product-other-property a {
+  font-weight: 700; }
