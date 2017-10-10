@@ -800,11 +800,17 @@ $(function() {
 
     // catch current slide by slick data attribute index
     $zoomLink.on('click', function () {
-        slickIndex = $(this).closest('.product-slider-top__item').parent().data('slick-index');
-        alert(slickIndex);
+
+        if($(this).parent().hasClass('video-overlay')) {
+            slickIndex = $(this).parent().closest('.product-slider-top__item').parent().data('slick-index');
+        } else {
+            slickIndex = $(this).closest('.product-slider-top__item').parent().data('slick-index');
+        }
+        // alert(slickIndex);
     });
 
     $('#modal-image-popup').on('shown.bs.modal', function () {
+
 
 
         if (!$('.modal-slider-left.slick-initialized').length && !$('.modal-slider-right.slick-initialized').length) {
@@ -832,13 +838,47 @@ $(function() {
                     {
                         breakpoint: 1280,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 4,
                             slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            draggable: true,
+                            vertical: false
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            draggable: true,
+                            vertical: false
                         }
                     }
                 ]
             });
+
         }
+        // else {
+        //     // if sliders exist => just refresh it
+        //     $galleryTopSlider.slick('refresh');
+        //     $galleryNavSlider.slick('refresh');
+        // }
+
+
+        $galleryNavSlider.slick('slickGoTo', slickIndex);
+
+        // setTimeout(function () {
+        //
+        //     $galleryNavSlider.find('.slick-slide').eq(slickIndex).trigger('click');
+        // }, 100)
+
+
     });
 
 

@@ -791,7 +791,95 @@ $(function() {
     });
 
 
+    
 
+    var $galleryTopSlider = $('.modal-slider-left'),
+        $galleryNavSlider = $('.modal-slider-right'),
+        slickIndex,
+        $zoomLink = $('.gallery-launcher');
+
+    // catch current slide by slick data attribute index
+    $zoomLink.on('click', function () {
+
+        if($(this).parent().hasClass('video-overlay')) {
+            slickIndex = $(this).parent().closest('.product-slider-top__item').parent().data('slick-index');
+        } else {
+            slickIndex = $(this).closest('.product-slider-top__item').parent().data('slick-index');
+        }
+        // alert(slickIndex);
+    });
+
+    $('#modal-image-popup').on('shown.bs.modal', function () {
+
+
+
+        if (!$('.modal-slider-left.slick-initialized').length && !$('.modal-slider-right.slick-initialized').length) {
+            $galleryTopSlider.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: false,
+                fade: true,
+                infinite: false,
+                asNavFor: '.modal-slider-right'
+            });
+
+            $galleryNavSlider.slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                vertical: true,
+                asNavFor: '.modal-slider-left',
+                dots: false,
+                arrows: true,
+                infinite: false,
+                focusOnSelect: true,
+                draggable: false,
+                responsive: [
+                    {
+                        breakpoint: 1280,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            draggable: true,
+                            vertical: false
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            draggable: true,
+                            vertical: false
+                        }
+                    }
+                ]
+            });
+
+        }
+        // else {
+        //     // if sliders exist => just refresh it
+        //     $galleryTopSlider.slick('refresh');
+        //     $galleryNavSlider.slick('refresh');
+        // }
+
+
+        $galleryNavSlider.slick('slickGoTo', slickIndex);
+
+        // setTimeout(function () {
+        //
+        //     $galleryNavSlider.find('.slick-slide').eq(slickIndex).trigger('click');
+        // }, 100)
+
+
+    });
 
 
 
