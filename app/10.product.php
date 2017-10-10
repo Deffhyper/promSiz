@@ -200,7 +200,7 @@
                             <li><a href="#">8 (M)</a></li>
                             <li><a href="#">9 (L)</a></li>
                             <li class="active"><a href="#">10 (XL)</a></li>
-                            <li><a href="#">11 (XXL)</a></li>
+                            <li class="disabled"><a href="#">11 (XXL)</a></li>
                         </ul>
                     </div>
                     <div class="goods-color">
@@ -209,7 +209,7 @@
                             <li><a href="#" style="background-color: #dde4de"></a></li>
                             <li><a href="#" style="background-color: #dddcbe"></a></li>
                             <li class="active"><a href="#" style="background-color: #ceead3"></a></li>
-                            <li><a href="#" style="background-color: #efd8d1"></a></li>
+                            <li class="disabled"><a href="#" style="background-color: #efd8d1"></a></li>
                         </ul>
                     </div>
                     <div class="product-gray-bg-block">

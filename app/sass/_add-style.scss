@@ -235,6 +235,22 @@
   }
 }
 
+.goods-size__list li a {
+  border: 1px solid #aab1b7;
+}
+
+.goods-color__list li {
+  border: 1px solid #aab1b7;
+}
+
+.goods-size__list li.disabled a {
+  border: 1px solid #e7eaed;
+}
+
+.goods-color__list li.disabled {
+  border: 1px solid #e7eaed;
+}
+
 @media (max-width: 1280px) {
 
   .product-popup {
