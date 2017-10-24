@@ -8,6 +8,27 @@
     <div class="container">
         <div class="sidebar">
 
+            <p class="sidebar__title bold-text">Помощь</p>
+
+            <ul class="product-other-property">
+                <li>
+                    <object type="image/svg+xml" data="img/svg-image/nylon-jacket.svg"></object>
+                    <a href="#">Таблица размеров одежды</a>
+                </li>
+                <li>
+                    <object type="image/svg+xml" data="img/svg-image/wellington-boot.svg"></object>
+                    <a href="#">Таблица размеров обуви</a>
+                </li>
+                <li>
+                    <object type="image/svg+xml" data="img/svg-image/blood-donation.svg"></object>
+                    <a href="#">Правила ухода</a>
+                </li>
+                <li>
+                    <object type="image/svg+xml" data="img/svg-image/file.svg"></object>
+                    <a href="#">Правила ухода</a>
+                </li>
+            </ul>
+
             <p class="sidebar__title bold-text">Категории товаров</p>
             <ul class="sidebar__list">
                 <li><a href="#">Все товары на распродаже</a></li>

@@ -806,7 +806,7 @@ $(function() {
         } else {
             slickIndex = $(this).closest('.product-slider-top__item').parent().data('slick-index');
         }
-        // alert(slickIndex);
+        alert(slickIndex);
     });
 
     $('#modal-image-popup').on('shown.bs.modal', function () {
@@ -871,12 +871,12 @@ $(function() {
         // }
 
 
-        $galleryNavSlider.slick('slickGoTo', slickIndex);
+        // $galleryNavSlider.slick('slickGoTo', slickIndex+1);
 
-        // setTimeout(function () {
-        //
-        //     $galleryNavSlider.find('.slick-slide').eq(slickIndex).trigger('click');
-        // }, 100)
+        setTimeout(function () {
+
+            $galleryNavSlider.find('.slick-slide').eq(slickIndex).trigger('click');
+        }, 100)
 
 
     });

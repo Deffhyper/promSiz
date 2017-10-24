@@ -5758,6 +5758,20 @@ body:after {
 .goods-color__list li.disabled {
   border: 1px solid #e7eaed; }
 
+.sidebar {
+  background-color: #ebeff2; }
+  .sidebar .product-other-property {
+    padding: 25px 25px 10px; }
+    .sidebar .product-other-property li {
+      margin-bottom: 15px; }
+    .sidebar .product-other-property a {
+      font-weight: normal;
+      display: inline; }
+
+@media (max-width: 767px) {
+  .sidebar .product-other-property {
+    display: none; } }
+
 @media (max-width: 1280px) {
   .product-popup {
     width: 960px; }
