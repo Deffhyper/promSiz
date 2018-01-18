@@ -5,6 +5,55 @@ $(function() {
     var windowWidth = $(window).width();
     var $siteSearch = $('.site-search');
 
+    ///////////////////////////////////////// zoom //////////////////////////////////////////
+
+    if(matchMedia){
+        var screenQuery = window.matchMedia("(max-width: 1279px)");
+        screenQuery.addListener(checkMedia);
+        checkMedia(screenQuery);
+    }
+
+    var action='hide';
+
+    function checkMedia(e){
+
+        if(e.matches) {
+            var plugin = $(".zoom").data('ezPlus');
+            if (plugin) {
+                plugin.showHideZoomContainer(action);
+                plugin.showHideWindow(action);
+                plugin.showHideTint(action);
+                plugin.showHideLens(action);
+                plugin.destroy();
+            }
+        } else {
+            $(".zoom").ezPlus({
+                easing: true,
+                scrollZoom: true,
+                responsive: true,
+                imageCrossfade: true,
+                zoomWindowFadeIn: 500,
+                borderSize: 1,
+                zoomWindowWidth: 600,
+                zoomWindowHeight: 600,
+                zoomWindowOffsetX: 30,
+                zoomWindowOffsetY: -5
+            });
+        }
+    }
+
+
+
+    $(".zoom").on('click', function () {
+        var plugin = $(this).data('ezPlus');
+        if (plugin) {
+            plugin.showHideZoomContainer(action);
+            plugin.showHideWindow(action);
+            plugin.showHideTint(action);
+            plugin.showHideLens(action);
+        }
+    });
+
     ////////////////////////////////// mobile footer ///////////////////////////////////////
 
     function bindJsOnMobile(windowWidth) {
@@ -397,36 +446,36 @@ $(function() {
     });
 
 ////////////////////////////////////range slider///////////////////////////////////////////
-//    $("#slider-range").slider({
-//        range: true,
-//        min: 15,
-//        max: 25890,
-//        values: [15, 25890],
-//        slide: function (event, ui) {
-//            $("#amount-max").val(ui.values[1]);
-//            $("#amount-min").val(ui.values[0]);
-//        }
-//    });
-//    $('.sidebar-range__static .max').text(parseInt($("#slider-range").slider("values", 0)));
-//    $('.sidebar-range__static .min').text(parseInt($("#slider-range").slider("values", 1)));
-//
-//    $("#amount-max").val($("#slider-range").slider("values", 1));
-//    $("#amount-min").val($("#slider-range").slider("values", 0));
-//
-//    $("#amount-max, #amount-min").on('blur', function(){
-//        var aMax = $('#amount-max').val();
-//        var aMin = $('#amount-min').val();
-//        var absolutMin = Number($("#slider-range").slider("option", "min"));
-//
-//        if(aMin > aMax){
-//            $("#slider-range").slider("values", [aMin, aMin]);
-//            $("#amount-min").val(absolutMin);
-//
-//        } else {
-//            $("#slider-range").slider("values", [aMin, aMax]);
-//
-//        }
-//    });
+   $("#slider-range").slider({
+       range: true,
+       min: 15,
+       max: 25890,
+       values: [15, 25890],
+       slide: function (event, ui) {
+           $("#amount-max").val(ui.values[1]);
+           $("#amount-min").val(ui.values[0]);
+       }
+   });
+   $('.sidebar-range__static .max').text(parseInt($("#slider-range").slider("values", 0)));
+   $('.sidebar-range__static .min').text(parseInt($("#slider-range").slider("values", 1)));
+
+   $("#amount-max").val($("#slider-range").slider("values", 1));
+   $("#amount-min").val($("#slider-range").slider("values", 0));
+
+   $("#amount-max, #amount-min").on('blur', function(){
+       var aMax = $('#amount-max').val();
+       var aMin = $('#amount-min').val();
+       var absolutMin = Number($("#slider-range").slider("option", "min"));
+
+       if(aMin > aMax){
+           $("#slider-range").slider("values", [aMin, aMin]);
+           $("#amount-min").val(absolutMin);
+
+       } else {
+           $("#slider-range").slider("values", [aMin, aMax]);
+
+       }
+   });
 
     //
 
@@ -806,7 +855,6 @@ $(function() {
         } else {
             slickIndex = $(this).closest('.product-slider-top__item').parent().data('slick-index');
         }
-        alert(slickIndex);
     });
 
     $('#modal-image-popup').on('shown.bs.modal', function () {
@@ -880,6 +928,8 @@ $(function() {
 
 
     });
+
+
 
 
 

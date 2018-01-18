@@ -12,8 +12,13 @@
                     <div class="product-slider-top">
                         <div>
                             <div class="product-slider-top__item">
-                                <img src="img/jpeg_files/prod-1.jpg" alt="product">
-                                <a href="#" class="gallery-launcher" data-toggle="modal" data-target="#modal-image-popup">
+                                <img src="img/zoom/zoom.jpg"
+                                     data-zoom-image="img/zoom/zoom-big.jpeg"
+                                     alt="product"
+                                     class="zoom gallery-launcher"
+                                     data-toggle="modal"
+                                     data-target="#modal-image-popup">
+                                <a href="#" class="gallery-launcher">
                                     <span class="icon-font icon-search icon-search--plus"></span>
                                 </a>
                             </div>
@@ -55,12 +60,25 @@
 <!--                                </a>-->
 <!--                            </div>-->
 <!--                        </div>-->
+                        <div>
+                            <div class="product-slider-top__item">
+                                <img src="img/zoom/zoom.jpg"
+                                     data-zoom-image="img/zoom/zoom-big.jpeg"
+                                     alt="product"
+                                     class="zoom gallery-launcher"
+                                     data-toggle="modal"
+                                     data-target="#modal-image-popup">
+                                <a href="#" class="gallery-launcher">
+                                    <span class="icon-font icon-search icon-search--plus"></span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="product-slider-bottom">
                         <div>
                             <div class="product-slider-bottom__item">
-                                <img src="img/jpeg_files/prod-1.jpg" alt="product">
+                                <img src="img/zoom/zoom.jpg" alt="product">
                             </div>
                         </div>
 <!--                        <div>-->
@@ -88,6 +106,11 @@
 <!--                                <img src="img/jpeg_files/prod-1.jpg" alt="product">-->
 <!--                            </div>-->
 <!--                        </div>-->
+                        <div>
+                            <div class="product-slider-bottom__item">
+                                <img src="img/zoom/zoom.jpg" alt="product">
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -105,7 +128,7 @@
                                 <div class="modal-slider-left">
                                     <div>
                                         <div class="modal-slider-left__item">
-                                            <img src="img/jpeg_files/prod-1.jpg" alt="product">
+                                            <img src="img/zoom/zoom.jpg" alt="product">
                                         </div>
                                     </div>
 <!--                                    <div>-->
@@ -136,13 +159,18 @@
 <!--                                            <img src="img/jpeg_files/cat-2.jpg" alt="product">-->
 <!--                                        </div>-->
 <!--                                    </div>-->
+                                    <div>
+                                        <div class="modal-slider-left__item">
+                                            <img src="img/zoom/zoom.jpg" alt="product">
+                                        </div>
+                                    </div>
                                 </div>
 
 
                                 <div class="modal-slider-right">
                                     <div>
                                         <div class="modal-slider-right__item">
-                                            <img src="img/jpeg_files/prod-1.jpg" alt="product">
+                                            <img src="img/zoom/zoom.jpg" alt="product">
                                         </div>
                                     </div>
 <!--                                    <div>-->
@@ -175,6 +203,11 @@
 <!--                                            <img src="img/jpeg_files/cat-2.jpg" alt="product">-->
 <!--                                        </div>-->
 <!--                                    </div>-->
+                                    <div>
+                                        <div class="modal-slider-right__item">
+                                            <img src="img/zoom/zoom.jpg" alt="product">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
