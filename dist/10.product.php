@@ -62,8 +62,8 @@
 <!--                        </div>-->
                         <div>
                             <div class="product-slider-top__item">
-                                <img src="img/zoom/zoom.jpg"
-                                     data-zoom-image="img/zoom/zoom-big.jpeg"
+                                <img src="img/zoom/zoom-1.jpeg"
+                                     data-zoom-image="img/zoom/zoom-big-1.jpeg"
                                      alt="product"
                                      class="zoom gallery-launcher"
                                      data-toggle="modal"
@@ -108,7 +108,7 @@
 <!--                        </div>-->
                         <div>
                             <div class="product-slider-bottom__item">
-                                <img src="img/zoom/zoom.jpg" alt="product">
+                                <img src="img/zoom/zoom-1.jpeg" alt="product">
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
 <!--                                    </div>-->
                                     <div>
                                         <div class="modal-slider-left__item">
-                                            <img src="img/zoom/zoom.jpg" alt="product">
+                                            <img src="img/zoom/zoom-1.jpeg" alt="product">
                                         </div>
                                     </div>
                                 </div>
@@ -205,7 +205,7 @@
 <!--                                    </div>-->
                                     <div>
                                         <div class="modal-slider-right__item">
-                                            <img src="img/zoom/zoom.jpg" alt="product">
+                                            <img src="img/zoom/zoom-1.jpeg" alt="product">
                                         </div>
                                     </div>
                                 </div>
@@ -241,6 +241,10 @@
                         <ul class="goods-color__list list-inline">
                             <li><a href="#" style="background-color: #dde4de"></a></li>
                             <li><a href="#" style="background-color: #dddcbe"></a></li>
+                            <li><a href="#" style="background: -webkit-linear-gradient(315deg, #c14646 0%, #c14646 50%, #a80077 51% , #a80077 100%);
+                                                   background: -o-linear-gradient(315deg, #c14646 0%, #c14646 50%, #a80077 51% , #a80077 100%);
+                                                   background: linear-gradient(135deg, #c14646 0%, #c14646 50%, #a80077 51% , #a80077 100%);">
+                                </a></li>
                             <li class="active"><a href="#" style="background-color: #ceead3"></a></li>
                             <li class="disabled"><a href="#" style="background-color: #efd8d1"></a></li>
                         </ul>
